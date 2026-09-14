@@ -5,11 +5,14 @@
   "scripts": {
     "dev": "next dev -p 8080",
     "build": "next build",
-    "start": "next start -p 8080"
+    "start": "next start -p 8080",
+    "push": "node scripts/git-sync.js"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.10.0",
     "@prisma/client": "^7.10.0",
+    "decompress-response": "^10.0.0",
+    "isomorphic-git": "^1.42.2",
     "lucide-react": "^1.44.0",
     "next": "16.3.4",
     "pg": "^8.23.0",
