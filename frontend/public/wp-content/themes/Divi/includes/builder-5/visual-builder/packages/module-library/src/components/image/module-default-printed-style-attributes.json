@@ -1,0 +1,15 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "image": {
+    "decoration": {
+      "fit": {
+        "desktop": {
+          "value": {
+            "objectFit": "fill",
+            "objectPosition": "center center"
+          }
+        }
+      }
+    }
+  }
+}

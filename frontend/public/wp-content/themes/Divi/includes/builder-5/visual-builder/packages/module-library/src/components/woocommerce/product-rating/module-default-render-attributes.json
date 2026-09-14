@@ -1,0 +1,44 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Woo Product Rating"
+        }
+      }
+    }
+  },
+  "content": {
+    "advanced": {
+      "product": {
+        "desktop": {
+          "value": "dynamic"
+        }
+      }
+    }
+  },
+  "elements": {
+    "advanced": {
+      "showRating": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showReviewsLink": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  },
+  "layout": {
+    "advanced": {
+      "layout": {
+        "desktop": {
+          "value": "inline"
+        }
+      }
+    }
+  }
+}

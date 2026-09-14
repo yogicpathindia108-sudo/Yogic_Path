@@ -1,0 +1,493 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/tooltip",
+  "d4Shortcode": "",
+  "moduleClassName": "et_pb_tooltip",
+  "moduleOrderClassName": "et_pb_tooltip",
+  "title": "Tooltip",
+  "titles": "Tooltips",
+  "moduleIcon": "divi/module-tooltip",
+  "category": "module",
+  "childrenName": [],
+  "videos": [
+    {
+      "id": "novideo",
+      "name": "Tooltip module"
+    }
+  ],
+  "attributes": {
+    "content": {
+      "type": "object",
+      "selector": "{{selector}} .et_pb_tooltip_inner",
+      "supportsCustomAttributes": true,
+      "elementType": "content",
+      "attributes": {
+        "class": "et_pb_tooltip_inner"
+      },
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "contentText",
+            "priority": 5,
+            "render": true,
+            "attrName": "content.innerContent",
+            "label": "Body",
+            "description": "Here you can create the content that will be used within the tooltip.",
+            "category": "basic_option",
+            "features": {
+              "dynamicContent": {
+                "type": "text"
+              },
+              "sticky": false,
+              "preset": "content"
+            },
+            "component": {
+              "type": "field",
+              "name": "divi/richtext"
+            }
+          }
+        },
+        "decoration": {
+          "bodyFont": {}
+        }
+      }
+    },
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "styleProps": {
+        "background": {},
+        "border": {},
+        "boxShadow": {},
+        "sizing": {},
+        "spacing": {
+          "important": true
+        },
+        "layout": {},
+        "filters": {},
+        "transform": {},
+        "animation": {},
+        "transition": {},
+        "overflow": {}
+      },
+      "settings": {
+        "meta": {
+          "meta": {}
+        },
+        "advanced": {
+          "elements": {},
+          "html": {},
+          "link": {},
+          "loop": {},
+          "tooltip": {
+            "groupType": "group-items",
+            "items": {
+              "trigger": {
+                "groupSlug": "designTooltip",
+                "priority": 10,
+                "render": true,
+                "attrName": "module.advanced.tooltip",
+                "subName": "trigger",
+                "label": "Show Tooltip On",
+                "description": "Choose when the tooltip is shown to visitors.",
+                "category": "basic_option",
+                "features": {
+                  "responsive": true,
+                  "hover": false,
+                  "sticky": false,
+                  "preset": [
+                    "script"
+                  ]
+                },
+                "component": {
+                  "type": "field",
+                  "name": "divi/select",
+                  "props": {
+                    "defaultValue": "hover",
+                    "options": {
+                      "hover": {
+                        "label": "Hover"
+                      },
+                      "click": {
+                        "label": "Click"
+                      },
+                      "always": {
+                        "label": "Always"
+                      }
+                    }
+                  }
+                }
+              },
+              "positionMode": {
+                "groupSlug": "designTooltip",
+                "priority": 15,
+                "render": true,
+                "attrName": "module.advanced.tooltip",
+                "subName": "positionMode",
+                "label": "Tooltip Movement",
+                "description": "Anchored keeps the tooltip fixed relative to the target. Follow cursor moves it with the pointer while open.",
+                "category": "basic_option",
+                "features": {
+                  "responsive": true,
+                  "hover": false,
+                  "sticky": false,
+                  "preset": [
+                    "script"
+                  ]
+                },
+                "component": {
+                  "type": "field",
+                  "name": "divi/select",
+                  "props": {
+                    "defaultValue": "anchored",
+                    "options": {
+                      "anchored": {
+                        "label": "Anchored"
+                      },
+                      "followCursor": {
+                        "label": "Follow Cursor"
+                      }
+                    }
+                  }
+                }
+              },
+              "tooltipPlacementGrid": {
+                "groupSlug": "designTooltip",
+                "priority": 22,
+                "render": true,
+                "attrName": "module.advanced.tooltip",
+                "subName": "placement",
+                "label": "Tooltip Position",
+                "description": "Inner grid keeps the tooltip within the target; outer ring places it outside. This sets placement, inside/outside bounds, and edge alignment.",
+                "category": "basic_option",
+                "features": {
+                  "responsive": true,
+                  "hover": false,
+                  "sticky": false,
+                  "preset": [
+                    "script"
+                  ]
+                },
+                "component": {
+                  "type": "field",
+                  "name": "divi/placement-grid-picker",
+                  "props": {
+                    "layout": "outer-inner",
+                    "defaultValue": "outside top center"
+                  }
+                }
+              },
+              "skid": {
+                "groupSlug": "designTooltip",
+                "priority": 50,
+                "render": true,
+                "attrName": "module.advanced.tooltip",
+                "subName": "skid",
+                "label": "Tooltip Skid",
+                "description": "Shifts the tooltip along the target edge (cross-axis offset from the placement).",
+                "category": "basic_option",
+                "features": {
+                  "responsive": true,
+                  "hover": false,
+                  "sticky": false,
+                  "preset": [
+                    "script"
+                  ],
+                  "dynamicContent": {
+                    "type": "number"
+                  }
+                },
+                "component": {
+                  "type": "field",
+                  "name": "divi/range",
+                  "props": {
+                    "cssProperty": "margin",
+                    "defaultUnit": "px"
+                  }
+                }
+              },
+              "distance": {
+                "groupSlug": "designTooltip",
+                "priority": 60,
+                "render": true,
+                "attrName": "module.advanced.tooltip",
+                "subName": "distance",
+                "label": "Tooltip Distance",
+                "description": "Gap from the target along the placement direction (main-axis offset).",
+                "category": "basic_option",
+                "features": {
+                  "responsive": true,
+                  "hover": false,
+                  "sticky": false,
+                  "preset": [
+                    "script"
+                  ],
+                  "dynamicContent": {
+                    "type": "number"
+                  }
+                },
+                "component": {
+                  "type": "field",
+                  "name": "divi/range",
+                  "props": {
+                    "cssProperty": "margin",
+                    "defaultUnit": "px"
+                  }
+                }
+              },
+              "openDelay": {
+                "groupSlug": "designTooltip",
+                "priority": 70,
+                "render": true,
+                "attrName": "module.advanced.tooltip",
+                "subName": "openDelay",
+                "label": "Tooltip Open Delay",
+                "description": "Delay before the tooltip opens.",
+                "category": "basic_option",
+                "features": {
+                  "responsive": true,
+                  "hover": false,
+                  "sticky": false,
+                  "preset": [
+                    "script"
+                  ],
+                  "dynamicContent": {
+                    "type": "number"
+                  }
+                },
+                "component": {
+                  "type": "field",
+                  "name": "divi/range",
+                  "props": {
+                    "cssProperty": "transition-duration",
+                    "defaultUnit": "ms",
+                    "minLimit": 0
+                  }
+                }
+              },
+              "closeDelay": {
+                "groupSlug": "designTooltip",
+                "priority": 80,
+                "render": true,
+                "attrName": "module.advanced.tooltip",
+                "subName": "closeDelay",
+                "label": "Tooltip Close Delay",
+                "description": "Delay before the tooltip closes (mainly for hover).",
+                "category": "basic_option",
+                "features": {
+                  "responsive": true,
+                  "hover": false,
+                  "sticky": false,
+                  "preset": [
+                    "script"
+                  ],
+                  "dynamicContent": {
+                    "type": "number"
+                  }
+                },
+                "component": {
+                  "type": "field",
+                  "name": "divi/range",
+                  "props": {
+                    "cssProperty": "transition-duration",
+                    "defaultUnit": "ms",
+                    "minLimit": 0
+                  }
+                }
+              },
+              "showArrow": {
+                "groupSlug": "designTooltip",
+                "priority": 85,
+                "render": true,
+                "attrName": "module.advanced.tooltip",
+                "subName": "showArrow",
+                "label": "Show Tooltip Arrow",
+                "description": "Display a small pointer toward the parent module.",
+                "category": "basic_option",
+                "features": {
+                  "responsive": true,
+                  "hover": false,
+                  "sticky": false,
+                  "preset": [
+                    "script"
+                  ]
+                },
+                "component": {
+                  "type": "field",
+                  "name": "divi/toggle",
+                  "props": {
+                    "defaultValue": "off"
+                  }
+                }
+              },
+              "arrowColor": {
+                "groupSlug": "designTooltip",
+                "priority": 90,
+                "render": true,
+                "attrName": "module.advanced.tooltip",
+                "subName": "arrowColor",
+                "label": "Tooltip Arrow Color",
+                "description": "Choose the fill color for the tooltip arrow. By default this matches the module background color.",
+                "category": "basic_option",
+                "features": {
+                  "responsive": true,
+                  "hover": false,
+                  "sticky": false,
+                  "preset": [
+                    "script",
+                    "style"
+                  ],
+                  "dynamicContent": {
+                    "type": "color"
+                  }
+                },
+                "component": {
+                  "type": "field",
+                  "name": "divi/color-picker"
+                }
+              },
+              "arrowPlacement": {
+                "groupSlug": "designTooltip",
+                "priority": 91,
+                "render": true,
+                "attrName": "module.advanced.tooltip",
+                "subName": "arrowPlacement",
+                "label": "Tooltip Arrow Placement",
+                "description": "Choose which tooltip edge shows the arrow and where it sits along that edge (outer ring).",
+                "category": "basic_option",
+                "features": {
+                  "responsive": true,
+                  "hover": false,
+                  "sticky": false,
+                  "preset": [
+                    "script"
+                  ]
+                },
+                "component": {
+                  "type": "field",
+                  "name": "divi/placement-grid-picker",
+                  "props": {
+                    "layout": "outer-only",
+                    "defaultValue": "outside bottom center"
+                  }
+                }
+              },
+              "arrowOffset": {
+                "groupSlug": "designTooltip",
+                "priority": 95,
+                "render": true,
+                "attrName": "module.advanced.tooltip",
+                "subName": "arrowOffset",
+                "label": "Tooltip Arrow Position",
+                "description": "Slide the arrow along the edge that faces the target.",
+                "category": "basic_option",
+                "features": {
+                  "responsive": true,
+                  "hover": false,
+                  "sticky": false,
+                  "preset": [
+                    "script"
+                  ],
+                  "dynamicContent": {
+                    "type": "number"
+                  }
+                },
+                "component": {
+                  "type": "field",
+                  "name": "divi/range",
+                  "props": {
+                    "cssProperty": "margin",
+                    "defaultUnit": "px"
+                  }
+                }
+              },
+              "arrowSize": {
+                "groupSlug": "designTooltip",
+                "priority": 96,
+                "render": true,
+                "attrName": "module.advanced.tooltip",
+                "subName": "arrowSize",
+                "label": "Tooltip Arrow Size",
+                "description": "Control how large the arrow appears.",
+                "category": "basic_option",
+                "features": {
+                  "responsive": true,
+                  "hover": false,
+                  "sticky": false,
+                  "preset": [
+                    "script"
+                  ],
+                  "dynamicContent": {
+                    "type": "number"
+                  }
+                },
+                "component": {
+                  "type": "field",
+                  "name": "divi/range",
+                  "props": {
+                    "cssProperty": "margin",
+                    "defaultUnit": "px"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "animation": {},
+          "attributes": {},
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "interactions": {},
+          "layout": {},
+          "order": {},
+          "overflow": {},
+          "scroll": {},
+          "sizing": {},
+          "spacing": {},
+          "sticky": {},
+          "transform": {},
+          "transition": {},
+          "zIndex": {}
+        }
+      }
+    }
+  },
+  "customCssFields": {},
+  "settings": {
+    "content": "auto",
+    "design": "auto",
+    "advanced": "auto",
+    "groups": {
+      "contentText": {
+        "panel": "content",
+        "priority": 5,
+        "groupName": "contentText",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Text",
+            "preset": "content"
+          }
+        }
+      },
+      "designTooltip": {
+        "panel": "design",
+        "priority": 3,
+        "groupName": "designTooltip",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Tooltip",
+            "presetGroup": "divi/tooltip"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/post-filter",
+  "d4Shortcode": "et_pb_post_filter",
+  "moduleClassName": "et_pb_post_filter",
+  "moduleOrderClassName": "et_pb_post_filter",
+  "title": "Post Filter",
+  "titles": "Post Filters",
+  "moduleIcon": "divi/module-post-filter",
+  "category": "module",
+  "childModuleName": "divi/post-filter-item",
+  "childModuleTitle": "Post Filter Item",
+  "childModuleTitleAttribute": "label",
+  "childModuleMetadata": {
+    "name": "divi/post-filter-item"
+  },
+  "childrenName": [
+    "divi/post-filter-item"
+  ],
+  "allowAllElements": true,
+  "videos": [],
+  "script": [
+    "divi-module-library-script-post-filter"
+  ],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "styleProps": {
+        "layout": {
+          "selector": "{{selector}} .et_pb_post_filter__controls",
+          "render": {
+            "display": true
+          }
+        }
+      },
+      "settings": {
+        "meta": {
+          "meta": {}
+        },
+        "advanced": {
+          "elements": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "priority": 5,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/elements",
+                "props": {
+                  "grouped": false
+                }
+              }
+            }
+          },
+          "html": {},
+          "loop": {},
+          "targetLoop": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentTarget",
+              "attrName": "module.advanced.targetLoop",
+              "label": "Target Loop",
+              "description": "Choose which loop this filter form should control.",
+              "render": true,
+              "priority": 5,
+              "component": {
+                "type": "field",
+                "name": "divi/select",
+                "props": {
+                  "options": {}
+                }
+              }
+            }
+          },
+          "filters": {
+            "groupType": "group-items",
+            "items": {
+              "applyMode": {
+                "groupSlug": "contentTarget",
+                "attrName": "module.advanced.filters",
+                "subName": "applyMode",
+                "label": "Apply Mode",
+                "description": "Choose when filter criteria are applied to the targeted loop. Auto updates results as visitors change controls. Submit waits until they click the submit button.",
+                "render": true,
+                "priority": 10,
+                "component": {
+                  "type": "field",
+                  "name": "divi/select",
+                  "props": {
+                    "options": {
+                      "auto": {
+                        "label": "Auto"
+                      },
+                      "submit": {
+                        "label": "Submit"
+                      }
+                    }
+                  }
+                }
+              },
+              "relation": {
+                "groupSlug": "contentTarget",
+                "attrName": "module.advanced.filters",
+                "subName": "relation",
+                "label": "Relation",
+                "description": "Choose how multiple active filters combine. \"And\" requires every filter to match. \"Or\" requires at least one filter to match.",
+                "render": true,
+                "priority": 15,
+                "component": {
+                  "type": "field",
+                  "name": "divi/select",
+                  "props": {
+                    "options": {
+                      "and": {
+                        "label": "And"
+                      },
+                      "or": {
+                        "label": "Or"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "layout": {},
+          "animation": {},
+          "attributes": {},
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "interactions": {},
+          "order": {},
+          "overflow": {},
+          "position": {},
+          "scroll": {},
+          "sizing": {},
+          "spacing": {},
+          "sticky": {},
+          "transform": {},
+          "transition": {},
+          "zIndex": {}
+        }
+      }
+    },
+    "field": {
+      "type": "object",
+      "elementType": "field",
+      "selector": "{{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select), {{selector}} .et_pb_post_filter__item-control-surface select.et_pb_post_filter__item-control",
+      "styleProps": {
+        "selector": "{{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select), {{selector}} .et_pb_post_filter__item-control-surface select.et_pb_post_filter__item-control",
+        "selectors": {
+          "desktop": {
+            "value": "{{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select), {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select)::placeholder, {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select)::-webkit-input-placeholder, {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select)::-moz-placeholder, {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select):-ms-input-placeholder, {{selector}} .et_pb_post_filter__item-control-surface select.et_pb_post_filter__item-control",
+            "hover": "{{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select):hover, {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select):hover::placeholder, {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select):hover::-webkit-input-placeholder, {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select):hover::-moz-placeholder, {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select):hover:-ms-input-placeholder, {{selector}} .et_pb_post_filter__item-control-surface select.et_pb_post_filter__item-control:hover"
+          }
+        }
+      },
+      "settings": {
+        "decoration": {},
+        "advanced": {}
+      }
+    },
+    "option": {
+      "type": "object",
+      "label": "Option",
+      "elementType": "element",
+      "elementProps": {
+        "groupedOptionGroup": true
+      },
+      "selector": "{{selector}} .et_pb_post_filter__item-option",
+      "settings": {
+        "decoration": {
+          "background": {
+            "item": {
+              "groupSlug": "designOption",
+              "component": {
+                "props": {
+                  "hidePanels": [
+                    "video",
+                    "pattern",
+                    "mask"
+                  ],
+                  "fields": {
+                    "image": {
+                      "parallaxEnabled": {
+                        "render": false
+                      },
+                      "parallaxMethod": {
+                        "render": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "border": {},
+          "boxShadow": {},
+          "sizing": {},
+          "spacing": {}
+        }
+      }
+    },
+    "checkbox": {
+      "type": "object",
+      "elementType": "field",
+      "selector": "{{selector}} .et_pb_post_filter__item-control[type=checkbox]",
+      "styleProps": {
+        "selector": "{{selector}} .et_pb_post_filter__item-control[type=checkbox]",
+        "selectors": {
+          "desktop": {
+            "value": "{{selector}}.et_pb_post_filter .et_pb_post_filter__item-control[type=checkbox] + label i",
+            "hover": "{{selector}}.et_pb_post_filter .et_pb_post_filter__item-control[type=checkbox] + label i"
+          }
+        }
+      },
+      "settings": {
+        "decoration": {},
+        "advanced": {}
+      }
+    },
+    "radio": {
+      "type": "object",
+      "elementType": "field",
+      "selector": "{{selector}} .et_pb_post_filter__item-control[type=radio]",
+      "styleProps": {
+        "selector": "{{selector}} .et_pb_post_filter__item-control[type=radio]",
+        "selectors": {
+          "desktop": {
+            "value": "{{selector}}.et_pb_post_filter .et_pb_post_filter__item-control[type=radio] + label i",
+            "hover": "{{selector}}.et_pb_post_filter .et_pb_post_filter__item-control[type=radio] + label i"
+          }
+        }
+      },
+      "settings": {
+        "decoration": {},
+        "advanced": {}
+      }
+    },
+    "multipleOrderButton": {
+      "type": "object",
+      "elementType": "button",
+      "selector": "{{selector}} .et_pb_post_filter__item-multiple-order-action",
+      "settings": {
+        "decoration": {
+          "button": {
+            "priority": 43,
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true,
+                "fields": {
+                  "buttonIconGroup": {
+                    "render": false
+                  }
+                },
+                "groupLabel": "Multiple Order Button"
+              }
+            }
+          }
+        },
+        "advanced": {}
+      }
+    },
+    "button": {
+      "type": "object",
+      "elementType": "button",
+      "selector": "{{selector}} .et_pb_post_filter__item-control-button",
+      "settings": {
+        "decoration": {
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "button": {
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true,
+                "fields": {
+                  "buttonIconGroup": {
+                    "component": {
+                      "props": {
+                        "fields": {
+                          "settings": {
+                            "render": false
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "font": {},
+          "sizing": {},
+          "spacing": {}
+        },
+        "advanced": {}
+      },
+      "styleProps": {
+        "spacing": {
+          "important": {
+            "desktop": {
+              "value": {
+                "margin": true,
+                "padding": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "customCssFields": {
+    "field": {
+      "label": "Field",
+      "subName": "field",
+      "selectorSuffix": " .et_pb_post_filter__item-control"
+    },
+    "checkbox": {
+      "label": "Checkbox",
+      "subName": "checkbox",
+      "selectorSuffix": " .et_pb_post_filter__item-control[type=checkbox] + label i"
+    },
+    "radio": {
+      "label": "Radio",
+      "subName": "radio",
+      "selectorSuffix": " .et_pb_post_filter__item-control[type=radio] + label i"
+    },
+    "multipleOrderButton": {
+      "label": "Multiple Order Button",
+      "subName": "multipleOrderButton",
+      "selectorSuffix": " .et_pb_post_filter__item-multiple-order-action"
+    },
+    "button": {
+      "label": "Button",
+      "subName": "button",
+      "selectorSuffix": " .et_pb_post_filter__item-control-button"
+    },
+    "option": {
+      "label": "Option",
+      "subName": "option",
+      "selectorSuffix": " .et_pb_post_filter__item-option"
+    }
+  },
+  "settings": {
+    "design": "auto",
+    "advanced": "auto",
+    "groups": {
+      "contentTarget": {
+        "panel": "content",
+        "priority": 5,
+        "groupName": "contentTarget",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Target"
+          }
+        }
+      },
+      "contentElements": {
+        "panel": "content",
+        "priority": 10,
+        "groupName": "contentElements",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Elements",
+            "preset": "content"
+          }
+        }
+      },
+      "designFieldField": {
+        "panel": "design",
+        "priority": 40,
+        "groupName": "field",
+        "multiElements": true,
+        "component": {
+          "name": "divi/form-field",
+          "props": {
+            "groupLabel": "Field",
+            "clipboardCategory": "style",
+            "attrName": "field",
+            "dynamicSubgroupHost": true,
+            "useComponentNameAsPresetGroup": true
+          }
+        }
+      },
+      "designOption": {
+        "panel": "design",
+        "priority": 41,
+        "groupName": "designOption",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Option",
+            "clipboardCategory": "style",
+            "dynamicSubgroupHost": true
+          }
+        }
+      },
+      "designFieldCheckbox": {
+        "panel": "design",
+        "priority": 42,
+        "groupName": "checkbox",
+        "multiElements": true,
+        "component": {
+          "name": "divi/checkbox",
+          "props": {
+            "groupLabel": "Checkbox",
+            "clipboardCategory": "style",
+            "attrName": "checkbox",
+            "dynamicSubgroupHost": true,
+            "useComponentNameAsPresetGroup": true
+          }
+        }
+      },
+      "designFieldRadio": {
+        "panel": "design",
+        "priority": 43,
+        "groupName": "radio",
+        "multiElements": true,
+        "component": {
+          "name": "divi/radio",
+          "props": {
+            "groupLabel": "Radio Options",
+            "clipboardCategory": "style",
+            "attrName": "radio",
+            "dynamicSubgroupHost": true,
+            "useComponentNameAsPresetGroup": true
+          }
+        }
+      }
+    }
+  }
+}

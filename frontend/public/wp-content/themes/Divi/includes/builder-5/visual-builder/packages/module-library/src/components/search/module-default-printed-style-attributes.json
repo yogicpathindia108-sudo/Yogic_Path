@@ -1,0 +1,40 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "sync": "on",
+              "topLeft": "3px",
+              "topRight": "3px",
+              "bottomLeft": "3px",
+              "bottomRight": "3px"
+            },
+            "styles": {
+              "all": {
+                "width": "1px",
+                "color": "#dddddd",
+                "style": "solid"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "field": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1.7em"
+            }
+          }
+        }
+      }
+    }
+  }
+}

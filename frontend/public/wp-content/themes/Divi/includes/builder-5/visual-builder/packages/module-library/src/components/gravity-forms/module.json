@@ -1,0 +1,1349 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/gravity-forms",
+  "d4Shortcode": "",
+  "moduleClassName": "et_pb_gravity_forms",
+  "moduleOrderClassName": "et_pb_gravity_forms",
+  "title": "Gravity Form",
+  "titles": "Gravity Forms",
+  "moduleIcon": "divi/module-gravity-forms",
+  "category": "module",
+  "childrenName": [],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "settings": {
+        "meta": {
+          "meta": {}
+        },
+        "advanced": {
+          "elements": {},
+          "html": {},
+          "loop": {}
+        },
+        "decoration": {
+          "animation": {},
+          "attributes": {},
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "interactions": {},
+          "layout": {},
+          "order": {},
+          "overflow": {},
+          "position": {},
+          "scroll": {},
+          "sizing": {},
+          "spacing": {},
+          "sticky": {},
+          "transform": {},
+          "transition": {},
+          "zIndex": {}
+        }
+      }
+    },
+    "gravityForm": {
+      "type": "object",
+      "selector": "{{selector}} .et_pb_gravity_form_embed",
+      "settings": {
+        "innerContent": {
+          "groupType": "group-items",
+          "items": {
+            "formId": {
+              "groupSlug": "contentGravityForm",
+              "attrName": "gravityForm.innerContent",
+              "subName": "formId",
+              "label": "Form",
+              "description": "Select a Gravity Form.",
+              "priority": 5,
+              "render": true,
+              "component": {
+                "type": "field",
+                "name": "divi/select-gravity-forms"
+              },
+              "features": {
+                "responsive": false,
+                "psuedo": false,
+                "sticky": false,
+                "preset": "content"
+              }
+            }
+          }
+        },
+        "advanced": {
+          "useAjax": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentGravityForm",
+              "attrName": "gravityForm.advanced.useAjax",
+              "label": "Use Ajax",
+              "description": "Submit the form without reloading the page using Gravity Forms’ built-in Ajax. Leave off for a standard postback submission (default).",
+              "priority": 18,
+              "render": true,
+              "category": "configuration",
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "showValidationMessagesPreview": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentGravityForm",
+              "attrName": "gravityForm.advanced.showValidationMessagesPreview",
+              "label": "Show validation messages (builder preview)",
+              "description": "Visual Builder only. Renders real Gravity Forms validation summary and field validation messages so Design → Validation summary and Field validation message match front-end copy.",
+              "priority": 20,
+              "render": true,
+              "category": "configuration",
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "showConfirmationMessagePreview": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentGravityForm",
+              "attrName": "gravityForm.advanced.showConfirmationMessagePreview",
+              "label": "Show confirmation message (builder preview)",
+              "description": "Visual Builder only. Replaces the form preview with sample confirmation markup so you can style Design → Confirmation message.",
+              "priority": 25,
+              "render": true,
+              "category": "configuration",
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          }
+        }
+      }
+    },
+    "title": {
+      "type": "object",
+      "label": "Title Text",
+      "elementType": "element",
+      "selector": "{{selector}} .et_pb_gravity_form_embed .gform_title",
+      "settings": {
+        "decoration": {
+          "font": {
+            "priority": 10,
+            "component": {
+              "props": {
+                "groupLabel": "Title Text",
+                "fieldLabel": "Title",
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "sectionHeading": {
+      "type": "object",
+      "label": "Section Heading",
+      "elementType": "element",
+      "selector": "{{selector}} .et_pb_gravity_form_embed .gsection_title",
+      "settings": {
+        "decoration": {
+          "font": {
+            "priority": 14,
+            "component": {
+              "props": {
+                "groupLabel": "Section Heading Text",
+                "fieldLabel": "Section heading",
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "subLabel": {
+      "type": "object",
+      "label": "Sub-label Text",
+      "elementType": "element",
+      "selector": "{{selector}} .et_pb_gravity_form_embed .gform-field-label--type-sub, {{selector}} .et_pb_gravity_form_embed .gform-field-label--type-sub-large",
+      "settings": {
+        "decoration": {
+          "font": {
+            "priority": 16,
+            "component": {
+              "props": {
+                "groupLabel": "Sub-label Text",
+                "fieldLabel": "Compound sublabel",
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "description": {
+      "type": "object",
+      "label": "Description",
+      "elementType": "element",
+      "selector": "{{selector}} .et_pb_gravity_form_embed .gform_description, {{selector}} .et_pb_gravity_form_embed .gsection_description, {{selector}} .et_pb_gravity_form_embed .gfield_description:not(.gfield_validation_message):not(.validation_message), {{selector}} .et_pb_gravity_form_embed .gfield_consent_description",
+      "settings": {
+        "decoration": {
+          "font": {
+            "priority": 12,
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "field": {
+      "type": "object",
+      "selector": "{{selector}} .et_pb_gravity_form_embed input:not([type=\"radio\"]):not([type=\"checkbox\"]):not([type=\"submit\"]):not([type=\"button\"]):not([type=\"hidden\"]):not(.gform-phone__search), {{selector}} .et_pb_gravity_form_embed textarea, {{selector}} .et_pb_gravity_form_embed select, {{selector}} .et_pb_gravity_form_embed button.gform-phone__country-selector",
+      "elementType": "field",
+      "settings": {
+        "decoration": {},
+        "advanced": {}
+      }
+    },
+    "radioButton": {
+      "type": "object",
+      "selector": "{{selector}} .et_pb_gravity_form_embed input[type=\"radio\"], {{selector}} .et_pb_gravity_form_embed .gfield_radio label",
+      "elementType": "field",
+      "settings": {
+        "decoration": {},
+        "advanced": {}
+      }
+    },
+    "checkbox": {
+      "type": "object",
+      "selector": "{{selector}} .et_pb_gravity_form_embed input[type=\"checkbox\"], {{selector}} .et_pb_gravity_form_embed .gfield_checkbox label, {{selector}} .et_pb_gravity_form_embed .ginput_container_consent .gfield_consent_label",
+      "elementType": "field",
+      "settings": {
+        "decoration": {},
+        "advanced": {}
+      }
+    },
+    "imageChoice": {
+      "type": "object",
+      "label": "Image Choice",
+      "selector": "{{selector}} .et_pb_gravity_form_embed .gfield--type-image_choice .gfield-choice-image",
+      "elementType": "image",
+      "styleProps": {
+        "fit": {
+          "selector": "{{selector}} .et_pb_gravity_form_embed .gfield--type-image_choice .gfield-choice-image"
+        },
+        "filters": {
+          "selector": "{{selector}} .et_pb_gravity_form_embed .gfield--type-image_choice .gfield-choice-image"
+        },
+        "sizing": {
+          "selector": "{{selector}} .et_pb_gravity_form_embed .gfield--type-image_choice .gfield-choice-image-wrapper"
+        },
+        "border": {
+          "selector": "{{selector}} .et_pb_gravity_form_embed .gfield--type-image_choice .gfield-choice-image-wrapper"
+        },
+        "boxShadow": {
+          "selector": "{{selector}} .et_pb_gravity_form_embed .gfield--type-image_choice .gfield-choice-image-wrapper"
+        }
+      }
+    },
+    "button": {
+      "type": "object",
+      "label": "Submit button",
+      "selector": "{{selector}} .et_pb_gravity_form_embed .et_pb_button.gform_button, {{selector}} .et_pb_gravity_form_embed input[type=\"submit\"].gform_button, {{selector}} .et_pb_gravity_form_embed button[type=\"submit\"].gform_button",
+      "elementType": "button",
+      "styleProps": {
+        "background": {
+          "important": {
+            "desktop": {
+              "value": {
+                "background-color": true
+              }
+            }
+          }
+        },
+        "border": {
+          "important": {
+            "desktop": {
+              "value": {
+                "border-radius": true,
+                "border-top-left-radius": true,
+                "border-top-right-radius": true,
+                "border-bottom-right-radius": true,
+                "border-bottom-left-radius": true,
+                "border-top-width": true,
+                "border-right-width": true,
+                "border-bottom-width": true,
+                "border-left-width": true,
+                "border-top-style": true,
+                "border-right-style": true,
+                "border-bottom-style": true,
+                "border-left-style": true,
+                "border-top-color": true,
+                "border-right-color": true,
+                "border-bottom-color": true,
+                "border-left-color": true
+              }
+            }
+          }
+        },
+        "boxShadow": {
+          "important": {
+            "desktop": {
+              "value": {
+                "box-shadow": true
+              }
+            }
+          }
+        },
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": true,
+                  "font-family": true,
+                  "font-size": true,
+                  "font-style": true,
+                  "font-weight": true,
+                  "letter-spacing": true,
+                  "line-height": true,
+                  "text-align": true,
+                  "text-transform": true,
+                  "text-decoration-line": true,
+                  "text-decoration-color": true,
+                  "text-decoration-style": true,
+                  "text-decoration-thickness": true
+                }
+              }
+            }
+          }
+        },
+        "spacing": {
+          "important": {
+            "desktop": {
+              "value": {
+                "margin-top": true,
+                "margin-right": true,
+                "margin-bottom": true,
+                "margin-left": true,
+                "padding-top": true,
+                "padding-right": true,
+                "padding-bottom": true,
+                "padding-left": true
+              }
+            }
+          }
+        },
+        "sizing": {
+          "important": {
+            "desktop": {
+              "value": {
+                "width": true,
+                "min-width": true,
+                "height": true,
+                "min-height": true
+              }
+            }
+          }
+        },
+        "button": {}
+      },
+      "settings": {
+        "advanced": {},
+        "decoration": {
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "button": {
+            "priority": 51,
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true,
+                "groupLabel": "Submit button",
+                "fieldLabel": "Submit button",
+                "fields": {
+                  "alignment": {
+                    "render": false
+                  },
+                  "buttonIconGroup": {
+                    "render": false
+                  }
+                }
+              }
+            }
+          },
+          "font": {},
+          "sizing": {},
+          "spacing": {}
+        }
+      }
+    },
+    "nextButton": {
+      "type": "object",
+      "label": "Next page button",
+      "selector": "{{selector}} .et_pb_gravity_form_embed input[type=\"button\"].gform_next_button, {{selector}} .et_pb_gravity_form_embed button[type=\"button\"].gform_next_button",
+      "elementType": "button",
+      "styleProps": {
+        "background": {
+          "important": {
+            "desktop": {
+              "value": {
+                "background-color": true
+              }
+            }
+          }
+        },
+        "border": {
+          "important": {
+            "desktop": {
+              "value": {
+                "border-radius": true,
+                "border-top-left-radius": true,
+                "border-top-right-radius": true,
+                "border-bottom-right-radius": true,
+                "border-bottom-left-radius": true,
+                "border-top-width": true,
+                "border-right-width": true,
+                "border-bottom-width": true,
+                "border-left-width": true,
+                "border-top-style": true,
+                "border-right-style": true,
+                "border-bottom-style": true,
+                "border-left-style": true,
+                "border-top-color": true,
+                "border-right-color": true,
+                "border-bottom-color": true,
+                "border-left-color": true
+              }
+            }
+          }
+        },
+        "boxShadow": {
+          "important": {
+            "desktop": {
+              "value": {
+                "box-shadow": true
+              }
+            }
+          }
+        },
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": true,
+                  "font-family": true,
+                  "font-size": true,
+                  "font-style": true,
+                  "font-weight": true,
+                  "letter-spacing": true,
+                  "line-height": true,
+                  "text-align": true,
+                  "text-transform": true,
+                  "text-decoration-line": true,
+                  "text-decoration-color": true,
+                  "text-decoration-style": true,
+                  "text-decoration-thickness": true
+                }
+              }
+            }
+          }
+        },
+        "spacing": {
+          "important": {
+            "desktop": {
+              "value": {
+                "margin-top": true,
+                "margin-right": true,
+                "margin-bottom": true,
+                "margin-left": true,
+                "padding-top": true,
+                "padding-right": true,
+                "padding-bottom": true,
+                "padding-left": true
+              }
+            }
+          }
+        },
+        "sizing": {
+          "important": {
+            "desktop": {
+              "value": {
+                "width": true,
+                "min-width": true,
+                "height": true,
+                "min-height": true
+              }
+            }
+          }
+        },
+        "button": {}
+      },
+      "settings": {
+        "advanced": {},
+        "decoration": {
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "button": {
+            "priority": 53,
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true,
+                "groupLabel": "Next page button",
+                "fieldLabel": "Next page button",
+                "fields": {
+                  "alignment": {
+                    "render": false
+                  },
+                  "buttonIconGroup": {
+                    "render": false
+                  }
+                }
+              }
+            }
+          },
+          "font": {},
+          "sizing": {},
+          "spacing": {}
+        }
+      }
+    },
+    "previousButton": {
+      "type": "object",
+      "label": "Previous page button",
+      "selector": "{{selector}} .et_pb_gravity_form_embed input[type=\"button\"].gform_previous_button, {{selector}} .et_pb_gravity_form_embed button[type=\"button\"].gform_previous_button",
+      "elementType": "button",
+      "styleProps": {
+        "background": {
+          "important": {
+            "desktop": {
+              "value": {
+                "background-color": true
+              }
+            }
+          }
+        },
+        "border": {
+          "important": {
+            "desktop": {
+              "value": {
+                "border-radius": true,
+                "border-top-left-radius": true,
+                "border-top-right-radius": true,
+                "border-bottom-right-radius": true,
+                "border-bottom-left-radius": true,
+                "border-top-width": true,
+                "border-right-width": true,
+                "border-bottom-width": true,
+                "border-left-width": true,
+                "border-top-style": true,
+                "border-right-style": true,
+                "border-bottom-style": true,
+                "border-left-style": true,
+                "border-top-color": true,
+                "border-right-color": true,
+                "border-bottom-color": true,
+                "border-left-color": true
+              }
+            }
+          }
+        },
+        "boxShadow": {
+          "important": {
+            "desktop": {
+              "value": {
+                "box-shadow": true
+              }
+            }
+          }
+        },
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": true,
+                  "font-family": true,
+                  "font-size": true,
+                  "font-style": true,
+                  "font-weight": true,
+                  "letter-spacing": true,
+                  "line-height": true,
+                  "text-align": true,
+                  "text-transform": true,
+                  "text-decoration-line": true,
+                  "text-decoration-color": true,
+                  "text-decoration-style": true,
+                  "text-decoration-thickness": true
+                }
+              }
+            }
+          }
+        },
+        "spacing": {
+          "important": {
+            "desktop": {
+              "value": {
+                "margin-top": true,
+                "margin-right": true,
+                "margin-bottom": true,
+                "margin-left": true,
+                "padding-top": true,
+                "padding-right": true,
+                "padding-bottom": true,
+                "padding-left": true
+              }
+            }
+          }
+        },
+        "sizing": {
+          "important": {
+            "desktop": {
+              "value": {
+                "width": true,
+                "min-width": true,
+                "height": true,
+                "min-height": true
+              }
+            }
+          }
+        },
+        "button": {}
+      },
+      "settings": {
+        "advanced": {},
+        "decoration": {
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "button": {
+            "priority": 54,
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true,
+                "groupLabel": "Previous page button",
+                "fieldLabel": "Previous page button",
+                "fields": {
+                  "alignment": {
+                    "render": false
+                  },
+                  "buttonIconGroup": {
+                    "render": false
+                  }
+                }
+              }
+            }
+          },
+          "font": {},
+          "sizing": {},
+          "spacing": {}
+        }
+      }
+    },
+    "saveButton": {
+      "type": "object",
+      "label": "Save & Continue button",
+      "selector": "{{selector}} .et_pb_gravity_form_embed button.gform_save_link",
+      "elementType": "button",
+      "styleProps": {
+        "background": {
+          "important": {
+            "desktop": {
+              "value": {
+                "background-color": true
+              }
+            }
+          }
+        },
+        "border": {
+          "important": {
+            "desktop": {
+              "value": {
+                "border-radius": true,
+                "border-top-left-radius": true,
+                "border-top-right-radius": true,
+                "border-bottom-right-radius": true,
+                "border-bottom-left-radius": true,
+                "border-top-width": true,
+                "border-right-width": true,
+                "border-bottom-width": true,
+                "border-left-width": true,
+                "border-top-style": true,
+                "border-right-style": true,
+                "border-bottom-style": true,
+                "border-left-style": true,
+                "border-top-color": true,
+                "border-right-color": true,
+                "border-bottom-color": true,
+                "border-left-color": true
+              }
+            }
+          }
+        },
+        "boxShadow": {
+          "important": {
+            "desktop": {
+              "value": {
+                "box-shadow": true
+              }
+            }
+          }
+        },
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": true,
+                  "font-family": true,
+                  "font-size": true,
+                  "font-style": true,
+                  "font-weight": true,
+                  "letter-spacing": true,
+                  "line-height": true,
+                  "text-align": true,
+                  "text-transform": true,
+                  "text-decoration-line": true,
+                  "text-decoration-color": true,
+                  "text-decoration-style": true,
+                  "text-decoration-thickness": true
+                }
+              }
+            }
+          }
+        },
+        "spacing": {
+          "important": {
+            "desktop": {
+              "value": {
+                "margin-top": true,
+                "margin-right": true,
+                "margin-bottom": true,
+                "margin-left": true,
+                "padding-top": true,
+                "padding-right": true,
+                "padding-bottom": true,
+                "padding-left": true
+              }
+            }
+          }
+        },
+        "sizing": {
+          "important": {
+            "desktop": {
+              "value": {
+                "width": true,
+                "min-width": true,
+                "height": true,
+                "min-height": true
+              }
+            }
+          }
+        },
+        "button": {}
+      },
+      "settings": {
+        "advanced": {},
+        "decoration": {
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "button": {
+            "priority": 52,
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true,
+                "groupLabel": "Save & Continue button",
+                "fieldLabel": "Save & Continue button",
+                "fields": {
+                  "alignment": {
+                    "render": false
+                  },
+                  "buttonIconGroup": {
+                    "render": false
+                  }
+                }
+              }
+            }
+          },
+          "font": {},
+          "sizing": {},
+          "spacing": {}
+        }
+      }
+    },
+    "fileUploadButton": {
+      "type": "object",
+      "label": "File upload button",
+      "selector": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]::file-selector-button",
+      "elementType": "button",
+      "styleProps": {
+        "selector": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]::file-selector-button",
+        "background": {
+          "selectors": {
+            "desktop": {
+              "value": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]::file-selector-button",
+              "hover": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]:hover::file-selector-button",
+              "focus": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]:focus::file-selector-button"
+            }
+          }
+        },
+        "border": {
+          "selectors": {
+            "desktop": {
+              "value": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]::file-selector-button",
+              "hover": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]:hover::file-selector-button",
+              "focus": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]:focus::file-selector-button"
+            }
+          }
+        },
+        "boxShadow": {
+          "selectors": {
+            "desktop": {
+              "value": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]::file-selector-button",
+              "hover": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]:hover::file-selector-button",
+              "focus": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]:focus::file-selector-button"
+            }
+          }
+        },
+        "font": {
+          "selectors": {
+            "desktop": {
+              "value": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]::file-selector-button",
+              "hover": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]:hover::file-selector-button",
+              "focus": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]:focus::file-selector-button"
+            }
+          }
+        },
+        "spacing": {
+          "selectors": {
+            "desktop": {
+              "value": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]::file-selector-button",
+              "hover": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]:hover::file-selector-button",
+              "focus": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]:focus::file-selector-button"
+            }
+          }
+        },
+        "sizing": {
+          "selectors": {
+            "desktop": {
+              "value": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]::file-selector-button",
+              "hover": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]:hover::file-selector-button",
+              "focus": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]:focus::file-selector-button"
+            }
+          }
+        },
+        "button": {
+          "disableAlignmentStyles": true,
+          "selectors": {
+            "desktop": {
+              "value": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]::file-selector-button",
+              "hover": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]:hover::file-selector-button",
+              "focus": "{{selector}} .et_pb_gravity_form_embed input[type=\"file\"]:focus::file-selector-button"
+            }
+          }
+        }
+      },
+      "settings": {
+        "advanced": {},
+        "decoration": {
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "button": {
+            "priority": 55,
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true,
+                "dynamicSubgroupExcludedComponents": [
+                  "divi/layout",
+                  "divi/animation"
+                ],
+                "groupLabel": "File upload button",
+                "fieldLabel": "File upload button",
+                "fields": {
+                  "alignment": {
+                    "render": false
+                  },
+                  "buttonIconGroup": {
+                    "render": false
+                  }
+                }
+              }
+            }
+          },
+          "font": {},
+          "sizing": {
+            "component": {
+              "props": {
+                "fields": {
+                  "alignment": {
+                    "render": false
+                  }
+                }
+              }
+            }
+          },
+          "spacing": {}
+        }
+      }
+    },
+    "validationSummary": {
+      "type": "object",
+      "label": "Validation Summary",
+      "elementType": "element",
+      "selector": "{{selector}} .et_pb_gravity_form_embed .gform_validation_errors",
+      "styleProps": {
+        "bodyFont": {
+          "selector": "{{selector}} .et_pb_gravity_form_embed .gform_validation_errors, {{selector}} .et_pb_gravity_form_embed .gform_validation_errors .gform_submission_error",
+          "propertySelectors": {
+            "body": {
+              "font": {
+                "desktop": {
+                  "value": {
+                    "color": "{{selector}} .et_pb_gravity_form_embed .gform_validation_errors, {{selector}} .et_pb_gravity_form_embed .gform_validation_errors .gform_submission_error, {{selector}} .et_pb_gravity_form_embed .gform_validation_errors .gform_submission_error .gform-icon, {{selector}} .et_pb_gravity_form_embed .gform_validation_errors .gform_submission_error .gform-icon::before"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "background": {},
+        "border": {},
+        "boxShadow": {},
+        "spacing": {}
+      },
+      "settings": {
+        "decoration": {
+          "bodyFont": {
+            "priority": 56,
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "validationFieldMessage": {
+      "type": "object",
+      "label": "Field Validation",
+      "elementType": "element",
+      "selector": "{{selector}} .et_pb_gravity_form_embed .gfield .gfield_validation_message, {{selector}} .et_pb_gravity_form_embed .gfield .gfield_description.validation_message",
+      "styleProps": {
+        "font": {},
+        "background": {},
+        "border": {},
+        "boxShadow": {},
+        "spacing": {}
+      },
+      "settings": {
+        "decoration": {
+          "font": {
+            "priority": 57,
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "formConfirmation": {
+      "type": "object",
+      "label": "Confirmation",
+      "elementType": "element",
+      "selector": "{{selector}} .et_pb_gravity_form_embed .gform_confirmation_wrapper",
+      "styleProps": {
+        "bodyFont": {
+          "selector": "{{selector}} .et_pb_gravity_form_embed .gform_confirmation_message"
+        },
+        "background": {},
+        "border": {},
+        "boxShadow": {},
+        "spacing": {}
+      },
+      "settings": {
+        "decoration": {
+          "bodyFont": {
+            "priority": 58,
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "progressBar": {
+      "type": "object",
+      "label": "Progress Bar",
+      "elementType": "element",
+      "selector": "{{selector}} .et_pb_gravity_form_embed .gf_progressbar_wrapper",
+      "styleProps": {
+        "font": {
+          "selector": "{{selector}} .et_pb_gravity_form_embed .gf_progressbar_title, {{selector}} .et_pb_gravity_form_embed .gf_progressbar_title span, {{selector}} .et_pb_gravity_form_embed .gf_progressbar_percentage span",
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "line-height": true
+                }
+              }
+            }
+          },
+          "propertySelectors": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "line-height": "{{selector}} .et_pb_gravity_form_embed .gf_progressbar_title"
+                }
+              }
+            }
+          }
+        },
+        "background": {
+          "important": {
+            "desktop": {
+              "value": {
+                "background-color": true
+              }
+            }
+          },
+          "selector": "{{selector}} .et_pb_gravity_form_embed .gf_progressbar_percentage"
+        },
+        "border": {
+          "selector": "{{selector}} .et_pb_gravity_form_embed .gf_progressbar"
+        },
+        "boxShadow": {
+          "selector": "{{selector}} .et_pb_gravity_form_embed .gf_progressbar"
+        },
+        "sizing": {
+          "selector": "{{selector}} .et_pb_gravity_form_embed .gf_progressbar",
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "width": "{{selector}} .et_pb_gravity_form_embed .gf_progressbar",
+                "max-width": "{{selector}} .et_pb_gravity_form_embed .gf_progressbar",
+                "min-width": "{{selector}} .et_pb_gravity_form_embed .gf_progressbar",
+                "margin-left": "{{selector}} .et_pb_gravity_form_embed .gf_progressbar",
+                "margin-right": "{{selector}} .et_pb_gravity_form_embed .gf_progressbar",
+                "min-height": "{{selector}} .et_pb_gravity_form_embed .gf_progressbar_percentage",
+                "height": "{{selector}} .et_pb_gravity_form_embed .gf_progressbar_percentage",
+                "max-height": "{{selector}} .et_pb_gravity_form_embed .gf_progressbar_percentage"
+              }
+            }
+          }
+        },
+        "spacing": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "padding": "{{selector}} .et_pb_gravity_form_embed .gf_progressbar"
+              }
+            }
+          }
+        }
+      },
+      "settings": {
+        "decoration": {
+          "font": {
+            "priority": 50,
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "requiredMarker": {
+      "type": "object",
+      "label": "Required Marker Text",
+      "elementType": "element",
+      "selector": "{{selector}} .et_pb_gravity_form_embed .gfield_required.gfield_required_text, {{selector}} .et_pb_gravity_form_embed .gfield_required.gfield_required_asterisk, {{selector}} .et_pb_gravity_form_embed .gfield_required.gfield_required_custom",
+      "styleProps": {
+        "background": {},
+        "border": {},
+        "boxShadow": {},
+        "font": {},
+        "sizing": {},
+        "spacing": {}
+      },
+      "settings": {
+        "decoration": {
+          "font": {
+            "priority": 49,
+            "component": {
+              "props": {
+                "groupLabel": "Required Marker Text",
+                "fieldLabel": "Required Marker",
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "customCssFields": {
+    "gravityForm": {
+      "label": "Form",
+      "subName": "gravityForm",
+      "selectorSuffix": " .et_pb_gravity_form_embed"
+    },
+    "title": {
+      "label": "Title Text",
+      "subName": "title",
+      "selectorSuffix": " .et_pb_gravity_form_embed .gform_title"
+    },
+    "sectionHeading": {
+      "label": "Section Heading",
+      "subName": "sectionHeading",
+      "selectorSuffix": " .et_pb_gravity_form_embed .gsection_title"
+    },
+    "fieldLabel": {
+      "label": "Field Labels",
+      "subName": "fieldLabel",
+      "selectorSuffix": " .et_pb_gravity_form_embed label.gfield_label, .et_pb_gravity_form_embed legend.gfield_label"
+    },
+    "subLabel": {
+      "label": "Compound Sublabels",
+      "subName": "subLabel",
+      "selectorSuffix": " .et_pb_gravity_form_embed .gform-field-label--type-sub, .et_pb_gravity_form_embed .gform-field-label--type-sub-large"
+    },
+    "description": {
+      "label": "Description Text",
+      "subName": "description",
+      "selectorSuffix": " .et_pb_gravity_form_embed .gform_description, .et_pb_gravity_form_embed .gsection_description, .et_pb_gravity_form_embed .gfield_description:not(.gfield_validation_message):not(.validation_message), .et_pb_gravity_form_embed .gfield_consent_description"
+    },
+    "field": {
+      "label": "Input Fields",
+      "subName": "field",
+      "selectorSuffix": " .et_pb_gravity_form_embed input:not([type=\"radio\"]):not([type=\"checkbox\"]):not([type=\"submit\"]):not([type=\"button\"]):not([type=\"hidden\"]):not(.gform-phone__search), .et_pb_gravity_form_embed textarea, .et_pb_gravity_form_embed select, .et_pb_gravity_form_embed button.gform-phone__country-selector"
+    },
+    "radioButton": {
+      "label": "Radio Buttons",
+      "subName": "radioButton",
+      "selectorSuffix": " .et_pb_gravity_form_embed input[type=\"radio\"], .et_pb_gravity_form_embed .gfield_radio label"
+    },
+    "checkbox": {
+      "label": "Checkboxes",
+      "subName": "checkbox",
+      "selectorSuffix": " .et_pb_gravity_form_embed input[type=\"checkbox\"], .et_pb_gravity_form_embed .gfield_checkbox label, .et_pb_gravity_form_embed .ginput_container_consent .gfield_consent_label"
+    },
+    "imageChoice": {
+      "label": "Image Choice",
+      "subName": "imageChoice",
+      "selectorSuffix": " .et_pb_gravity_form_embed .gfield--type-image_choice .gfield-choice-image"
+    },
+    "requiredMarker": {
+      "label": "Required Marker Text",
+      "subName": "requiredMarker",
+      "selectorSuffix": " .et_pb_gravity_form_embed .gfield_required.gfield_required_text, .et_pb_gravity_form_embed .gfield_required.gfield_required_asterisk, .et_pb_gravity_form_embed .gfield_required.gfield_required_custom"
+    },
+    "progressBar": {
+      "label": "Progress Bar Text",
+      "subName": "progressBar",
+      "selectorSuffix": " .et_pb_gravity_form_embed .gf_progressbar_wrapper"
+    },
+    "button": {
+      "label": "Submit button",
+      "subName": "button",
+      "selectorSuffix": " .et_pb_gravity_form_embed .et_pb_button.gform_button, .et_pb_gravity_form_embed input[type=\"submit\"].gform_button, .et_pb_gravity_form_embed button[type=\"submit\"].gform_button"
+    },
+    "nextButton": {
+      "label": "Next page button",
+      "subName": "nextButton",
+      "selectorSuffix": " .et_pb_gravity_form_embed input[type=\"button\"].gform_next_button, .et_pb_gravity_form_embed button[type=\"button\"].gform_next_button"
+    },
+    "previousButton": {
+      "label": "Previous page button",
+      "subName": "previousButton",
+      "selectorSuffix": " .et_pb_gravity_form_embed input[type=\"button\"].gform_previous_button, .et_pb_gravity_form_embed button[type=\"button\"].gform_previous_button"
+    },
+    "saveButton": {
+      "label": "Save & Continue button",
+      "subName": "saveButton",
+      "selectorSuffix": " .et_pb_gravity_form_embed button.gform_save_link"
+    },
+    "fileUploadButton": {
+      "label": "File upload button",
+      "subName": "fileUploadButton",
+      "selectorSuffix": " .et_pb_gravity_form_embed input[type=\"file\"]::file-selector-button"
+    },
+    "validationSummary": {
+      "label": "Validation Summary Text",
+      "subName": "validationSummary",
+      "selectorSuffix": " .et_pb_gravity_form_embed .gform_validation_errors"
+    },
+    "validationFieldMessage": {
+      "label": "Field Validation Text",
+      "subName": "validationFieldMessage",
+      "selectorSuffix": " .et_pb_gravity_form_embed .gfield .gfield_validation_message, .et_pb_gravity_form_embed .gfield .gfield_description.validation_message"
+    },
+    "formConfirmation": {
+      "label": "Confirmation Text",
+      "subName": "formConfirmation",
+      "selectorSuffix": " .et_pb_gravity_form_embed .gform_confirmation_wrapper"
+    }
+  },
+  "settings": {
+    "content": "auto",
+    "design": "auto",
+    "advanced": "auto",
+    "groups": {
+      "contentGravityForm": {
+        "panel": "content",
+        "priority": 5,
+        "groupName": "contentGravityForm",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Gravity Form"
+          }
+        }
+      },
+      "designFieldField": {
+        "panel": "design",
+        "priority": 20,
+        "groupName": "field",
+        "multiElements": true,
+        "component": {
+          "name": "divi/form-field",
+          "props": {
+            "groupLabel": "Input",
+            "clipboardCategory": "style",
+            "attrName": "field",
+            "dynamicSubgroupHost": true,
+            "defaultGroupAttr": {
+              "decoration": {
+                "border": {
+                  "desktop": {
+                    "value": {
+                      "styles": {
+                        "all": {
+                          "width": "1px"
+                        }
+                      }
+                    }
+                  }
+                },
+                "labelFont": {
+                  "font": {
+                    "desktop": {
+                      "value": {
+                        "size": "14px",
+                        "weight": "500"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "designCheckbox": {
+        "panel": "design",
+        "priority": 30,
+        "groupName": "checkbox",
+        "multiElements": true,
+        "component": {
+          "name": "divi/checkbox",
+          "props": {
+            "groupLabel": "Checkbox",
+            "clipboardCategory": "style",
+            "attrName": "checkbox",
+            "mode": "native",
+            "dynamicSubgroupHost": true,
+            "useComponentNameAsPresetGroup": true
+          }
+        }
+      },
+      "designRadioButton": {
+        "panel": "design",
+        "priority": 40,
+        "groupName": "radioButton",
+        "multiElements": true,
+        "component": {
+          "name": "divi/radio",
+          "props": {
+            "groupLabel": "Radio",
+            "clipboardCategory": "style",
+            "attrName": "radioButton",
+            "mode": "native",
+            "dynamicSubgroupHost": true,
+            "useComponentNameAsPresetGroup": true
+          }
+        }
+      },
+      "designImageChoice": {
+        "panel": "design",
+        "priority": 48,
+        "groupName": "imageChoice",
+        "multiElements": true,
+        "component": {
+          "name": "divi/image",
+          "props": {
+            "attrName": "imageChoice",
+            "groupLabel": "Image Choice",
+            "grouped": true,
+            "dynamicSubgroupHost": true,
+            "dynamicSubgroupExcludedComponents": [
+              "divi/layout",
+              "divi/background"
+            ],
+            "presetGroup": "divi/image",
+            "fields": {
+              "sizingGroup": {
+                "component": {
+                  "props": {
+                    "fields": {
+                      "flexType": {
+                        "render": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

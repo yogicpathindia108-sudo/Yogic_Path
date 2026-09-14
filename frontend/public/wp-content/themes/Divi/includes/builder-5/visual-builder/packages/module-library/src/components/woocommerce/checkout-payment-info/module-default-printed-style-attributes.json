@@ -1,0 +1,210 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "5px",
+              "bottomRight": "5px",
+              "sync": "on",
+              "topLeft": "5px",
+              "topRight": "5px"
+            },
+            "styles": {
+              "all": {
+                "color": "#eee",
+                "style": "solid",
+                "width": "0px"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "decoration": {
+      "bodyFont": {
+        "body": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1.7em",
+                "size": "14px"
+              }
+            }
+          }
+        },
+        "link": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1.7em",
+                "size": "14px"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "button": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "styles": {
+              "all": {
+                "width": "2px"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "formNotice": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "3px",
+              "bottomRight": "3px",
+              "sync": "on",
+              "topLeft": "3px",
+              "topRight": "3px"
+            },
+            "styles": {
+              "all": {
+                "color": "#333333",
+                "style": "solid",
+                "width": "0px"
+              }
+            }
+          }
+        }
+      },
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1.7em",
+              "size": "18px"
+            }
+          }
+        }
+      },
+      "spacing": {
+        "desktop": {
+          "value": {
+            "padding": {
+              "bottom": "15px",
+              "left": "15px",
+              "right": "15px",
+              "syncHorizontal": "off",
+              "syncVertical": "off",
+              "top": "15px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "radioButton": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "0px",
+              "bottomRight": "0px",
+              "sync": "off",
+              "topLeft": "0px",
+              "topRight": "0px"
+            }
+          }
+        }
+      },
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1.4em",
+              "size": "14px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "selectedRadioButton": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "0px",
+              "bottomRight": "0px",
+              "sync": "off",
+              "topLeft": "0px",
+              "topRight": "0px"
+            },
+            "styles": {
+              "all": {
+                "color": "#333333",
+                "style": "solid",
+                "width": "0px"
+              }
+            }
+          }
+        }
+      },
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1.4em",
+              "size": "14px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tooltip": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "2px",
+              "bottomRight": "2px",
+              "sync": "on",
+              "topLeft": "2px",
+              "topRight": "2px"
+            },
+            "styles": {
+              "all": {
+                "color": "#333333",
+                "style": "solid",
+                "width": "0px"
+              }
+            }
+          }
+        }
+      },
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1.5em"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "flexDirection": "column"
+          }
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "26px",
+              "lineHeight": "1em"
+            }
+          }
+        }
+      }
+    }
+  },
+  "meta": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1em"
+            }
+          }
+        }
+      }
+    }
+  },
+  "image": {
+    "decoration": {
+      "sizing": {
+        "desktop": {
+          "value": {
+            "alignSelf": "stretch"
+          }
+        }
+      }
+    }
+  }
+}

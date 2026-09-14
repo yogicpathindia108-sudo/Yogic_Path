@@ -1,0 +1,30 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Woo Product Information"
+        }
+      }
+    }
+  },
+  "content": {
+    "advanced": {
+      "product": {
+        "desktop": {
+          "value": "dynamic"
+        }
+      }
+    }
+  },
+  "elements": {
+    "advanced": {
+      "showTitle": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  }
+}

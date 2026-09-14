@@ -1,0 +1,36 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Woo Breadcrumbs"
+        }
+      }
+    }
+  },
+  "content": {
+    "advanced": {
+      "product": {
+        "desktop": {
+          "value": "dynamic"
+        }
+      },
+      "homeUrl": {
+        "desktop": {
+          "value": "dynamic"
+        }
+      },
+      "homeText": {
+        "desktop": {
+          "value": "Home"
+        }
+      },
+      "separator": {
+        "desktop": {
+          "value": " / "
+        }
+      }
+    }
+  }
+}

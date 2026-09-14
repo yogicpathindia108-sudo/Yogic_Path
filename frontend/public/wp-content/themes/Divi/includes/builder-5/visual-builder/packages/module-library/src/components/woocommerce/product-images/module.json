@@ -1,0 +1,478 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/woocommerce-product-images",
+  "d4Shortcode": "et_pb_wc_images",
+  "moduleClassName": "et_pb_wc_images",
+  "moduleOrderClassName": "et_pb_wc_images",
+  "title": "Woo Product Images",
+  "titles": "Woo Product Images",
+  "moduleIcon": "divi/module-woocommerce-product-images",
+  "folder": "woo-modules",
+  "category": "module",
+  "videos": [
+    {
+      "id": "7X03vBPYJ1o",
+      "name": "Divi WooCommerce Modules"
+    },
+    {
+      "id": "1iqjhnHVA9Y",
+      "name": "Design Settings and Advanced Module Settings"
+    },
+    {
+      "id": "boNZZ0MYU0E",
+      "name": "Saving and loading from the library"
+    }
+  ],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "settings": {
+        "advanced": {
+          "html": {},
+          "link": {},
+          "loop": {}
+        },
+        "decoration": {
+          "animation": {},
+          "attributes": {},
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "interactions": {},
+          "overflow": {},
+          "order": {},
+          "position": {},
+          "scroll": {},
+          "sizing": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designSizing",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/sizing",
+                "props": {
+                  "grouped": false
+                }
+              }
+            }
+          },
+          "spacing": {},
+          "sticky": {},
+          "transform": {},
+          "transition": {},
+          "zIndex": {}
+        },
+        "meta": {
+          "meta": {}
+        }
+      }
+    },
+    "image": {
+      "type": "object",
+      "settings": {
+        "decoration": {
+          "image": {
+            "panel": "design",
+            "groupType": "group",
+            "groupName": "image",
+            "priority": 20,
+            "component": {
+              "type": "group",
+              "name": "divi/image",
+              "props": {
+                "attrName": "image",
+                "groupLabel": "Image",
+                "grouped": true,
+                "dynamicSubgroupHost": true,
+                "presetGroup": "divi/image"
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "background": {
+          "selector": "{{selector}} div.images ol.flex-control-thumbs.flex-control-nav li, {{selector}} .flex-viewport, {{selector}} .woocommerce-product-gallery--without-images .woocommerce-product-gallery__wrapper"
+        },
+        "transform": {
+          "selector": "{{selector}} div.images ol.flex-control-thumbs.flex-control-nav li, {{selector}} .flex-viewport, {{selector}} .woocommerce-product-gallery--without-images .woocommerce-product-gallery__wrapper"
+        },
+        "fit": {
+          "selector": "{{selector}} .woocommerce-product-gallery__image img"
+        },
+        "border": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "border-radius": "{{selector}} div.images ol.flex-control-thumbs.flex-control-nav li, {{selector}} .flex-viewport, {{selector}} .woocommerce-product-gallery--without-images .woocommerce-product-gallery__wrapper, {{selector}} .woocommerce-product-gallery > div:not(.flex-viewport) .woocommerce-product-gallery__image, {{selector}} .woocommerce-product-gallery > .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image, {{selector}} .woocommerce-product-gallery .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image",
+                "border-style": "{{selector}} div.images ol.flex-control-thumbs.flex-control-nav li, {{selector}} .flex-viewport, {{selector}} .woocommerce-product-gallery--without-images .woocommerce-product-gallery__wrapper, {{selector}} .woocommerce-product-gallery > div:not(.flex-viewport) .woocommerce-product-gallery__image, {{selector}} .woocommerce-product-gallery > .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image"
+              }
+            }
+          }
+        },
+        "boxShadow": {
+          "selector": "{{selector}} div.images ol.flex-control-thumbs.flex-control-nav li, {{selector}} .flex-viewport, {{selector}} .woocommerce-product-gallery--without-images .woocommerce-product-gallery__wrapper, {{selector}} .woocommerce-product-gallery > div:not(.flex-viewport) .woocommerce-product-gallery__image, {{selector}} .woocommerce-product-gallery > .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image"
+        },
+        "spacing": {
+          "selector": "{{selector}} div.images ol.flex-control-thumbs.flex-control-nav li, {{selector}} .flex-viewport, {{selector}} .woocommerce-product-gallery--without-images .woocommerce-product-gallery__wrapper, {{selector}} .woocommerce-product-gallery > div:not(.flex-viewport) .woocommerce-product-gallery__image, {{selector}} .woocommerce-product-gallery > .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image"
+        },
+        "sizing": {
+          "selector": "{{selector}} div.images ol.flex-control-thumbs.flex-control-nav li, {{selector}} .flex-viewport, {{selector}} .woocommerce-product-gallery--without-images .woocommerce-product-gallery__wrapper, {{selector}} .woocommerce-product-gallery > div:not(.flex-viewport) .woocommerce-product-gallery__image, {{selector}} .woocommerce-product-gallery > .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image",
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "aspect-ratio": "{{selector}} .woocommerce-product-gallery__image img"
+              }
+            }
+          }
+        },
+        "filters": {
+          "selector": "{{selector}} div.images ol.flex-control-thumbs.flex-control-nav li, {{selector}} .flex-viewport, {{selector}} .woocommerce-product-gallery--without-images .woocommerce-product-gallery__wrapper, {{selector}} .woocommerce-product-gallery > div:not(.flex-viewport) .woocommerce-product-gallery__image, {{selector}} .woocommerce-product-gallery > .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image"
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "settings": {
+        "advanced": {
+          "product": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentMainContent",
+              "attrName": "content.advanced.product",
+              "label": "Product",
+              "description": "Here you can select the Product.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field"
+              }
+            }
+          }
+        }
+      }
+    },
+    "elements": {
+      "type": "object",
+      "settings": {
+        "advanced": {
+          "showProductImage": {
+            "groupType": "group-item",
+            "item": {
+              "priority": 10,
+              "render": true,
+              "groupSlug": "contentElements",
+              "attrName": "elements.advanced.showProductImage",
+              "label": "Show Featured Image",
+              "description": "Here you can chose whether product  image should be displayed or not.",
+              "category": "configuration",
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "showProductGallery": {
+            "groupType": "group-item",
+            "item": {
+              "priority": 20,
+              "render": true,
+              "groupSlug": "contentElements",
+              "attrName": "elements.advanced.showProductGallery",
+              "label": "Show Gallery Images",
+              "description": "Here you can chose whether product gallery should be displayed or not.",
+              "category": "configuration",
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "showSaleBadge": {
+            "groupType": "group-item",
+            "item": {
+              "priority": 30,
+              "render": true,
+              "groupSlug": "contentElements",
+              "attrName": "elements.advanced.showSaleBadge",
+              "label": "Show Sale Badge",
+              "description": "Here you can chose whether Sale Badge should be displayed or not.",
+              "category": "configuration",
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          }
+        }
+      }
+    },
+    "saleBadge": {
+      "type": "object",
+      "settings": {
+        "decoration": {
+          "background": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designSaleBadgeText",
+              "attrName": "saleBadge.decoration.background",
+              "subName": "color",
+              "label": "Sale Badge Color",
+              "description": "Pick a color to use for the sale badge that appears on products that are on sale.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "sticky": true,
+                "dynamicContent": {
+                  "type": "color"
+                }
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/color-picker"
+              }
+            }
+          },
+          "font": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designSaleBadgeText",
+              "attrName": "saleBadge.decoration.font",
+              "priority": 20,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/font",
+                "props": {
+                  "grouped": true,
+                  "fieldLabel": "Sale Badge",
+                  "dynamicSubgroupHost": true,
+                  "fields": {
+                    "textAlign": {
+                      "render": false
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "spacing": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designSaleBadgeText",
+              "attrName": "saleBadge.decoration.spacing",
+              "priority": 30,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/spacing",
+                "props": {
+                  "grouped": true,
+                  "fieldLabel": "Sale Badge"
+                }
+              }
+            }
+          },
+          "border": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designSaleBadgeText",
+              "attrName": "saleBadge.decoration.border",
+              "priority": 40,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/border",
+                "props": {
+                  "grouped": true,
+                  "fieldLabel": "Sale Badge"
+                }
+              }
+            }
+          },
+          "boxShadow": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designSaleBadgeText",
+              "attrName": "saleBadge.decoration.boxShadow",
+              "priority": 50,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/box-shadow",
+                "props": {
+                  "grouped": true,
+                  "fieldLabel": "Sale Badge"
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "selector": "{{selector}} span.onsale",
+        "background": {
+          "important": true
+        },
+        "spacing": {
+          "important": true
+        },
+        "font": {
+          "selector": "{{selector}} .et_pb_module_inner span.onsale",
+          "important": true
+        },
+        "border": {
+          "important": true
+        },
+        "boxShadow": {
+          "important": true
+        }
+      }
+    },
+    "galleryGrid": {
+      "type": "object",
+      "selector": "{{selector}} ol.flex-control-thumbs.flex-control-nav",
+      "elementType": "element",
+      "settings": {
+        "decoration": {
+          "layout": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designLayout",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/layout",
+                "props": {
+                  "grouped": false,
+                  "defaultGroupAttr": {
+                    "desktop": {
+                      "value": {
+                        "display": "grid",
+                        "gridColumnCount": "4"
+                      }
+                    }
+                  },
+                  "fields": {
+                    "gridColumnCount": {
+                      "baseFieldDefault": "4"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "layout": {
+          "important": true
+        }
+      }
+    }
+  },
+  "customCssFields": {},
+  "settings": {
+    "content": "auto",
+    "design": "auto",
+    "advanced": "auto",
+    "groups": {
+      "contentMainContent": {
+        "panel": "content",
+        "priority": 10,
+        "groupName": "contentMainContent",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Content"
+          }
+        }
+      },
+      "contentElements": {
+        "panel": "content",
+        "priority": 20,
+        "groupName": "elements",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Elements",
+            "preset": "content"
+          }
+        }
+      },
+      "designSaleBadgeText": {
+        "panel": "design",
+        "priority": 20,
+        "groupName": "designSaleBadgeText",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Sale Badge"
+          }
+        }
+      },
+      "designSizing": {
+        "panel": "design",
+        "priority": 30,
+        "groupName": "sizing",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Sizing",
+            "clipboardCategory": "style",
+            "presetGroup": "divi/sizing"
+          }
+        }
+      },
+      "designLayout": {
+        "panel": "design",
+        "priority": 5,
+        "groupName": "designLayout",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Layout"
+          }
+        }
+      }
+    }
+  }
+}

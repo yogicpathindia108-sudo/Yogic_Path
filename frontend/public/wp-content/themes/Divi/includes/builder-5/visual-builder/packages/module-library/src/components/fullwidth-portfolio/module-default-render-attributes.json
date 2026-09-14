@@ -1,0 +1,117 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Post Carousel"
+        }
+      }
+    },
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "color": "light",
+              "orientation": "center"
+            }
+          }
+        }
+      },
+      "autoRotate": {
+        "desktop": {
+          "value": "off"
+        }
+      },
+      "autoRotateSpeed": {
+        "desktop": {
+          "value": "7000"
+        }
+      }
+    }
+  },
+  "portfolio": {
+    "innerContent": {
+      "desktop": {
+        "value": {
+          "postsNumber": "",
+          "type": "post"
+        }
+      }
+    },
+    "advanced": {
+      "showTitle": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showDate": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "layout": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    },
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "headingLevel": "h3"
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "headingLevel": "h2"
+            }
+          }
+        }
+      }
+    }
+  },
+  "overlay": {
+    "decoration": {
+      "icon": {
+        "desktop": {
+          "value": {
+            "unicode": ""
+          }
+        }
+      }
+    }
+  },
+  "portfolioGrid": {
+    "advanced": {
+      "flexType": {
+        "desktop": {
+          "value": "6_24"
+        },
+        "tabletWide": {
+          "value": "12_24"
+        },
+        "tablet": {
+          "value": "12_24"
+        },
+        "phoneWide": {
+          "value": "24_24"
+        },
+        "phone": {
+          "value": "24_24"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,544 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/woocommerce-checkout-billing",
+  "d4Shortcode": "et_pb_wc_checkout_billing",
+  "moduleClassName": "et_pb_wc_checkout_billing",
+  "moduleOrderClassName": "et_pb_wc_checkout_billing",
+  "title": "Woo Checkout Billing",
+  "titles": "Woo Checkout Billing",
+  "moduleIcon": "divi/woo-checkout-billing",
+  "folder": "woo-modules",
+  "category": "module",
+  "videos": [
+    {
+      "id": "7X03vBPYJ1o",
+      "name": "Divi WooCommerce Modules"
+    },
+    {
+      "id": "1iqjhnHVA9Y",
+      "name": "Design Settings and Advanced Module Settings"
+    },
+    {
+      "id": "boNZZ0MYU0E",
+      "name": "Saving and loading from the library"
+    }
+  ],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "settings": {
+        "advanced": {
+          "html": {},
+          "text": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designText",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/text",
+                "props": {
+                  "grouped": false,
+                  "fields": {
+                    "textShadowGroup": {
+                      "render": true
+                    },
+                    "color": {
+                      "render": false
+                    },
+                    "orientation": {
+                      "render": true
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "warning": {
+            "groupType": "group-item",
+            "item": {
+              "priority": 1,
+              "groupSlug": "contentGeneral",
+              "attrName": "",
+              "label": "",
+              "render": true,
+              "features": {
+                "responsive": false,
+                "sticky": false,
+                "hover": false,
+                "preset": "content"
+              },
+              "component": {
+                "name": "divi/warning",
+                "type": "field"
+              }
+            }
+          },
+          "loop": {}
+        },
+        "decoration": {
+          "animation": {},
+          "attributes": {},
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "interactions": {},
+          "order": {},
+          "overflow": {},
+          "position": {},
+          "scroll": {},
+          "sizing": {},
+          "spacing": {},
+          "sticky": {},
+          "transform": {},
+          "transition": {},
+          "zIndex": {}
+        },
+        "meta": {
+          "meta": {}
+        }
+      },
+      "styleProps": {
+        "spacing": {
+          "selector": "{{selector}}",
+          "important": {
+            "desktop": {
+              "value": {
+                "margin": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "title": {
+      "type": "object",
+      "settings": {
+        "decoration": {
+          "font": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designTitleText",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "name": "divi/font",
+                "type": "group",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Title"
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "font": {
+          "selector": "{{selector}} h3"
+        }
+      }
+    },
+    "field": {
+      "type": "object",
+      "elementType": "field",
+      "settings": {
+        "advanced": {},
+        "decoration": {}
+      },
+      "styleProps": {
+        "selector": ".woocommerce {{selector}} .select2-container--default .select2-selection--single,.woocommerce {{selector}} .checkout .form-row .input-text, {{selector}} .select2-container--default .select2-selection--single, {{selector}} .checkout .form-row .input-text",
+        "background": {
+          "selector": ".woocommerce {{selector}} .select2-container--default .select2-selection--single,.woocommerce {{selector}} .checkout .form-row .input-text, {{selector}} .select2-container--default .select2-selection--single, {{selector}} .checkout .form-row .input-text"
+        },
+        "border": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "border-radius": ".woocommerce {{selector}} .select2-container--default.select2-container--open .select2-selection--single,.woocommerce {{selector}} .checkout .form-row input.input-text:focus, {{selector}} .select2-container--default.select2-container--open .select2-selection--single:focus, {{selector}} .checkout .form-row .input-text:focus",
+                "border-style": ".woocommerce {{selector}} .select2-container--default.select2-container--open .select2-selection--single,.woocommerce {{selector}} .checkout .form-row .input-text:focus, {{selector}} .select2-container--default.select2-container--open .select2-selection--single:focus, {{selector}} .checkout .form-row .input-text:focus"
+              }
+            }
+          }
+        },
+        "boxShadow": {
+          "selector": "{{selector}} .select2-container--default .select2-selection--single,{{selector}} .checkout .form-row input.input-text"
+        },
+        "font": {
+          "selector": ".woocommerce {{selector}} .select2-container--default .select2-selection--single,.woocommerce {{selector}} .checkout .form-row .input-text, {{selector}} .select2-container--default .select2-selection--single, {{selector}} .checkout .form-row .input-text",
+          "important": {
+            "desktop": {
+              "value": {
+                "line-height": true,
+                "font-size": true,
+                "font-family": true,
+                "color": true,
+                "text-shadow": true
+              }
+            }
+          },
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "color": ".woocommerce {{selector}} .select2-container--default .select2-selection--single,.woocommerce {{selector}} .checkout .form-row .input-text, {{selector}} .select2-container--default .select2-selection--single, {{selector}} .checkout .form-row .input-text"
+              }
+            }
+          }
+        },
+        "spacing": {
+          "selector": ".woocommerce {{selector}} .select2-container--default .select2-selection--single,.woocommerce {{selector}} .checkout .form-row .input-text, {{selector}} .select2-container--default .select2-selection--single, {{selector}} .checkout .form-row .input-text",
+          "important": {
+            "desktop": {
+              "value": {
+                "margin": true,
+                "padding": true
+              }
+            }
+          },
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "margin": ".woocommerce {{selector}} .select2-container--default .select2-selection--single,.woocommerce {{selector}} .checkout .form-row .input-text, {{selector}} .select2-container--default .select2-selection--single, {{selector}} .checkout .form-row .input-text",
+                "padding": ".woocommerce {{selector}} .select2-container--default .select2-selection--single,.woocommerce {{selector}} .checkout .form-row .input-text, {{selector}} .select2-container--default .select2-selection--single, {{selector}} .checkout .form-row .input-text"
+              }
+            }
+          }
+        }
+      }
+    },
+    "formNotice": {
+      "type": "object",
+      "settings": {
+        "decoration": {
+          "background": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designFormNotice",
+              "attrName": "formNotice.decoration.background",
+              "subName": "color",
+              "label": "Form Notice Background Color",
+              "description": "Pick a color to fill the module's notice.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "responsive": true,
+                "dynamicContent": {
+                  "type": "color"
+                }
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/color-picker"
+              }
+            }
+          },
+          "spacing": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designFormNotice",
+              "attrName": "formNotice.decoration.spacing",
+              "priority": 20,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/spacing",
+                "props": {
+                  "grouped": true,
+                  "fieldLabel": "Form Notice"
+                }
+              }
+            }
+          },
+          "font": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designFormNotice",
+              "priority": 30,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/font",
+                "props": {
+                  "grouped": true,
+                  "fieldLabel": "Form Notice"
+                }
+              }
+            }
+          },
+          "border": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designFormNotice",
+              "attrName": "formNotice.decoration.border",
+              "priority": 40,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/border",
+                "props": {
+                  "grouped": true,
+                  "fieldLabel": "Form Notice"
+                }
+              }
+            }
+          },
+          "boxShadow": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designFormNotice",
+              "attrName": "formNotice.decoration.boxShadow",
+              "priority": 50,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/box-shadow",
+                "props": {
+                  "grouped": true,
+                  "fieldLabel": "Form Notice"
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "background": {
+          "selector": "{{selector}} .woocommerce-error",
+          "important": {
+            "desktop": {
+              "value": {
+                "background-color": true
+              }
+            }
+          }
+        },
+        "spacing": {
+          "selector": "{{selector}} .woocommerce-error",
+          "important": {
+            "desktop": {
+              "value": {
+                "padding": true
+              }
+            }
+          }
+        },
+        "border": {
+          "selector": "{{selector}} .woocommerce-error",
+          "important": true,
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "border-radius": "{{selector}} .woocommerce-error",
+                "border-style": "{{selector}} .woocommerce-error"
+              }
+            }
+          }
+        },
+        "boxShadow": {
+          "selector": "{{selector}} .woocommerce-error",
+          "important": true
+        },
+        "font": {
+          "selector": "{{selector}} .woocommerce-NoticeGroup .woocommerce-error, {{selector}} .woocommerce-error a",
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": true,
+                  "font-size": true
+                }
+              }
+            },
+            "textShadow": {
+              "desktop": {
+                "value": {
+                  "text-shadow": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "layout": {
+      "type": "object",
+      "settings": {
+        "advanced": {
+          "fieldsWidth": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designLayout",
+              "attrName": "layout.advanced.fieldsWidth",
+              "label": "Fields Width",
+              "description": "Set the width of the fields.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "preset": [
+                  "html"
+                ],
+                "responsive": true
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/select",
+                "props": {
+                  "options": {
+                    "default": {
+                      "label": "Default"
+                    },
+                    "fullwidth": {
+                      "label": "Fullwidth"
+                    },
+                    "2_column": {
+                      "label": "2 Column"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "customCssFields": {
+    "titleText": {
+      "label": "Title Text",
+      "subName": "titleText",
+      "selectorSuffix": " h3"
+    },
+    "fieldLabel": {
+      "label": "Field Label",
+      "subName": "fieldLabel",
+      "selectorSuffix": " .checkout .form-row label"
+    },
+    "formField": {
+      "label": "Fields",
+      "subName": "formField",
+      "selectorSuffix": " .select2-container--default .select2-selection--single, .checkout .form-row .input-text"
+    },
+    "formNotice": {
+      "label": "Form Notice",
+      "subName": "formNotice",
+      "selectorSuffix": " .woocommerce-error"
+    }
+  },
+  "settings": {
+    "content": "auto",
+    "advanced": "auto",
+    "groups": {
+      "contentGeneral": {
+        "panel": "content",
+        "priority": 10,
+        "groupName": "contentGeneral",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "General"
+          }
+        }
+      },
+      "designLayout": {
+        "panel": "design",
+        "priority": 10,
+        "groupName": "designLayout",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Layout"
+          }
+        }
+      },
+      "designText": {
+        "panel": "design",
+        "priority": 20,
+        "groupName": "designText",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Text"
+          }
+        }
+      },
+      "designTitleText": {
+        "panel": "design",
+        "priority": 30,
+        "groupName": "designTitleText",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Title Text",
+            "clipboardCategory": "style",
+            "presetGroup": "divi/font",
+            "dynamicSubgroupHost": true
+          }
+        }
+      },
+      "designFieldField": {
+        "panel": "design",
+        "priority": 40,
+        "groupName": "designFieldField",
+        "multiElements": true,
+        "component": {
+          "name": "divi/form-field",
+          "props": {
+            "groupLabel": "Fields",
+            "attrName": "field",
+            "dynamicSubgroupHost": true,
+            "fields": {
+              "labelFontGroup": {
+                "component": {
+                  "type": "group",
+                  "name": "divi/font",
+                  "props": {
+                    "fields": {
+                      "requiredFieldIndicatorColor": {
+                        "attrName": "field.advanced.requiredFieldIndicatorColor",
+                        "label": "Required Field Indicator Color",
+                        "description": "Pick a color to be used for the required field indicator.",
+                        "category": "button",
+                        "priority": 95,
+                        "render": true,
+                        "features": {
+                          "preset": "content",
+                          "responsive": true,
+                          "hover": true
+                        },
+                        "component": {
+                          "type": "field",
+                          "name": "divi/color-picker"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "designFormNotice": {
+        "panel": "design",
+        "priority": 60,
+        "groupName": "designFormNotice",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Form Notice"
+          }
+        }
+      }
+    }
+  }
+}

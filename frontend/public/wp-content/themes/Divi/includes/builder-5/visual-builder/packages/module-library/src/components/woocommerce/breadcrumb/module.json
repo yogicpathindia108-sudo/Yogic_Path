@@ -1,0 +1,313 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/woocommerce-breadcrumb",
+  "d4Shortcode": "et_pb_wc_breadcrumb",
+  "moduleClassName": "et_pb_wc_breadcrumb",
+  "moduleOrderClassName": "et_pb_wc_breadcrumb",
+  "title": "Woo Breadcrumbs",
+  "titles": "Woo Breadcrumbs",
+  "moduleIcon": "divi/module-woocommerce-breadcrumb",
+  "folder": "woo-modules",
+  "category": "module",
+  "videos": [
+    {
+      "id": "7X03vBPYJ1o",
+      "name": "Divi WooCommerce Modules"
+    },
+    {
+      "id": "1iqjhnHVA9Y",
+      "name": "Design Settings and Advanced Module Settings"
+    },
+    {
+      "id": "boNZZ0MYU0E",
+      "name": "Saving and loading from the library"
+    }
+  ],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "settings": {
+        "advanced": {
+          "html": {},
+          "link": {},
+          "loop": {},
+          "text": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designText",
+              "priority": 90,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/text",
+                "props": {
+                  "grouped": false,
+                  "fields": {
+                    "textShadowGroup": {
+                      "render": false
+                    },
+                    "color": {
+                      "render": false
+                    },
+                    "orientation": {
+                      "render": true
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "animation": {},
+          "attributes": {},
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "interactions": {},
+          "overflow": {},
+          "order": {},
+          "position": {},
+          "scroll": {},
+          "sizing": {},
+          "spacing": {},
+          "sticky": {},
+          "transform": {},
+          "transition": {},
+          "zIndex": {}
+        },
+        "meta": {
+          "meta": {}
+        }
+      },
+      "styleProps": {
+        "text": {
+          "selector": "{{selector}} .woocommerce-breadcrumb"
+        },
+        "background": {
+          "selector": "{{selector}}.et_pb_wc_breadcrumb"
+        },
+        "border": {
+          "selector": "{{selector}} .woocommerce-breadcrumb"
+        },
+        "spacing": {
+          "selector": "{{selector}} .woocommerce-breadcrumb",
+          "important": true
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "settings": {
+        "advanced": {
+          "product": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentMainContent",
+              "attrName": "content.advanced.product",
+              "label": "Product",
+              "description": "Here you can select the Product.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field"
+              }
+            }
+          },
+          "homeText": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentMainContent",
+              "attrName": "content.advanced.homeText",
+              "label": "Home Text",
+              "description": "Here you can create the breadcrumb text for the Home page.",
+              "category": "basic_option",
+              "priority": 30,
+              "render": true,
+              "features": {
+                "dynamicContent": {
+                  "type": "text"
+                },
+                "sticky": false,
+                "hover": true,
+                "responsive": true,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/text"
+              }
+            }
+          },
+          "homeUrl": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentMainContent",
+              "attrName": "content.advanced.homeUrl",
+              "label": "Home Link",
+              "description": "Here you can create the link for the Home page.",
+              "category": "basic_option",
+              "priority": 40,
+              "render": true,
+              "features": {
+                "dynamicContent": {
+                  "type": "url"
+                },
+                "sticky": false,
+                "hover": false,
+                "responsive": true,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/text"
+              }
+            }
+          },
+          "separator": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentMainContent",
+              "attrName": "content.advanced.separator",
+              "label": "Separator",
+              "description": "Here you can set the Breadcrumb separator.",
+              "category": "basic_option",
+              "priority": 50,
+              "render": true,
+              "features": {
+                "dynamicContent": {
+                  "type": "text"
+                },
+                "sticky": false,
+                "hover": false,
+                "responsive": false,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/text"
+              }
+            }
+          }
+        },
+        "decoration": {
+          "bodyFont": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designText",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/font-body",
+                "props": {
+                  "grouped": false,
+                  "dynamicSubgroupHost": true,
+                  "groups": {
+                    "body": {
+                      "fieldLabel": "Text"
+                    },
+                    "ul": {
+                      "render": false
+                    },
+                    "ol": {
+                      "render": false
+                    },
+                    "quote": {
+                      "render": false
+                    }
+                  },
+                  "fields": {
+                    "body": {
+                      "textAlign": {
+                        "render": false
+                      }
+                    },
+                    "link": {
+                      "textAlign": {
+                        "render": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "bodyFont": {
+          "selector": "{{selector}}, {{selector}} .et_pb_module_inner, {{selector}} .woocommerce-breadcrumb, {{selector}} .woocommerce-breadcrumb a",
+          "important": {
+            "body": {
+              "font": {
+                "desktop": {
+                  "value": {
+                    "color": true
+                  }
+                }
+              }
+            },
+            "link": {
+              "font": {
+                "desktop": {
+                  "value": {
+                    "color": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "link": {
+          "selector": "{{selector}}.et_pb_wc_breadcrumb a, {{selector}}.et_pb_wc_breadcrumb .woocommerce-breadcrumb a"
+        }
+      }
+    }
+  },
+  "customCssFields": {},
+  "settings": {
+    "content": "auto",
+    "design": "auto",
+    "advanced": "auto",
+    "groups": {
+      "contentMainContent": {
+        "groupName": "content",
+        "panel": "content",
+        "priority": 10,
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Content"
+          }
+        }
+      },
+      "designText": {
+        "groupName": "designText",
+        "panel": "design",
+        "priority": 10,
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "clipboardCategory": "style",
+            "groupLabel": "Text",
+            "presetGroup": "divi/font-body",
+            "dynamicSubgroupHost": true
+          }
+        }
+      }
+    }
+  }
+}

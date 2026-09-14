@@ -1,0 +1,52 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "decoration": {
+      "background": {
+        "desktop": {
+          "value": {
+            "color": "#000000"
+          }
+        }
+      },
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "sync": "on",
+              "topLeft": "3px",
+              "topRight": "3px",
+              "bottomRight": "3px",
+              "bottomLeft": "3px"
+            }
+          }
+        }
+      },
+      "layout": {
+        "desktop": {
+          "value": {
+            "flexDirection": "column",
+            "alignItems": "stretch"
+          }
+        }
+      },
+      "spacing": {
+        "desktop": {
+          "value": {
+            "padding": {
+              "top": "3px",
+              "bottom": "3px",
+              "left": "6px",
+              "right": "6px"
+            }
+          }
+        }
+      },
+      "zIndex": {
+        "desktop": {
+          "value": "99999"
+        }
+      }
+    }
+  }
+}

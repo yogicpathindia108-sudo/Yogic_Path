@@ -1,0 +1,199 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "image": {
+    "decoration": {
+      "sizing": {
+        "desktop": {
+          "value": {
+            "maxWidth": "32px"
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "decoration": {
+      "bodyFont": {
+        "body": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1.5em",
+                "size": "14px"
+              }
+            }
+          }
+        },
+        "link": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1.5em",
+                "size": "14px"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "button": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "20px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "disabledButton": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "20px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "field": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "0px",
+              "bottomRight": "0px",
+              "sync": "on",
+              "topLeft": "0px",
+              "topRight": "0px"
+            },
+            "styles": {
+              "all": {
+                "style": "solid",
+                "width": "0px"
+              }
+            }
+          }
+        }
+      },
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1.7em",
+              "size": "14px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "removeIcon": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "1.5em"
+            }
+          }
+        }
+      }
+    }
+  },
+  "table": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "5px",
+              "bottomRight": "5px",
+              "sync": "on",
+              "topLeft": "5px",
+              "topRight": "5px"
+            },
+            "styles": {
+              "all": {
+                "color": "#eeeeee",
+                "style": "solid",
+                "width": "1px"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tableCell": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "0px",
+              "bottomRight": "0px",
+              "sync": "on",
+              "topLeft": "0px",
+              "topRight": "0px"
+            },
+            "styles": {
+              "all": {
+                "color": "#333333",
+                "style": "solid",
+                "width": "0px"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tableHeader": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "weight": "700",
+              "lineHeight": "1.5em",
+              "size": "14px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tableRow": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "0px",
+              "bottomRight": "0px",
+              "sync": "on",
+              "topLeft": "0px",
+              "topRight": "0px"
+            },
+            "styles": {
+              "all": {
+                "color": "#333333",
+                "style": "none",
+                "width": "0px"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

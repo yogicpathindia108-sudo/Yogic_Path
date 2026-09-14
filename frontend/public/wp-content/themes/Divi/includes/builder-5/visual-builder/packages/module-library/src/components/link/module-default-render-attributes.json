@@ -1,0 +1,42 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Link"
+        }
+      }
+    },
+    "advanced": {
+      "html": {
+        "desktop": {
+          "value": {
+            "elementType": "a"
+          }
+        }
+      }
+    },
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "flexDirection": "row",
+            "alignItems": "center",
+            "columnGap": "10px",
+            "rowGap": "10px"
+          }
+        }
+      },
+      "spacing": {
+        "desktop": {
+          "value": {
+            "margin": {
+              "bottom": "0px"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Before/After Image"
+        }
+      }
+    },
+    "decoration": {
+      "spacing": {
+        "desktop": {
+          "value": {
+            "margin": {
+              "bottom": "0px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "slider": {
+    "advanced": {
+      "orientation": {
+        "desktop": {
+          "value": "horizontal"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "display": "flex",
+            "flexDirection": "row",
+            "flexWrap": "wrap"
+          }
+        }
+      }
+    }
+  },
+  "checkbox": {
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "display": "block"
+          }
+        }
+      }
+    }
+  },
+  "radio": {
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "display": "block"
+          }
+        }
+      }
+    }
+  },
+  "multipleOrderButton": {
+    "decoration": {
+      "background": {
+        "desktop": {
+          "value": {
+            "color": ""
+          }
+        }
+      },
+      "border": {
+        "desktop": {
+          "value": {
+            "styles": {
+              "all": {
+                "width": "0px"
+              }
+            },
+            "radius": {
+              "topLeft": "0px",
+              "topRight": "0px",
+              "bottomLeft": "0px",
+              "bottomRight": "0px",
+              "sync": "on"
+            }
+          }
+        }
+      },
+      "spacing": {
+        "desktop": {
+          "value": {
+            "padding": {
+              "top": "0px",
+              "right": "0px",
+              "bottom": "0px",
+              "left": "0px",
+              "syncHorizontal": "on",
+              "syncVertical": "on"
+            }
+          }
+        }
+      },
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "12px",
+              "lineHeight": "1.2",
+              "style": [
+                "underline"
+              ]
+            }
+          }
+        }
+      },
+      "sizing": {
+        "desktop": {
+          "value": {
+            "width": "auto",
+            "maxWidth": "none"
+          }
+        }
+      }
+    }
+  },
+  "button": {
+    "decoration": {
+      "sizing": {
+        "desktop": {
+          "value": {
+            "width": "100%"
+          }
+        }
+      }
+    }
+  }
+}

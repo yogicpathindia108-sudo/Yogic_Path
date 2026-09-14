@@ -1,0 +1,28 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Bar Counter"
+        }
+      }
+    },
+    "advanced": {
+      "html": {
+        "desktop": {
+          "value": {
+            "elementType": "li"
+          }
+        }
+      }
+    }
+  },
+  "barProgress": {
+    "innerContent": {
+      "desktop": {
+        "value": "50"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Woo Checkout Information"
+        }
+      }
+    }
+  },
+  "elements": {
+    "advanced": {
+      "showTitle": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "display": "flex",
+            "flexDirection": "column"
+          }
+        }
+      },
+      "spacing": {
+        "desktop": {
+          "value": {
+            "margin": {
+              "bottom": "0px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "feed": {
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "display": "grid",
+            "gridColumnWidths": "equal",
+            "gridColumnCount": "3",
+            "rowGap": "16px",
+            "columnGap": "16px"
+          }
+        }
+      }
+    }
+  },
+  "media": {
+    "decoration": {
+      "fit": {
+        "desktop": {
+          "value": {
+            "objectFit": "cover"
+          }
+        }
+      },
+      "sizing": {
+        "desktop": {
+          "value": {
+            "aspectRatio": {
+              "width": "1",
+              "height": "1"
+            }
+          }
+        }
+      }
+    }
+  }
+}

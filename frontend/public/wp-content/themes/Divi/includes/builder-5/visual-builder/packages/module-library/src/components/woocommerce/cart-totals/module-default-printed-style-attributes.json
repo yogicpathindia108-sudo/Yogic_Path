@@ -1,0 +1,151 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1em",
+              "size": "26px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "decoration": {
+      "bodyFont": {
+        "body": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1.5em",
+                "size": "14px"
+              }
+            }
+          }
+        },
+        "link": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1.5em",
+                "size": "14px"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "columnLabel": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "weight": "700",
+              "lineHeight": "1.5em",
+              "size": "14px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "field": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "0px",
+              "bottomRight": "0px",
+              "sync": "on",
+              "topLeft": "0px",
+              "topRight": "0px"
+            },
+            "styles": {
+              "all": {
+                "style": "solid",
+                "width": "0px"
+              }
+            }
+          }
+        }
+      },
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1.7em",
+              "size": "14px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "table": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "5px",
+              "bottomRight": "5px",
+              "sync": "on",
+              "topLeft": "5px",
+              "topRight": "5px"
+            },
+            "styles": {
+              "all": {
+                "color": "#eeeeee",
+                "style": "solid",
+                "width": "1px"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tableCell": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "styles": {
+              "all": {
+                "width": "0px",
+                "style": "solid",
+                "color": "rgba(0, 0, 0, 0.1)"
+              },
+              "top": {
+                "width": "1px"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "button": {
+    "decoration": {
+      "spacing": {
+        "desktop": {
+          "value": {
+            "padding": {
+              "top": "0.3em",
+              "bottom": "0.3em",
+              "left": "1em",
+              "right": "1em"
+            }
+          }
+        }
+      }
+    }
+  }
+}

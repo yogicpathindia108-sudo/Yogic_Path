@@ -1,0 +1,122 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Hero"
+        }
+      }
+    },
+    "advanced": {
+      "html": {
+        "desktop": {
+          "value": {
+            "elementType": "section"
+          }
+        }
+      },
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "color": "dark",
+              "orientation": "left"
+            }
+          }
+        }
+      },
+      "headerFullscreen": {
+        "desktop": {
+          "value": "off"
+        }
+      }
+    },
+    "decoration": {
+      "background": {
+        "desktop": {
+          "value": {
+            "color": "$variable({\"type\":\"color\",\"value\":{\"name\":\"gcid-primary-color\",\"settings\":{}}})$"
+          }
+        }
+      }
+    }
+  },
+  "image": {
+    "advanced": {
+      "orientation": {
+        "desktop": {
+          "value": "center"
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "headingLevel": "h1"
+            }
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "advanced": {
+      "orientation": {
+        "desktop": {
+          "value": "center"
+        }
+      },
+      "maxWidth": {
+        "desktop": {
+          "value": "100%"
+        }
+      }
+    }
+  },
+  "buttonOne": {
+    "decoration": {
+      "button": {
+        "desktop": {
+          "value": {
+            "icon": {
+              "enable": "on"
+            }
+          }
+        }
+      }
+    }
+  },
+  "buttonTwo": {
+    "decoration": {
+      "button": {
+        "desktop": {
+          "value": {
+            "icon": {
+              "enable": "on"
+            }
+          }
+        }
+      }
+    }
+  },
+  "scrollDown": {
+    "decoration": {
+      "icon": {
+        "desktop": {
+          "value": {
+            "show": "off",
+            "unicode": "&#x3b;",
+            "type": "divi",
+            "weight": "400",
+            "size": "50px"
+          }
+        }
+      }
+    }
+  }
+}

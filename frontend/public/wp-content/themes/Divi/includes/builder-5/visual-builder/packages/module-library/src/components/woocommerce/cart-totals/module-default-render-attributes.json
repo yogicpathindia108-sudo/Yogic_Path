@@ -1,0 +1,44 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Woo Cart Totals"
+        }
+      }
+    }
+  },
+  "table": {
+    "advanced": {
+      "collapseTableGuttersBorders": {
+        "desktop": {
+          "value": "off"
+        }
+      },
+      "horizontalGutterWidth": {
+        "desktop": {
+          "value": "0px"
+        }
+      },
+      "verticalGutterWidth": {
+        "desktop": {
+          "value": "0px"
+        }
+      }
+    }
+  },
+  "button": {
+    "decoration": {
+      "button": {
+        "desktop": {
+          "value": {
+            "icon": {
+              "enable": "on"
+            }
+          }
+        }
+      }
+    }
+  }
+}

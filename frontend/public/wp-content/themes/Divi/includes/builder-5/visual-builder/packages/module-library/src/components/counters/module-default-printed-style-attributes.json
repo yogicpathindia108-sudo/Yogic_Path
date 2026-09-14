@@ -1,0 +1,42 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "flexDirection": "column"
+          }
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "12px",
+              "lineHeight": "1.7em"
+            }
+          }
+        }
+      }
+    }
+  },
+  "barProgress": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "12px",
+              "lineHeight": "1.7em"
+            }
+          }
+        }
+      }
+    }
+  }
+}

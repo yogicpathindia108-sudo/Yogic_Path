@@ -1,0 +1,42 @@
+<?php
+defined( 'ABSPATH' ) || exit;
+// Auto-generated. Do not edit by hand.
+
+return array(
+    'source_url' => 'MANUAL (provider docs)',
+    'fetched_at' => '2026-07-28T10:06:38+00:00',
+    'checksum' => 'sha256:660be2882a50e6ca66d51d304426e53a56620a920dc47a467974458b26e680e8',
+    'signatures' => array(
+        'Googlebot',
+        'Googlebot-Image',
+        'Googlebot-News',
+        'Googlebot-Video',
+        'AdsBot-Google',
+        'Mediapartners-Google',
+        'Google-InspectionTool',
+        'Storebot-Google',
+        'Bingbot',
+        'AdIdxBot',
+        'BingPreview',
+        'MicrosoftPreview',
+        'DuckDuckBot',
+        'DuckAssistBot',
+        'Applebot',
+        'Applebot-Extended',
+        'YandexBot',
+        'YandexImages',
+        'YandexMobileBot',
+        'Baiduspider',
+        'Baiduspider-image',
+        'Sogou',
+        'Sogou web spider',
+        'SeznamBot',
+        'NaverBot',
+        'Yeti',
+        'MojeekBot',
+        'facebookexternalhit',
+        'meta-externalads',
+        'meta-webindexer',
+        'PetalBot',
+    ),
+);

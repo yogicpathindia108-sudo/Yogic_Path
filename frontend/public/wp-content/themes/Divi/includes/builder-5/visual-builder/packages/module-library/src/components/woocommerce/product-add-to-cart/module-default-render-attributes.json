@@ -1,0 +1,73 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Woo Product Add To Cart"
+        }
+      }
+    },
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {}
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "advanced": {
+      "product": {
+        "desktop": {
+          "value": "dynamic"
+        }
+      }
+    }
+  },
+  "elements": {
+    "advanced": {
+      "showQuantity": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showStock": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  },
+  "fieldLabels": {
+    "advanced": {
+      "fieldLabelPosition": {
+        "desktop": {
+          "value": "inline"
+        }
+      }
+    }
+  },
+  "button": {
+    "decoration": {
+      "button": {
+        "desktop": {
+          "value": {
+            "icon": {
+              "enable": "on",
+              "onHover": "on",
+              "placement": "right",
+              "settings": {
+                "unicode": "&#x35;",
+                "type": "divi",
+                "weight": "400"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

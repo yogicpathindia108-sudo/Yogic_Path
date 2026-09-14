@@ -1,0 +1,79 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1em",
+              "size": "22px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "field": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "0px",
+              "bottomRight": "0px",
+              "sync": "on",
+              "topLeft": "0px",
+              "topRight": "0px"
+            },
+            "styles": {
+              "all": {
+                "color": "#333333",
+                "style": "solid",
+                "width": "0px"
+              }
+            }
+          }
+        }
+      },
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1.7em",
+              "size": "14px"
+            }
+          }
+        }
+      },
+      "spacing": {
+        "desktop": {
+          "value": {
+            "padding": {
+              "bottom": "15px",
+              "left": "15px",
+              "right": "15px",
+              "syncHorizontal": "off",
+              "syncVertical": "off",
+              "top": "15px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "fieldLabels": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "2em",
+              "size": "14px"
+            }
+          }
+        }
+      }
+    }
+  }
+}

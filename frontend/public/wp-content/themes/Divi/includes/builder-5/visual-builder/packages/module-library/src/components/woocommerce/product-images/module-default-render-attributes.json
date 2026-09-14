@@ -1,0 +1,54 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Woo Product Images"
+        }
+      }
+    }
+  },
+  "content": {
+    "advanced": {
+      "product": {
+        "desktop": {
+          "value": "dynamic"
+        }
+      }
+    }
+  },
+  "elements": {
+    "advanced": {
+      "showProductGallery": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showProductImage": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showSaleBadge": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  },
+  "galleryGrid": {
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "columnGap": "30px",
+            "display": "grid",
+            "gridColumnCount": "4",
+            "rowGap": "30px"
+          }
+        }
+      }
+    }
+  }
+}

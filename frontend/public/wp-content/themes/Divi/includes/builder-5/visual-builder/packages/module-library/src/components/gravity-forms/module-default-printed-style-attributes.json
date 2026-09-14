@@ -1,0 +1,209 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "flexDirection": "column"
+          }
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1em",
+              "size": "26px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "description": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "14px",
+              "weight": "500"
+            }
+          }
+        }
+      }
+    }
+  },
+  "sectionHeading": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1em",
+              "size": "22px",
+              "weight": "500"
+            }
+          }
+        }
+      }
+    }
+  },
+  "subLabel": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "14px",
+              "weight": "400"
+            }
+          }
+        }
+      }
+    }
+  },
+  "field": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "14px"
+            }
+          }
+        }
+      },
+      "labelFont": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "14px",
+              "weight": "500"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requiredMarker": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "12px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "button": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1em",
+              "size": "14px",
+              "weight": "500"
+            }
+          }
+        }
+      },
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "sync": "on",
+              "topLeft": "3px",
+              "topRight": "3px",
+              "bottomLeft": "3px",
+              "bottomRight": "3px"
+            },
+            "styles": {
+              "all": {
+                "width": "1px",
+                "style": "solid"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "nextButton": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1em",
+              "size": "14px",
+              "weight": "500"
+            }
+          }
+        }
+      },
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "sync": "on",
+              "topLeft": "3px",
+              "topRight": "3px",
+              "bottomLeft": "3px",
+              "bottomRight": "3px"
+            },
+            "styles": {
+              "all": {
+                "width": "1px",
+                "style": "solid"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "previousButton": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1em",
+              "size": "14px",
+              "weight": "500"
+            }
+          }
+        }
+      },
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "sync": "on",
+              "topLeft": "3px",
+              "topRight": "3px",
+              "bottomLeft": "3px",
+              "bottomRight": "3px"
+            },
+            "styles": {
+              "all": {
+                "width": "1px",
+                "style": "solid"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

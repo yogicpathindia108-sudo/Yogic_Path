@@ -1,0 +1,62 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Payment Button"
+        }
+      }
+    },
+    "advanced": {
+      "html": {
+        "desktop": {
+          "value": {
+            "elementType": "a"
+          }
+        }
+      },
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "color": "light"
+            }
+          }
+        }
+      }
+    }
+  },
+  "button": {
+    "decoration": {
+      "button": {
+        "desktop": {
+          "value": {
+            "icon": {
+              "enable": "on",
+              "onHover": "off",
+              "placement": "left",
+              "settings": {
+                "unicode": "&#xf1ed;",
+                "type": "fa",
+                "weight": "400"
+              }
+            }
+          }
+        }
+      }
+    },
+    "innerContent": {
+      "desktop": {
+        "value": {
+          "provider": "paypal",
+          "environment": "sandbox",
+          "amountMode": "fixed",
+          "amount": "10.00",
+          "currency": "USD",
+          "openInNewTab": "off"
+        }
+      }
+    }
+  }
+}

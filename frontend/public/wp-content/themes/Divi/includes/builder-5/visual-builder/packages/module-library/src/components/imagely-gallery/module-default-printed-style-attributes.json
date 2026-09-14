@@ -1,0 +1,91 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "decoration": {
+      "position": {
+        "desktop": {
+          "value": {
+            "mode": "relative",
+            "offset": {
+              "horizontal": "0px",
+              "vertical": "0px"
+            },
+            "origin": {
+              "relative": "top left"
+            }
+          }
+        }
+      },
+      "zIndex": {
+        "desktop": {
+          "value": "9"
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "18px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "counter": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "12px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "slideshowLink": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "13px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tagCloud": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1"
+            }
+          }
+        }
+      }
+    }
+  },
+  "pagination": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1"
+            }
+          }
+        }
+      }
+    }
+  }
+}

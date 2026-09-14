@@ -1,0 +1,47 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "decoration": {
+      "sizing": {
+        "desktop": {
+          "value": {
+            "flexType": "24_24"
+          }
+        }
+      }
+    }
+  },
+  "field": {
+    "innerContent": {
+      "desktop": {
+        "value": {
+          "type": "text",
+          "fieldValueType": "text",
+          "option": "post_content",
+          "optionsMethod": "automatic",
+          "labelDateFormat": "M j, Y"
+        }
+      }
+    }
+  },
+  "label": {
+    "innerContent": {
+      "desktop": {
+        "value": "Search"
+      }
+    }
+  },
+  "button": {
+    "decoration": {
+      "button": {
+        "desktop": {
+          "value": {
+            "icon": {
+              "enable": "on"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<?php
+
+return array(
+	'Agency'                  => esc_html_x( 'Agency', 'Business', 'Divi' ),
+	'Author'                  => esc_html__( 'Author', 'Divi' ),
+	'Coffee Shop'             => esc_html__( 'Coffee Shop', 'Divi' ),
+	'Consultant'              => esc_html_x( 'Consultant', 'Business', 'Divi' ),
+	'Copywriter'              => esc_html__( 'Copywriter', 'Divi' ),
+	'Design Agency'           => esc_html__( 'Design Agency', 'Divi' ),
+	'Digital Payments'        => esc_html__( 'Digital Payments', 'Divi' ),
+	'Farmers Market'          => esc_html__( 'Farmers Market', 'Divi' ),
+	'Fashion'                 => esc_html_x( 'Fashion', 'Layout Pack', 'Divi' ),
+	'Florist'                 => esc_html__( 'Florist', 'Divi' ),
+	'Freelancer'              => esc_html__( 'Freelancer', 'Divi' ),
+	'Interior Design Company' => esc_html__( 'Interior Design Company', 'Divi' ),
+	'LMS'                     => esc_html_x( 'LMS', 'Learning Management System', 'Divi' ),
+	'Photographer'            => esc_html__( 'Photographer', 'Divi' ),
+	'Photo Marketplace'       => esc_html__( 'Photo Marketplace', 'Divi' ),
+	'Restaurant'              => esc_html__( 'Restaurant', 'Divi' ),
+	'SaaS Company'            => esc_html__( 'SaaS Company', 'Divi' ),
+	'Travel Agency'           => esc_html__( 'Travel Agency', 'Divi' ),
+	'Web Agency'              => esc_html__( 'Web Agency', 'Divi' ),
+	'Wedding'                 => esc_html__( 'Wedding', 'Divi' ),
+	'Yoga Studio'             => esc_html__( 'Yoga Studio', 'Divi' ),
+);

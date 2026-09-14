@@ -1,0 +1,68 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "flexDirection": "column"
+          }
+        }
+      }
+    }
+  },
+  "button": {
+    "innerContent": {
+      "desktop": {
+        "value": {
+          "text": "Subscribe"
+        }
+      }
+    },
+    "decoration": {
+      "button": {
+        "desktop": {
+          "value": {
+            "icon": {
+              "enable": "on"
+            }
+          }
+        }
+      }
+    }
+  },
+  "field": {
+    "advanced": {
+      "focus": {
+        "border": {
+          "desktop": {
+            "value": {
+              "radius": {
+                "sync": "on",
+                "topLeft": "3px",
+                "topRight": "3px",
+                "bottomLeft": "3px",
+                "bottomRight": "3px"
+              }
+            }
+          }
+        }
+      }
+    },
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "sync": "on",
+              "topLeft": "3px",
+              "topRight": "3px",
+              "bottomLeft": "3px",
+              "bottomRight": "3px"
+            }
+          }
+        }
+      }
+    }
+  }
+}

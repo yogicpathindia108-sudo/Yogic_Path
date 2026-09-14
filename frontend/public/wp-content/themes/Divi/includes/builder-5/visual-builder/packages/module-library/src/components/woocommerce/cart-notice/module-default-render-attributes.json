@@ -1,0 +1,80 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Woo Notice"
+        }
+      }
+    },
+    "decoration": {
+      "spacing": {
+        "desktop": {
+          "value": {
+            "margin": {
+              "bottom": "2em",
+              "left": "0em",
+              "right": "0em",
+              "syncHorizontal": "off",
+              "syncVertical": "off",
+              "top": "0em"
+            },
+            "padding": {
+              "bottom": "15px",
+              "left": "15px",
+              "right": "15px",
+              "syncHorizontal": "off",
+              "syncVertical": "off",
+              "top": "15px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "advanced": {
+      "pageType": {
+        "desktop": {
+          "value": "dynamic"
+        }
+      },
+      "product": {
+        "desktop": {
+          "value": "dynamic"
+        }
+      }
+    }
+  },
+  "field": {
+    "advanced": {
+      "width": {
+        "desktop": {
+          "value": "default"
+        }
+      }
+    }
+  },
+  "button": {
+    "decoration": {
+      "background": {
+        "desktop": {
+          "value": {
+            "color": "#ffffff",
+            "enableColor": "on"
+          }
+        }
+      },
+      "button": {
+        "desktop": {
+          "value": {
+            "icon": {
+              "enable": "on"
+            }
+          }
+        }
+      }
+    }
+  }
+}

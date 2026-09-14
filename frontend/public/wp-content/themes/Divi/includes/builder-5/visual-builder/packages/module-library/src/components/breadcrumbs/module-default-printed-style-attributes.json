@@ -1,0 +1,41 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "flexDirection": "row"
+          }
+        }
+      }
+    }
+  },
+  "trail": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1.7em"
+            }
+          }
+        }
+      }
+    }
+  },
+  "separator": {
+    "decoration": {
+      "spacing": {
+        "desktop": {
+          "value": {
+            "margin": {
+              "left": "0.35em",
+              "right": "0.35em"
+            }
+          }
+        }
+      }
+    }
+  }
+}

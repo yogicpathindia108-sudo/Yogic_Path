@@ -1,0 +1,22 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "flexDirection": "row"
+          }
+        }
+      },
+      "sizing": {
+        "desktop": {
+          "value": {
+            "width": "100%",
+            "minHeight": "300px"
+          }
+        }
+      }
+    }
+  }
+}

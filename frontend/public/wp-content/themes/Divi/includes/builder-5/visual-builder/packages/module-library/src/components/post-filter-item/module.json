@@ -1,0 +1,832 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/post-filter-item",
+  "d4Shortcode": "et_pb_post_filter_item",
+  "moduleClassName": "et_pb_post_filter_item",
+  "moduleOrderClassName": "et_pb_post_filter_item",
+  "title": "Post Filter Item",
+  "titles": "Post Filter Items",
+  "moduleIcon": "divi/module-post-filter-item",
+  "category": "child-module",
+  "childrenName": [],
+  "videos": [],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "settings": {
+        "meta": {
+          "meta": {}
+        },
+        "advanced": {
+          "elements": {},
+          "html": {},
+          "loop": {}
+        },
+        "decoration": {
+          "layout": {},
+          "animation": {},
+          "attributes": {},
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "interactions": {},
+          "overflow": {},
+          "order": {},
+          "position": {},
+          "scroll": {},
+          "sizing": {},
+          "spacing": {},
+          "sticky": {},
+          "transform": {},
+          "transition": {},
+          "zIndex": {}
+        }
+      }
+    },
+    "field": {
+      "type": "object",
+      "elementType": "field",
+      "selector": ".et_pb_post_filter {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select), .et_pb_post_filter {{selector}} .et_pb_post_filter__item-control-surface select.et_pb_post_filter__item-control",
+      "styleProps": {
+        "selector": ".et_pb_post_filter {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select), .et_pb_post_filter {{selector}} .et_pb_post_filter__item-control-surface select.et_pb_post_filter__item-control",
+        "selectors": {
+          "desktop": {
+            "value": ".et_pb_post_filter {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select), .et_pb_post_filter {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select)::placeholder, .et_pb_post_filter {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select)::-webkit-input-placeholder, .et_pb_post_filter {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select)::-moz-placeholder, .et_pb_post_filter {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select):-ms-input-placeholder, .et_pb_post_filter {{selector}} .et_pb_post_filter__item-control-surface select.et_pb_post_filter__item-control",
+            "hover": ".et_pb_post_filter {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select):hover, .et_pb_post_filter {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select):hover::placeholder, .et_pb_post_filter {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select):hover::-webkit-input-placeholder, .et_pb_post_filter {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select):hover::-moz-placeholder, .et_pb_post_filter {{selector}} .et_pb_post_filter__item-control-surface .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio]):not(select):hover:-ms-input-placeholder, .et_pb_post_filter {{selector}} .et_pb_post_filter__item-control-surface select.et_pb_post_filter__item-control:hover"
+          }
+        }
+      },
+      "settings": {
+        "decoration": {},
+        "innerContent": {
+          "groupType": "group-items",
+          "items": {
+            "type": {
+              "groupSlug": "contentField",
+              "attrName": "field.innerContent",
+              "subName": "type",
+              "label": "Field Type",
+              "description": "Choose which control this filter item renders and how it refines the parent target loop.",
+              "render": true,
+              "priority": 10,
+              "component": {
+                "type": "field",
+                "name": "divi/select",
+                "props": {
+                  "options": {
+                    "text": {
+                      "label": "Text",
+                      "options": {
+                        "text": {
+                          "label": "Text"
+                        }
+                      }
+                    },
+                    "single_selection": {
+                      "label": "Single Selection",
+                      "options": {
+                        "select": {
+                          "label": "Select"
+                        },
+                        "radio": {
+                          "label": "Radio"
+                        }
+                      }
+                    },
+                    "multi_selection": {
+                      "label": "Multi Selection",
+                      "options": {
+                        "checkbox": {
+                          "label": "Checkbox"
+                        }
+                      }
+                    },
+                    "woocommerce": {
+                      "label": "WooCommerce",
+                      "options": {
+                        "product-range": {
+                          "label": "Price Range"
+                        },
+                        "product-status": {
+                          "label": "Stock Status"
+                        },
+                        "product-review": {
+                          "label": "Review Rating"
+                        }
+                      }
+                    },
+                    "sort": {
+                      "label": "Sort",
+                      "options": {
+                        "orderby": {
+                          "label": "Order By"
+                        },
+                        "order": {
+                          "label": "Order"
+                        },
+                        "multiple-order": {
+                          "label": "Multiple Order"
+                        }
+                      }
+                    },
+                    "button": {
+                      "label": "Button",
+                      "options": {
+                        "submit": {
+                          "label": "Submit"
+                        },
+                        "reset": {
+                          "label": "Reset"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "fieldValueType": {
+              "groupSlug": "contentField",
+              "attrName": "field.innerContent",
+              "subName": "fieldValueType",
+              "label": "Field Value Type",
+              "description": "Choose how visitor input is collected and compared for text fields, such as keyword search, number, or date pickers.",
+              "render": true,
+              "priority": 11,
+              "component": {
+                "type": "field",
+                "name": "divi/select",
+                "props": {
+                  "options": {
+                    "text": {
+                      "label": "Text"
+                    },
+                    "number": {
+                      "label": "Number"
+                    },
+                    "date": {
+                      "label": "Date"
+                    },
+                    "date-time": {
+                      "label": "Date Time"
+                    },
+                    "time": {
+                      "label": "Time"
+                    }
+                  }
+                }
+              }
+            },
+            "option": {
+              "groupSlug": "contentField",
+              "attrName": "field.innerContent",
+              "subName": "option",
+              "label": "Field Option",
+              "description": "Choose the data source this control filters, such as a taxonomy, author, or custom field. Available choices depend on the parent target loop and field type.",
+              "render": true,
+              "priority": 15,
+              "component": {
+                "type": "field",
+                "name": "divi/select",
+                "props": {
+                  "options": {}
+                }
+              }
+            },
+            "customFieldKey": {
+              "groupSlug": "contentField",
+              "attrName": "field.innerContent",
+              "subName": "customFieldKey",
+              "label": "Meta Key",
+              "description": "Enter the custom field meta key to filter when Field Option or Field Value uses a manual custom field.",
+              "render": true,
+              "priority": 16,
+              "category": "basic_option",
+              "features": {
+                "sticky": false,
+                "responsive": false,
+                "hover": false,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/text"
+              }
+            },
+            "clearCustomFieldValueOptionsCache": {
+              "groupSlug": "contentField",
+              "attrName": "",
+              "label": "",
+              "description": "Clears cached automatic custom-field option values so the next page load rediscovers distinct values from the database.",
+              "render": true,
+              "priority": 55,
+              "category": "basic_option",
+              "features": {
+                "sticky": false,
+                "responsive": false,
+                "hover": false,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/post-filter-item-clear-custom-field-value-options-cache",
+                "props": {
+                  "buttonLabel": "Clear Cached Options"
+                }
+              }
+            },
+            "generateCustomFieldValueOptions": {
+              "groupSlug": "contentField",
+              "attrName": "",
+              "label": "",
+              "description": "Fetches distinct custom-field values from the database and populates the manual options list below.",
+              "render": true,
+              "priority": 60,
+              "category": "basic_option",
+              "features": {
+                "sticky": false,
+                "responsive": false,
+                "hover": false,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/post-filter-item-generate-custom-field-value-options",
+                "props": {
+                  "buttonLabel": "Generate Options"
+                }
+              }
+            },
+            "customFieldValueOptionsWarning": {
+              "groupSlug": "contentField",
+              "attrName": "",
+              "label": "",
+              "render": true,
+              "priority": 58,
+              "category": "basic_option",
+              "features": {
+                "sticky": false,
+                "responsive": false,
+                "hover": false,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/warning",
+                "props": {
+                  "message": ""
+                }
+              }
+            },
+            "labelDateFormat": {
+              "groupSlug": "contentField",
+              "attrName": "field.innerContent",
+              "subName": "labelDateFormat",
+              "label": "Label Date Format",
+              "description": "Enter a PHP date format string to format option labels into a more human-readable value. Leave empty to use default labels. See <a href=\"https://www.php.net/manual/en/datetime.format.php\" target=\"_blank\" rel=\"noopener noreferrer\">PHP date format reference</a>.",
+              "render": true,
+              "priority": 46,
+              "category": "basic_option",
+              "features": {
+                "sticky": false,
+                "responsive": false,
+                "hover": false,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/text",
+                "props": {
+                  "showPlaceholderOnEmpty": true
+                }
+              }
+            },
+            "comparison": {
+              "groupSlug": "contentField",
+              "attrName": "field.innerContent",
+              "subName": "comparison",
+              "label": "Field Comparison",
+              "description": "Choose how the visitor input is compared to the stored value for numeric, date, and custom-field controls.",
+              "render": true,
+              "priority": 45,
+              "component": {
+                "type": "field",
+                "name": "divi/select",
+                "props": {
+                  "options": {
+                    "=": {
+                      "label": "Equals (=)"
+                    },
+                    "!=": {
+                      "label": "Not Equals (!=)"
+                    },
+                    ">": {
+                      "label": "Greater Than (>)"
+                    },
+                    ">=": {
+                      "label": "Greater Than or Equal (>=)"
+                    },
+                    "<": {
+                      "label": "Less Than (<)"
+                    },
+                    "<=": {
+                      "label": "Less Than or Equal (<=)"
+                    },
+                    "LIKE": {
+                      "label": "Contains (LIKE)"
+                    },
+                    "NOT LIKE": {
+                      "label": "Does Not Contain (NOT LIKE)"
+                    },
+                    "IN": {
+                      "label": "In List (IN)"
+                    },
+                    "NOT IN": {
+                      "label": "Not In List (NOT IN)"
+                    },
+                    "EXISTS": {
+                      "label": "Field Exists (EXISTS)"
+                    },
+                    "NOT EXISTS": {
+                      "label": "Field Does Not Exist (NOT EXISTS)"
+                    }
+                  }
+                }
+              }
+            },
+            "placeholder": {
+              "groupSlug": "contentField",
+              "attrName": "field.innerContent",
+              "subName": "placeholder",
+              "label": "Field Placeholder",
+              "description": "Sets hint text inside the control. When empty, search and number inputs use the field label (or the default Search text for search fields).",
+              "render": true,
+              "priority": 40,
+              "component": {
+                "type": "field",
+                "name": "divi/text"
+              }
+            },
+            "optionsMethod": {
+              "groupSlug": "contentField",
+              "attrName": "field.innerContent",
+              "subName": "optionsMethod",
+              "label": "Options Method",
+              "description": "Choose how checkbox, radio, and select options are populated for custom-field filters. Automatic discovers values at render time. Manual lets you define the list yourself.",
+              "render": true,
+              "priority": 50,
+              "category": "basic_option",
+              "features": {
+                "sticky": false,
+                "responsive": false,
+                "hover": false,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/select",
+                "props": {
+                  "defaultValue": "automatic",
+                  "options": {
+                    "automatic": {
+                      "label": "Automatic"
+                    },
+                    "manual": {
+                      "label": "Manual"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "advanced": {
+          "orderbyEnabledOptions": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentField",
+              "priority": 70,
+              "render": true,
+              "attrName": "field.advanced.orderbyEnabledOptions",
+              "label": "Order By Options",
+              "description": "Choose which sort-by choices visitors can select for order-by and multiple-order field types.",
+              "category": "basic_option",
+              "features": {
+                "sticky": false,
+                "responsive": false,
+                "hover": false,
+                "preset": "content"
+              },
+              "component": {
+                "name": "divi/checkboxes",
+                "type": "field",
+                "props": {
+                  "isShowGroupLabel": true,
+                  "options": []
+                }
+              }
+            }
+          },
+          "checkboxOptions": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentField",
+              "priority": 65,
+              "render": true,
+              "attrName": "field.advanced.checkboxOptions",
+              "label": "Options",
+              "description": "Define the choices visitors can select. Value is submitted in the filter query. Label is shown in the interface.",
+              "category": "basic_option",
+              "features": {
+                "sticky": false,
+                "responsive": false,
+                "hover": false,
+                "preset": "content"
+              },
+              "component": {
+                "name": "divi/sortable-list",
+                "type": "field",
+                "props": {
+                  "isCheckbox": true,
+                  "addFirstOnMount": true,
+                  "actions": {
+                    "right": [
+                      "move",
+                      "link",
+                      "copy",
+                      "delete"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "radioOptions": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentField",
+              "priority": 65,
+              "render": true,
+              "attrName": "field.advanced.radioOptions",
+              "label": "Options",
+              "description": "Define the choices visitors can select. Value is submitted in the filter query. Label is shown in the interface.",
+              "category": "basic_option",
+              "features": {
+                "sticky": false,
+                "responsive": false,
+                "hover": false,
+                "preset": "content"
+              },
+              "component": {
+                "name": "divi/sortable-list",
+                "type": "field",
+                "props": {
+                  "isRadio": true,
+                  "addFirstOnMount": true,
+                  "actions": {
+                    "right": [
+                      "move",
+                      "link",
+                      "copy",
+                      "delete"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "selectOptions": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentField",
+              "priority": 65,
+              "render": true,
+              "attrName": "field.advanced.selectOptions",
+              "label": "Options",
+              "description": "Define the choices visitors can select. Value is submitted in the filter query. Label is shown in the interface.",
+              "category": "basic_option",
+              "features": {
+                "sticky": false,
+                "responsive": false,
+                "hover": false,
+                "preset": "content"
+              },
+              "component": {
+                "name": "divi/sortable-list",
+                "type": "field",
+                "props": {
+                  "addFirstOnMount": true,
+                  "actions": {
+                    "right": [
+                      "move",
+                      "copy",
+                      "delete"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "option": {
+      "type": "object",
+      "label": "Option",
+      "elementType": "element",
+      "elementProps": {
+        "groupedOptionGroup": true
+      },
+      "selector": ".et_pb_post_filter {{selector}} .et_pb_post_filter__item-option",
+      "settings": {
+        "decoration": {
+          "background": {
+            "item": {
+              "groupSlug": "designOption",
+              "component": {
+                "props": {
+                  "hidePanels": [
+                    "video",
+                    "pattern",
+                    "mask"
+                  ],
+                  "fields": {
+                    "image": {
+                      "parallaxEnabled": {
+                        "render": false
+                      },
+                      "parallaxMethod": {
+                        "render": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "border": {},
+          "boxShadow": {},
+          "sizing": {},
+          "spacing": {}
+        }
+      }
+    },
+    "checkbox": {
+      "type": "object",
+      "elementType": "field",
+      "selector": "{{selector}} .et_pb_post_filter__item-control[type=checkbox]",
+      "styleProps": {
+        "selector": "{{selector}} .et_pb_post_filter__item-control[type=checkbox]",
+        "selectors": {
+          "desktop": {
+            "value": "{{selector}}.et_pb_post_filter_item .et_pb_post_filter__item-control[type=checkbox] + label i",
+            "hover": "{{selector}}.et_pb_post_filter_item .et_pb_post_filter__item-control[type=checkbox] + label i"
+          }
+        }
+      },
+      "settings": {
+        "decoration": {},
+        "advanced": {}
+      }
+    },
+    "radio": {
+      "type": "object",
+      "elementType": "field",
+      "selector": "{{selector}} .et_pb_post_filter__item-control[type=radio]",
+      "styleProps": {
+        "selector": "{{selector}} .et_pb_post_filter__item-control[type=radio]",
+        "selectors": {
+          "desktop": {
+            "value": "{{selector}}.et_pb_post_filter_item .et_pb_post_filter__item-control[type=radio] + label i",
+            "hover": "{{selector}}.et_pb_post_filter_item .et_pb_post_filter__item-control[type=radio] + label i"
+          }
+        }
+      },
+      "settings": {
+        "decoration": {},
+        "advanced": {}
+      }
+    },
+    "multipleOrderButton": {
+      "type": "object",
+      "elementType": "button",
+      "selector": "{{selector}} .et_pb_post_filter__item-multiple-order-action",
+      "settings": {
+        "decoration": {
+          "button": {
+            "priority": 43,
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true,
+                "fields": {
+                  "buttonIconGroup": {
+                    "render": false
+                  }
+                },
+                "groupLabel": "Multiple Order Button"
+              }
+            }
+          }
+        },
+        "advanced": {}
+      }
+    },
+    "button": {
+      "type": "object",
+      "elementType": "button",
+      "selector": "{{selector}} .et_pb_post_filter__item-control-button",
+      "settings": {
+        "decoration": {
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "button": {
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true,
+                "fields": {
+                  "buttonIconGroup": {
+                    "component": {
+                      "props": {
+                        "fields": {
+                          "settings": {
+                            "render": false
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "font": {},
+          "sizing": {},
+          "spacing": {}
+        },
+        "advanced": {}
+      },
+      "styleProps": {
+        "spacing": {
+          "important": {
+            "desktop": {
+              "value": {
+                "margin": true,
+                "padding": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "label": {
+      "type": "object",
+      "selector": "{{selector}} .et_pb_post_filter__item-label",
+      "tagName": "label",
+      "attributes": {
+        "class": "et_pb_post_filter__item-label"
+      },
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "contentField",
+            "attrName": "label.innerContent",
+            "label": "Field Label",
+            "description": "Sets the label shown above the control. For submit and reset field types, this text is used as the button label instead.",
+            "render": true,
+            "priority": 5,
+            "component": {
+              "type": "field",
+              "name": "divi/text"
+            }
+          }
+        }
+      }
+    }
+  },
+  "customCssFields": {
+    "field": {
+      "label": "Field",
+      "subName": "field",
+      "selectorSuffix": " .et_pb_post_filter__item-control:not([type=checkbox]):not([type=radio])"
+    },
+    "checkbox": {
+      "label": "Checkbox",
+      "subName": "checkbox",
+      "selectorSuffix": " .et_pb_post_filter__item-control[type=checkbox] + label i"
+    },
+    "radio": {
+      "label": "Radio",
+      "subName": "radio",
+      "selectorSuffix": " .et_pb_post_filter__item-control[type=radio] + label i"
+    },
+    "multipleOrderButton": {
+      "label": "Multiple Order Button",
+      "subName": "multipleOrderButton",
+      "selectorSuffix": " .et_pb_post_filter__item-multiple-order-action"
+    },
+    "button": {
+      "label": "Button",
+      "subName": "button",
+      "selectorSuffix": " .et_pb_post_filter__item-control-button"
+    },
+    "label": {
+      "label": "Label",
+      "subName": "label",
+      "selectorSuffix": " .et_pb_post_filter__item-label"
+    },
+    "option": {
+      "label": "Option",
+      "subName": "option",
+      "selectorSuffix": " .et_pb_post_filter__item-option"
+    }
+  },
+  "settings": {
+    "design": "auto",
+    "advanced": "auto",
+    "groups": {
+      "contentField": {
+        "panel": "content",
+        "priority": 5,
+        "groupName": "contentField",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Field"
+          }
+        }
+      },
+      "designFieldField": {
+        "panel": "design",
+        "priority": 40,
+        "groupName": "field",
+        "multiElements": true,
+        "component": {
+          "name": "divi/form-field",
+          "props": {
+            "groupLabel": "Field",
+            "clipboardCategory": "style",
+            "attrName": "field",
+            "dynamicSubgroupHost": true,
+            "useComponentNameAsPresetGroup": true
+          }
+        }
+      },
+      "designOption": {
+        "panel": "design",
+        "priority": 41,
+        "groupName": "designOption",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Option",
+            "clipboardCategory": "style",
+            "dynamicSubgroupHost": true
+          }
+        }
+      },
+      "designFieldCheckbox": {
+        "panel": "design",
+        "priority": 42,
+        "groupName": "checkbox",
+        "multiElements": true,
+        "component": {
+          "name": "divi/checkbox",
+          "props": {
+            "groupLabel": "Checkbox",
+            "clipboardCategory": "style",
+            "attrName": "checkbox",
+            "dynamicSubgroupHost": true,
+            "useComponentNameAsPresetGroup": true
+          }
+        }
+      },
+      "designFieldRadio": {
+        "panel": "design",
+        "priority": 43,
+        "groupName": "radio",
+        "multiElements": true,
+        "component": {
+          "name": "divi/radio",
+          "props": {
+            "groupLabel": "Radio Options",
+            "clipboardCategory": "style",
+            "attrName": "radio",
+            "dynamicSubgroupHost": true,
+            "useComponentNameAsPresetGroup": true
+          }
+        }
+      }
+    }
+  },
+  "script": [
+    "divi-module-library-script-post-filter-item"
+  ]
+}

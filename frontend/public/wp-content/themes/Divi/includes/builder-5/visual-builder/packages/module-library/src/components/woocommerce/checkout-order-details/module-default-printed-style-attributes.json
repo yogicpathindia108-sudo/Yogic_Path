@@ -1,0 +1,129 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1em",
+              "size": "22px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "decoration": {
+      "bodyFont": {
+        "body": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1.5em",
+                "size": "14px"
+              }
+            }
+          }
+        },
+        "link": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1.5em",
+                "size": "14px"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "columnLabel": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1.5em",
+              "size": "14px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "table": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "5px",
+              "bottomRight": "5px",
+              "sync": "on",
+              "topLeft": "5px",
+              "topRight": "5px"
+            },
+            "styles": {
+              "all": {
+                "color": "#333333",
+                "style": "solid",
+                "width": "1px"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tableCell": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "0px",
+              "bottomRight": "0px",
+              "sync": "on",
+              "topLeft": "0px",
+              "topRight": "0px"
+            },
+            "styles": {
+              "all": {
+                "color": "#333333",
+                "style": "solid",
+                "width": "0px"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tableRow": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "0px",
+              "bottomRight": "0px",
+              "sync": "on",
+              "topLeft": "0px",
+              "topRight": "0px"
+            },
+            "styles": {
+              "all": {
+                "color": "#333333",
+                "style": "solid",
+                "width": "1px"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

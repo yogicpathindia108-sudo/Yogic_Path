@@ -1,0 +1,602 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/table-of-contents",
+  "d4Shortcode": "et_pb_table_of_contents",
+  "moduleClassName": "et_pb_table_of_contents",
+  "moduleOrderClassName": "et_pb_table_of_contents",
+  "title": "Table of Contents",
+  "titles": "Table of Contents",
+  "moduleIcon": "divi/module-table-of-contents",
+  "category": "module",
+  "childrenName": [],
+  "videos": [],
+  "script": [
+    "divi-module-library-script-table-of-contents"
+  ],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "settings": {
+        "meta": {
+          "meta": {}
+        },
+        "advanced": {
+          "elements": {},
+          "html": {},
+          "link": {},
+          "loop": {}
+        },
+        "decoration": {
+          "layout": {},
+          "animation": {},
+          "attributes": {},
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "interactions": {},
+          "overflow": {},
+          "order": {},
+          "position": {},
+          "scroll": {},
+          "sizing": {},
+          "spacing": {},
+          "sticky": {},
+          "transform": {},
+          "transition": {},
+          "zIndex": {}
+        }
+      }
+    },
+    "title": {
+      "type": "object",
+      "label": "Title",
+      "selector": "{{selector}} .et_pb_table_of_contents__title",
+      "supportsCustomAttributes": true,
+      "attributes": {
+        "class": "et_pb_table_of_contents__title"
+      },
+      "tagName": "h2",
+      "inlineEditor": "plainText",
+      "elementType": "heading",
+      "childrenSanitizer": "et_core_esc_previously",
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "contentContent",
+            "priority": 1,
+            "render": true,
+            "attrName": "title.innerContent",
+            "label": "Title",
+            "description": "Set the title shown above the table of contents.",
+            "category": "basic_option",
+            "features": {
+              "dynamicContent": {
+                "type": "text"
+              },
+              "preset": "content"
+            },
+            "component": {
+              "name": "divi/text",
+              "type": "field"
+            }
+          }
+        },
+        "decoration": {
+          "font": {
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true,
+                "fields": {
+                  "headingLevel": {
+                    "render": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "list": {
+      "type": "object",
+      "label": "List",
+      "selector": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__link",
+      "supportsCustomAttributes": true,
+      "elementType": "element",
+      "attributes": {
+        "class": "et_pb_table_of_contents__nav"
+      },
+      "settings": {
+        "innerContent": {
+          "groupType": "group-items",
+          "items": {
+            "includedHeadings": {
+              "groupSlug": "contentContent",
+              "priority": 5,
+              "render": true,
+              "attrName": "list.innerContent",
+              "subName": "includedHeadings",
+              "label": "Included Headings",
+              "description": "Select heading levels to include in the generated table of contents.",
+              "category": "basic_option",
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": "content"
+              },
+              "component": {
+                "name": "divi/checkboxes",
+                "type": "field",
+                "props": {
+                  "options": [
+                    {
+                      "value": "h1",
+                      "label": "Heading 1"
+                    },
+                    {
+                      "value": "h2",
+                      "label": "Heading 2"
+                    },
+                    {
+                      "value": "h3",
+                      "label": "Heading 3"
+                    },
+                    {
+                      "value": "h4",
+                      "label": "Heading 4"
+                    },
+                    {
+                      "value": "h5",
+                      "label": "Heading 5"
+                    },
+                    {
+                      "value": "h6",
+                      "label": "Heading 6"
+                    }
+                  ]
+                }
+              }
+            },
+            "includeOwnTitle": {
+              "groupSlug": "contentContent",
+              "priority": 10,
+              "render": true,
+              "attrName": "list.innerContent",
+              "subName": "includeOwnTitle",
+              "label": "Include Module Title",
+              "description": "Include this module title as a heading in the generated table.",
+              "category": "configuration",
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle",
+                "props": {
+                  "options": {
+                    "off": "Off",
+                    "on": "On"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "font": {
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        },
+        "advanced": {
+          "interaction": {
+            "groupType": "group-items",
+            "items": {
+              "smoothScroll": {
+                "groupSlug": "designScroll",
+                "priority": 20,
+                "render": true,
+                "attrName": "list.advanced.interaction",
+                "subName": "smoothScroll",
+                "label": "Smooth Scroll",
+                "description": "Enable smooth scrolling when clicking table links.",
+                "category": "configuration",
+                "features": {
+                  "responsive": false,
+                  "hover": false,
+                  "sticky": false,
+                  "preset": "content"
+                },
+                "component": {
+                  "type": "field",
+                  "name": "divi/toggle",
+                  "props": {
+                    "options": {
+                      "off": "Off",
+                      "on": "On"
+                    }
+                  }
+                }
+              },
+              "scrollOffsetPx": {
+                "groupSlug": "designScroll",
+                "priority": 25,
+                "render": true,
+                "attrName": "list.advanced.interaction",
+                "subName": "scrollOffsetPx",
+                "label": "Scroll Offset",
+                "description": "Offset in pixels used when scrolling to a section.",
+                "category": "configuration",
+                "features": {
+                  "responsive": false,
+                  "hover": false,
+                  "sticky": false,
+                  "preset": "content"
+                },
+                "component": {
+                  "type": "field",
+                  "name": "divi/range",
+                  "props": {
+                    "cssProperty": "scroll-margin-top",
+                    "max": 2000,
+                    "step": 1,
+                    "defaultUnit": "px"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "font": {
+          "propertySelectors": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "text-align": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item",
+                  "text-decoration-line": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__link-text",
+                  "text-decoration-color": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__link-text",
+                  "text-decoration-style": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__link-text"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "list1": {
+      "type": "object",
+      "label": "List Level 1",
+      "selector": "{{selector}} .et_pb_table_of_contents__list--level-1 > .et_pb_table_of_contents__link",
+      "elementType": "element",
+      "styleProps": {
+        "font": {
+          "propertySelectors": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "text-align": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-1",
+                  "text-decoration-line": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-1 > .et_pb_table_of_contents__link > .et_pb_table_of_contents__link-text",
+                  "text-decoration-color": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-1 > .et_pb_table_of_contents__link > .et_pb_table_of_contents__link-text",
+                  "text-decoration-style": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-1 > .et_pb_table_of_contents__link > .et_pb_table_of_contents__link-text"
+                }
+              }
+            }
+          }
+        }
+      },
+      "settings": {
+        "decoration": {
+          "font": {
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "list2": {
+      "type": "object",
+      "label": "List Level 2",
+      "selector": "{{selector}} .et_pb_table_of_contents__list--level-2 > .et_pb_table_of_contents__link",
+      "elementType": "element",
+      "styleProps": {
+        "font": {
+          "propertySelectors": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "text-align": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-2",
+                  "text-decoration-line": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-2 > .et_pb_table_of_contents__link > .et_pb_table_of_contents__link-text",
+                  "text-decoration-color": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-2 > .et_pb_table_of_contents__link > .et_pb_table_of_contents__link-text",
+                  "text-decoration-style": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-2 > .et_pb_table_of_contents__link > .et_pb_table_of_contents__link-text"
+                }
+              }
+            }
+          }
+        }
+      },
+      "settings": {
+        "decoration": {
+          "font": {
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "list3": {
+      "type": "object",
+      "label": "List Level 3",
+      "selector": "{{selector}} .et_pb_table_of_contents__list--level-3 > .et_pb_table_of_contents__link",
+      "elementType": "element",
+      "styleProps": {
+        "font": {
+          "propertySelectors": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "text-align": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-3",
+                  "text-decoration-line": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-3 > .et_pb_table_of_contents__link > .et_pb_table_of_contents__link-text",
+                  "text-decoration-color": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-3 > .et_pb_table_of_contents__link > .et_pb_table_of_contents__link-text",
+                  "text-decoration-style": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-3 > .et_pb_table_of_contents__link > .et_pb_table_of_contents__link-text"
+                }
+              }
+            }
+          }
+        }
+      },
+      "settings": {
+        "decoration": {
+          "font": {
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "list4": {
+      "type": "object",
+      "label": "List Level 4",
+      "selector": "{{selector}} .et_pb_table_of_contents__list--level-4 > .et_pb_table_of_contents__link",
+      "elementType": "element",
+      "styleProps": {
+        "font": {
+          "propertySelectors": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "text-align": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-4",
+                  "text-decoration-line": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-4 > .et_pb_table_of_contents__link > .et_pb_table_of_contents__link-text",
+                  "text-decoration-color": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-4 > .et_pb_table_of_contents__link > .et_pb_table_of_contents__link-text",
+                  "text-decoration-style": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-4 > .et_pb_table_of_contents__link > .et_pb_table_of_contents__link-text"
+                }
+              }
+            }
+          }
+        }
+      },
+      "settings": {
+        "decoration": {
+          "font": {
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "list5": {
+      "type": "object",
+      "label": "List Level 5",
+      "selector": "{{selector}} .et_pb_table_of_contents__list--level-5 > .et_pb_table_of_contents__link",
+      "elementType": "element",
+      "styleProps": {
+        "font": {
+          "propertySelectors": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "text-align": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-5",
+                  "text-decoration-line": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-5 > .et_pb_table_of_contents__link > .et_pb_table_of_contents__link-text",
+                  "text-decoration-color": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-5 > .et_pb_table_of_contents__link > .et_pb_table_of_contents__link-text",
+                  "text-decoration-style": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-5 > .et_pb_table_of_contents__link > .et_pb_table_of_contents__link-text"
+                }
+              }
+            }
+          }
+        }
+      },
+      "settings": {
+        "decoration": {
+          "font": {
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "list6": {
+      "type": "object",
+      "label": "List Level 6",
+      "selector": "{{selector}} .et_pb_table_of_contents__list--level-6 > .et_pb_table_of_contents__link",
+      "elementType": "element",
+      "styleProps": {
+        "font": {
+          "propertySelectors": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "text-align": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-6",
+                  "text-decoration-line": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-6 > .et_pb_table_of_contents__link > .et_pb_table_of_contents__link-text",
+                  "text-decoration-color": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-6 > .et_pb_table_of_contents__link > .et_pb_table_of_contents__link-text",
+                  "text-decoration-style": "{{selector}} .et_pb_table_of_contents__nav .et_pb_table_of_contents__item.et_pb_table_of_contents__list--level-6 > .et_pb_table_of_contents__link > .et_pb_table_of_contents__link-text"
+                }
+              }
+            }
+          }
+        }
+      },
+      "settings": {
+        "decoration": {
+          "font": {
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "marker": {
+      "type": "object",
+      "label": "Marker",
+      "selector": "{{selector}} .et_pb_table_of_contents__marker",
+      "elementType": "element",
+      "settings": {
+        "decoration": {
+          "font": {
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "emptyState": {
+      "type": "object",
+      "label": "Empty State",
+      "selector": "{{selector}} .et_pb_table_of_contents__empty",
+      "supportsCustomAttributes": true,
+      "elementType": "content",
+      "attributes": {
+        "class": "et_pb_table_of_contents__empty"
+      },
+      "tagName": "div",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "contentContent",
+            "priority": 30,
+            "render": true,
+            "attrName": "emptyState.innerContent",
+            "label": "Empty State Message",
+            "description": "Message shown when no headings are found.",
+            "category": "basic_option",
+            "features": {
+              "dynamicContent": {
+                "type": "text"
+              },
+              "preset": "content"
+            },
+            "component": {
+              "name": "divi/text",
+              "type": "field"
+            }
+          }
+        },
+        "decoration": {
+          "font": {
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "customCssFields": {
+    "title": {
+      "label": "Title",
+      "subName": "title",
+      "selectorSuffix": " .et_pb_table_of_contents__title"
+    },
+    "list": {
+      "label": "List",
+      "subName": "list",
+      "selectorSuffix": " .et_pb_table_of_contents__list"
+    },
+    "link": {
+      "label": "Link",
+      "subName": "link",
+      "selectorSuffix": " .et_pb_table_of_contents__link"
+    },
+    "marker": {
+      "label": "Marker",
+      "subName": "marker",
+      "selectorSuffix": " .et_pb_table_of_contents__marker"
+    },
+    "emptyState": {
+      "label": "Empty State",
+      "subName": "emptyState",
+      "selectorSuffix": " .et_pb_table_of_contents__empty"
+    }
+  },
+  "settings": {
+    "content": "auto",
+    "design": "auto",
+    "advanced": "auto",
+    "groups": {
+      "contentContent": {
+        "panel": "content",
+        "priority": 10,
+        "groupName": "content",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Content",
+            "preset": "content"
+          }
+        }
+      },
+      "designScroll": {
+        "panel": "design",
+        "priority": 1,
+        "groupName": "scroll",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Scroll",
+            "preset": "content"
+          }
+        }
+      }
+    }
+  }
+}

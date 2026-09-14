@@ -1,0 +1,111 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/post-content",
+  "title": "Post Content",
+  "titles": "Post Contents",
+  "moduleIcon": "divi/module-post-content",
+  "category": "module",
+  "videos": [],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "settings": {
+        "meta": {
+          "meta": {}
+        },
+        "advanced": {
+          "html": {}
+        },
+        "decoration": {
+          "animation": {},
+          "attributes": {},
+          "background": {},
+          "bodyFont": {},
+          "border": {},
+          "boxShadow": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "interactions": {},
+          "headingFont": {},
+          "overflow": {},
+          "order": {},
+          "position": {},
+          "scroll": {},
+          "sizing": {},
+          "spacing": {},
+          "sticky": {},
+          "transform": {},
+          "zIndex": {}
+        }
+      },
+      "styleProps": {}
+    },
+    "image": {
+      "type": "object",
+      "selector": "{{selector}} img",
+      "settings": {
+        "decoration": {
+          "image": {
+            "panel": "design",
+            "groupType": "group",
+            "groupName": "image",
+            "priority": 10,
+            "component": {
+              "type": "group",
+              "name": "divi/image",
+              "props": {
+                "attrName": "image",
+                "groupLabel": "Image",
+                "grouped": true,
+                "dynamicSubgroupHost": true,
+                "presetGroup": "divi/image"
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "fit": {
+          "selector": "{{selector}} img"
+        },
+        "sizing": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "aspect-ratio": "{{selector}} img"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "customCssFields": {},
+  "settings": {
+    "content": "auto",
+    "design": "auto",
+    "advanced": "auto"
+  },
+  "d4Shortcode": "et_pb_post_content",
+  "appearance": {
+    "multiple": false,
+    "multipleAliases": [
+      "divi/fullwidth-post-content"
+    ],
+    "themeBuilderLayouts": [
+      "body"
+    ]
+  },
+  "mousetrap": {
+    "inner": {
+      "hovered": true,
+      "edited": true
+    },
+    "zIndex": {
+      "hovered": "coversModuleSurfaceArea",
+      "edited": "coversModuleSurfaceArea"
+    }
+  }
+}

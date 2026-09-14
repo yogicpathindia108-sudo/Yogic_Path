@@ -1,0 +1,69 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "orientation": "center",
+              "color": "light"
+            }
+          }
+        }
+      }
+    },
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "flexDirection": "column",
+            "rowGap": "20px"
+          }
+        }
+      },
+      "position": {
+        "desktop": {
+          "value": {
+            "mode": "relative",
+            "origin": {
+              "relative": "top left"
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "16px",
+              "lineHeight": "1em"
+            }
+          }
+        }
+      }
+    }
+  },
+  "number": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "letterSpacing": "0px",
+              "lineStyle": "solid",
+              "weight": "400",
+              "color": "$variable({\"type\":\"color\",\"value\":{\"name\":\"gcid-primary-color\",\"settings\":{}}})$",
+              "size": "72px",
+              "lineHeight": "72px"
+            }
+          }
+        }
+      }
+    }
+  }
+}

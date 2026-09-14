@@ -1,0 +1,89 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Chart"
+        }
+      }
+    }
+  },
+  "chart": {
+    "advanced": {
+      "config": {
+        "desktop": {
+          "value": {
+            "type": "line",
+            "showTitle": "on",
+            "showSubtitle": "on",
+            "showLegend": "on",
+            "showLegendTitle": "off",
+            "showTooltip": "on"
+          }
+        }
+      },
+      "title": {
+        "font": {
+          "desktop": {
+            "value": {
+              "textAlign": "center"
+            }
+          }
+        }
+      },
+      "subtitle": {
+        "font": {
+          "desktop": {
+            "value": {
+              "textAlign": "center"
+            }
+          }
+        }
+      },
+      "legend": {
+        "layout": {
+          "desktop": {
+            "value": {
+              "position": "top",
+              "align": "center"
+            }
+          }
+        },
+        "markers": {
+          "desktop": {
+            "value": {
+              "padding": "10px",
+              "usePointStyle": "off",
+              "pointStyle": "circle",
+              "boxWidth": "40px",
+              "boxHeight": "12px"
+            }
+          }
+        }
+      },
+      "tooltip": {
+        "box": {
+          "desktop": {
+            "value": {
+              "backgroundColor": "rgba(0, 0, 0, 0.8)",
+              "borderColor": "rgba(0, 0, 0, 0)",
+              "borderWidth": "0px",
+              "cornerRadius": "6px",
+              "padding": "6px"
+            }
+          }
+        },
+        "colorBoxes": {
+          "desktop": {
+            "value": {
+              "displayColors": "on",
+              "boxWidth": "12px",
+              "boxHeight": "12px"
+            }
+          }
+        }
+      }
+    }
+  }
+}

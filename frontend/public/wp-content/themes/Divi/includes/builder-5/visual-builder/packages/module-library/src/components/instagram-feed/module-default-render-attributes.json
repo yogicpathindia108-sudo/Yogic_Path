@@ -1,0 +1,64 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Instagram Feed"
+        }
+      }
+    }
+  },
+  "feed": {
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "display": "grid",
+            "gridColumnWidths": "equal",
+            "gridColumnCount": "3",
+            "rowGap": "16px",
+            "columnGap": "16px"
+          }
+        }
+      }
+    },
+    "advanced": {
+      "config": {
+        "desktop": {
+          "value": {
+            "lightbox": "on"
+          }
+        }
+      }
+    },
+    "innerContent": {
+      "desktop": {
+        "value": {
+          "accountId": "",
+          "postCount": "6"
+        }
+      }
+    }
+  },
+  "followButton": {
+    "advanced": {
+      "show": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    },
+    "decoration": {
+      "button": {
+        "desktop": {
+          "value": {
+            "icon": {
+              "enable": "on"
+            }
+          }
+        }
+      }
+    }
+  }
+}

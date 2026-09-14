@@ -1,0 +1,346 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/woocommerce-product-description",
+  "d4Shortcode": "et_pb_wc_description",
+  "moduleClassName": "et_pb_wc_description",
+  "moduleOrderClassName": "et_pb_wc_description",
+  "title": "Woo Product Description",
+  "titles": "Woo Product Description",
+  "moduleIcon": "divi/module-woocommerce-product-description",
+  "folder": "woo-modules",
+  "category": "module",
+  "videos": [
+    {
+      "id": "7X03vBPYJ1o",
+      "name": "Divi WooCommerce Modules"
+    },
+    {
+      "id": "1iqjhnHVA9Y",
+      "name": "Design Settings and Advanced Module Settings"
+    },
+    {
+      "id": "boNZZ0MYU0E",
+      "name": "Saving and loading from the library"
+    }
+  ],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "settings": {
+        "advanced": {
+          "html": {},
+          "link": {},
+          "loop": {}
+        },
+        "decoration": {
+          "animation": {},
+          "attributes": {},
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "interactions": {},
+          "overflow": {},
+          "order": {},
+          "position": {},
+          "scroll": {},
+          "sizing": {},
+          "spacing": {},
+          "sticky": {},
+          "transform": {},
+          "transition": {},
+          "zIndex": {}
+        },
+        "meta": {
+          "meta": {}
+        }
+      },
+      "styleProps": {
+        "spacing": {
+          "selector": "{{selector}}",
+          "important": true
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "settings": {
+        "advanced": {
+          "product": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentMainContent",
+              "attrName": "content.advanced.product",
+              "label": "Product",
+              "description": "Here you can select the Product.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field"
+              }
+            }
+          },
+          "descriptionType": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentMainContent",
+              "attrName": "content.advanced.descriptionType",
+              "label": "Description Type",
+              "description": "Here you can choose between Description and short description to display.",
+              "category": "configuration",
+              "priority": 20,
+              "render": true,
+              "component": {
+                "type": "field",
+                "name": "divi/select",
+                "props": {
+                  "options": {
+                    "description": {
+                      "label": "Description"
+                    },
+                    "short_description": {
+                      "label": "Short Description"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "bodyFont": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designText",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/font-body",
+                "props": {
+                  "grouped": false,
+                  "dynamicSubgroupHost": true,
+                  "groups": {
+                    "body": {
+                      "fieldLabel": "Text"
+                    }
+                  },
+                  "fields": {
+                    "body": {
+                      "textAlign": {
+                        "render": true
+                      }
+                    },
+                    "link": {
+                      "textAlign": {
+                        "render": false
+                      }
+                    },
+                    "ul": {
+                      "textAlign": {
+                        "render": true
+                      }
+                    },
+                    "ol": {
+                      "textAlign": {
+                        "render": true
+                      }
+                    },
+                    "quote": {
+                      "textAlign": {
+                        "render": true
+                      },
+                      "quoteStylesLeftWidth": {
+                        "render": false
+                      },
+                      "quoteStylesLeftColor": {
+                        "render": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "headingFont": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designHeading",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/font-header",
+                "props": {
+                  "grouped": false,
+                  "groups": {
+                    "h1": {
+                      "fieldLabel": "Heading"
+                    },
+                    "h2": {
+                      "fieldLabel": "Heading 2"
+                    },
+                    "h3": {
+                      "fieldLabel": "Heading 3"
+                    },
+                    "h4": {
+                      "fieldLabel": "Heading 4"
+                    },
+                    "h5": {
+                      "fieldLabel": "Heading 5"
+                    },
+                    "h6": {
+                      "fieldLabel": "Heading 6"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "bodyFont": {
+          "propertySelectors": {
+            "body": {
+              "font": {
+                "desktop": {
+                  "value": {
+                    "line-height": "{{selector}} p",
+                    "color": "{{selector}}.et_pb_wc_description",
+                    "font-family": "{{selector}}.et_pb_wc_description",
+                    "font-weight": "{{selector}}.et_pb_wc_description",
+                    "font-size": "{{selector}}.et_pb_wc_description",
+                    "text-align": "{{selector}}.et_pb_wc_description"
+                  }
+                }
+              }
+            },
+            "link": {
+              "font": {
+                "desktop": {
+                  "value": {
+                    "font-family": "{{selector}}",
+                    "font-weight": "{{selector}}",
+                    "font-size": "{{selector}}",
+                    "line-height": "{{selector}}",
+                    "text-align": "{{selector}}",
+                    "color": "{{selector}}.et_pb_wc_description",
+                    "text-decoration-line": "{{selector}}.et_pb_wc_description",
+                    "text-decoration-style": "{{selector}}.et_pb_wc_description"
+                  }
+                }
+              }
+            },
+            "ul": {
+              "desktop": {
+                "value": {
+                  "font-family": "{{selector}} ul",
+                  "font-weight": "{{selector}} ul",
+                  "font-size": "{{selector}} ul",
+                  "text-align": "{{selector}} ul",
+                  "padding-left": "{{selector}} ul",
+                  "color": "{{selector}}.et_pb_wc_description ul",
+                  "line-height": "{{selector}} ul > li",
+                  "list-style-type": "{{selector}} ul > li",
+                  "list-style-position": "{{selector}} ul > li"
+                }
+              }
+            },
+            "ol": {
+              "desktop": {
+                "value": {
+                  "font-family": "{{selector}} ol",
+                  "font-weight": "{{selector}} ol",
+                  "font-size": "{{selector}} ol",
+                  "text-align": "{{selector}} ol",
+                  "padding-left": "{{selector}} ol",
+                  "color": "{{selector}}.et_pb_wc_description ol",
+                  "line-height": "{{selector}} ol > li",
+                  "list-style-type": "{{selector}} ol > li",
+                  "list-style-position": "{{selector}} ol > li"
+                }
+              }
+            },
+            "quote": {
+              "desktop": {
+                "value": {
+                  "font-family": "{{selector}} blockquote",
+                  "font-weight": "{{selector}} blockquote",
+                  "font-size": "{{selector}} blockquote",
+                  "font-style": "{{selector}} blockquote",
+                  "line-height": "{{selector}} blockquote",
+                  "text-align": "{{selector}} blockquote",
+                  "color": "{{selector}}.et_pb_wc_description blockquote"
+                }
+              }
+            }
+          }
+        },
+        "headingFont": {
+          "selector": "{{selector}}.et_pb_wc_description"
+        }
+      }
+    }
+  },
+  "customCssFields": {},
+  "settings": {
+    "content": "auto",
+    "design": "auto",
+    "advanced": "auto",
+    "groups": {
+      "contentMainContent": {
+        "panel": "content",
+        "priority": 10,
+        "groupName": "contentMainContent",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Content"
+          }
+        }
+      },
+      "designText": {
+        "panel": "design",
+        "priority": 10,
+        "multiElements": true,
+        "groupName": "designText",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "clipboardCategory": "style",
+            "groupLabel": "Text",
+            "presetGroup": "divi/font-body",
+            "dynamicSubgroupHost": true
+          }
+        }
+      },
+      "designHeading": {
+        "panel": "design",
+        "priority": 20,
+        "multiElements": true,
+        "groupName": "designHeading",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "clipboardCategory": "style",
+            "groupLabel": "Heading Text",
+            "presetGroup": "divi/font-header",
+            "dynamicSubgroupHost": true
+          }
+        }
+      }
+    }
+  }
+}

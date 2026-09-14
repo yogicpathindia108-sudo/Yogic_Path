@@ -1,0 +1,21 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Column"
+        }
+      }
+    },
+    "decoration": {
+      "sizing": {
+        "desktop": {
+          "value": {
+            "flexType": "24_24"
+          }
+        }
+      }
+    }
+  }
+}

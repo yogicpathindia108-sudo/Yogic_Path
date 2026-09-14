@@ -1,0 +1,40 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Icon List"
+        }
+      }
+    },
+    "advanced": {
+      "html": {
+        "desktop": {
+          "value": {
+            "elementType": "ul"
+          }
+        }
+      }
+    }
+  },
+  "icon": {
+    "advanced": {
+      "color": {
+        "desktop": {
+          "value": "var(--gcid-primary-color)"
+        }
+      },
+      "size": {
+        "desktop": {
+          "value": "16px"
+        }
+      }
+    }
+  },
+  "listItem": {
+    "decoration": {
+      "font": {}
+    }
+  }
+}

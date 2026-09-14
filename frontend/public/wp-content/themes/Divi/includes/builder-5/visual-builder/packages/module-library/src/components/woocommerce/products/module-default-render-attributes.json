@@ -1,0 +1,80 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Woo Products"
+        }
+      }
+    }
+  },
+  "content": {
+    "advanced": {
+      "type": {
+        "desktop": {
+          "value": "recent"
+        }
+      },
+      "useCurrentLoop": {
+        "desktop": {
+          "value": "off"
+        }
+      },
+      "columnsNumber": {
+        "desktop": {
+          "value": "0"
+        }
+      },
+      "offsetNumber": {
+        "desktop": {
+          "value": "0"
+        }
+      },
+      "orderby": {
+        "desktop": {
+          "value": "default"
+        }
+      },
+      "postsNumber": {
+        "desktop": {
+          "value": "12"
+        }
+      }
+    }
+  },
+  "elements": {
+    "advanced": {
+      "showPagination": {
+        "desktop": {
+          "value": "off"
+        }
+      },
+      "showName": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showImage": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showPrice": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showRating": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showSaleBadge": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  }
+}

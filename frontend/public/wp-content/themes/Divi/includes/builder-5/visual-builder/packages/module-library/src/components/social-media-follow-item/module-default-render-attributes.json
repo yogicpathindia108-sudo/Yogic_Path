@@ -1,0 +1,38 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "advanced": {
+      "html": {
+        "desktop": {
+          "value": {
+            "elementType": "li"
+          }
+        }
+      }
+    }
+  },
+  "icon": {
+    "advanced": {
+      "size": {
+        "desktop": {
+          "value": {
+            "useSize": "off",
+            "size": "16px"
+          }
+        }
+      }
+    }
+  },
+  "socialNetwork": {
+    "innerContent": {
+      "desktop": {
+        "value": {
+          "title": "facebook",
+          "label": "Facebook",
+          "skypeUrl": "",
+          "skypeAction": "call"
+        }
+      }
+    }
+  }
+}

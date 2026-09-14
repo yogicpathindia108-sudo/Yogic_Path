@@ -1,0 +1,77 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Carousel"
+        }
+      }
+    },
+    "advanced": {
+      "auto": {
+        "desktop": {
+          "value": "off"
+        }
+      },
+      "pauseOnHover": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "centerMode": {
+        "desktop": {
+          "value": "off"
+        }
+      },
+      "slidesToShow": {
+        "desktop": {
+          "value": "1"
+        }
+      },
+      "slidesToScroll": {
+        "desktop": {
+          "value": "1"
+        }
+      }
+    }
+  },
+  "arrows": {
+    "advanced": {
+      "showArrows": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "leftIcon": {
+        "desktop": {
+          "value": {
+            "unicode": "&#x34;",
+            "type": "divi",
+            "weight": "400",
+            "target": "off"
+          }
+        }
+      },
+      "rightIcon": {
+        "desktop": {
+          "value": {
+            "unicode": "&#x35;",
+            "type": "divi",
+            "weight": "400",
+            "target": "off"
+          }
+        }
+      }
+    }
+  },
+  "dotNav": {
+    "advanced": {
+      "showDots": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  }
+}

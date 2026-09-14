@@ -1,0 +1,24 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Dropdown"
+        }
+      }
+    },
+    "advanced": {
+      "dropdown": {
+        "desktop": {
+          "value": {
+            "showOn": "hover",
+            "direction": "below",
+            "alignment": "start",
+            "offset": "20px"
+          }
+        }
+      }
+    }
+  }
+}

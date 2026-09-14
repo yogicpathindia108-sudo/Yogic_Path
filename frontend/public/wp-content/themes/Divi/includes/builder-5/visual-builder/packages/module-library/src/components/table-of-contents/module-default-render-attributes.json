@@ -1,0 +1,56 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Table of Contents"
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "headingLevel": "h2"
+            }
+          }
+        }
+      }
+    },
+    "innerContent": {
+      "desktop": {
+        "value": "Table of Contents"
+      }
+    }
+  },
+  "list": {
+    "advanced": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "markerStyle": "ordered"
+          }
+        }
+      },
+      "interaction": {
+        "desktop": {
+          "value": {
+            "smoothScroll": "on",
+            "scrollOffsetPx": "0"
+          }
+        }
+      }
+    }
+  },
+  "emptyState": {
+    "innerContent": {
+      "desktop": {
+        "value": "No headings found in this post."
+      }
+    }
+  }
+}

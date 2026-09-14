@@ -1,0 +1,48 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Woo Checkout Payment"
+        }
+      }
+    },
+    "decoration": {
+      "background": {
+        "desktop": {
+          "value": {
+            "color": "#ebe9eb"
+          }
+        }
+      },
+      "spacing": {
+        "desktop": {
+          "value": {
+            "padding": {
+              "bottom": "1em",
+              "left": "1em",
+              "right": "1em",
+              "syncHorizontal": "off",
+              "syncVertical": "off",
+              "top": "1em"
+            }
+          }
+        }
+      }
+    }
+  },
+  "button": {
+    "decoration": {
+      "button": {
+        "desktop": {
+          "value": {
+            "icon": {
+              "enable": "on"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "orientation": "center"
+            }
+          }
+        }
+      }
+    },
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "flexDirection": "column",
+            "rowGap": "15px"
+          }
+        }
+      },
+      "position": {
+        "desktop": {
+          "value": {
+            "mode": "relative",
+            "offset": {
+              "horizontal": "0px",
+              "vertical": "0px"
+            },
+            "origin": {
+              "relative": "top left"
+            }
+          }
+        }
+      }
+    }
+  },
+  "image": {
+    "decoration": {
+      "fit": {
+        "desktop": {
+          "value": {
+            "objectFit": "cover"
+          }
+        }
+      }
+    }
+  }
+}

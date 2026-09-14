@@ -1,0 +1,22 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "SVG"
+        }
+      }
+    }
+  },
+  "svg": {
+    "innerContent": {
+      "desktop": {
+        "value": {
+          "sourceType": "code",
+          "linkTarget": "off"
+        }
+      }
+    }
+  }
+}

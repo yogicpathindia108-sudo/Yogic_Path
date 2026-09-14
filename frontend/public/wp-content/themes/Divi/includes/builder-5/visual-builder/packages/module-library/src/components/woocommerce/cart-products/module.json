@@ -1,0 +1,1456 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/woocommerce-cart-products",
+  "d4Shortcode": "et_pb_wc_cart_products",
+  "moduleClassName": "et_pb_wc_cart_products",
+  "moduleOrderClassName": "et_pb_wc_cart_products",
+  "title": "Woo Cart Products",
+  "titles": "Woo Cart Products",
+  "moduleIcon": "divi/module-woocommerce-cart-products",
+  "folder": "woo-modules",
+  "category": "module",
+  "videos": [
+    {
+      "id": "7X03vBPYJ1o",
+      "name": "Divi WooCommerce Modules"
+    },
+    {
+      "id": "1iqjhnHVA9Y",
+      "name": "Design Settings and Advanced Module Settings"
+    },
+    {
+      "id": "boNZZ0MYU0E",
+      "name": "Saving and loading from the library"
+    }
+  ],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}.et_pb_wc_cart_products",
+      "settings": {
+        "advanced": {
+          "html": {},
+          "text": {
+            "priority": 15,
+            "component": {
+              "props": {
+                "fields": {
+                  "color": {
+                    "render": false
+                  },
+                  "textShadowGroup": {
+                    "render": true
+                  },
+                  "orientation": {
+                    "render": true
+                  }
+                }
+              }
+            }
+          },
+          "loop": {}
+        },
+        "decoration": {
+          "animation": {},
+          "attributes": {},
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "interactions": {},
+          "order": {},
+          "overflow": {},
+          "position": {},
+          "scroll": {},
+          "sizing": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designSizing",
+              "priority": 20,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/sizing",
+                "props": {
+                  "grouped": false,
+                  "fields": {
+                    "minHeight": {
+                      "render": false
+                    },
+                    "height": {
+                      "render": false
+                    },
+                    "maxHeight": {
+                      "render": false
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "spacing": {},
+          "sticky": {},
+          "transform": {},
+          "transition": {},
+          "zIndex": {}
+        },
+        "meta": {
+          "meta": {}
+        }
+      },
+      "styleProps": {
+        "sizing": {
+          "selector": "{{selector}}.et_pb_wc_cart_products",
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "align-self": "{{selector}}.et_pb_wc_cart_products.et_pb_module"
+              }
+            }
+          }
+        },
+        "spacing": {
+          "selector": "{{selector}}.et_pb_wc_cart_products",
+          "important": {
+            "desktop": {
+              "value": {
+                "margin": true,
+                "padding": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "elements": {
+      "type": "object",
+      "settings": {
+        "advanced": {
+          "showProductImage": {
+            "groupType": "group-item",
+            "item": {
+              "priority": 10,
+              "render": true,
+              "groupSlug": "contentElements",
+              "attrName": "elements.advanced.showProductImage",
+              "label": "Show Product Image",
+              "description": "Here you can choose whether or not to display the Product image.",
+              "category": "configuration",
+              "features": {
+                "responsive": true,
+                "hover": true,
+                "sticky": true,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "showCouponCode": {
+            "groupType": "group-item",
+            "item": {
+              "priority": 20,
+              "render": true,
+              "groupSlug": "contentElements",
+              "attrName": "elements.advanced.showCouponCode",
+              "label": "Show Coupon Code",
+              "description": "Here you can choose whether or not to display the Coupon code.",
+              "category": "configuration",
+              "features": {
+                "responsive": true,
+                "hover": true,
+                "sticky": true,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "showUpdateCartButton": {
+            "groupType": "group-item",
+            "item": {
+              "priority": 30,
+              "render": true,
+              "groupSlug": "contentElements",
+              "attrName": "elements.advanced.showUpdateCartButton",
+              "label": "Show Update Cart Button",
+              "description": "Here you can choose whether or not to display the Update cart button.",
+              "category": "configuration",
+              "features": {
+                "responsive": true,
+                "hover": true,
+                "sticky": true,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "showRemoveItemIcon": {
+            "groupType": "group-item",
+            "item": {
+              "priority": 40,
+              "render": true,
+              "groupSlug": "contentElements",
+              "attrName": "elements.advanced.showRemoveItemIcon",
+              "label": "Show Remove Item Icon",
+              "description": "Here you can choose whether or not to display the Remove Item Icon.",
+              "category": "configuration",
+              "features": {
+                "responsive": true,
+                "hover": true,
+                "sticky": true,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          }
+        }
+      }
+    },
+    "layout": {
+      "type": "object",
+      "settings": {
+        "advanced": {
+          "rowLayout": {
+            "groupType": "group-item",
+            "item": {
+              "priority": 10,
+              "render": true,
+              "groupSlug": "designLayout",
+              "attrName": "layout.advanced.rowLayout",
+              "label": "Product Row Layout",
+              "description": "Set the row layout.",
+              "category": "configuration",
+              "features": {
+                "responsive": true,
+                "hover": true,
+                "sticky": true
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/select",
+                "props": {
+                  "options": {
+                    "default": {
+                      "label": "Default"
+                    },
+                    "horizontal": {
+                      "label": "Horizontal"
+                    },
+                    "vertical": {
+                      "label": "Vertical"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tableHeader": {
+      "type": "object",
+      "selector": "{{selector}} table.cart th, {{selector}}.et_pb_row_layout_vertical table.shop_table_responsive tr td::before, {{selector}}.et_pb_row_layout_default table.shop_table_responsive tr td::before",
+      "settings": {
+        "decoration": {
+          "background": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designTableHeader",
+              "attrName": "tableHeader.decoration.background",
+              "subName": "color",
+              "label": "Table Header Background Color",
+              "description": "Pick a color to fill the module's table header.",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "field",
+                "name": "divi/color-picker"
+              }
+            }
+          },
+          "font": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designTableHeader",
+              "attrName": "tableHeader.decoration.font",
+              "priority": 20,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/font",
+                "props": {
+                  "grouped": false,
+                  "groupLabel": "Text",
+                  "fieldLabel": "Table Header",
+                  "dynamicSubgroupHost": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "settings": {
+        "decoration": {
+          "bodyFont": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designBodyText",
+              "priority": 30,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/font-body",
+                "props": {
+                  "grouped": false,
+                  "dynamicSubgroupHost": true,
+                  "groups": {
+                    "body": {
+                      "render": true,
+                      "groupLabel": "Body Text",
+                      "fieldLabel": "Body"
+                    },
+                    "link": {
+                      "render": true,
+                      "groupLabel": "Link",
+                      "fieldLabel": "Link"
+                    },
+                    "ul": {
+                      "render": false
+                    },
+                    "ol": {
+                      "render": false
+                    },
+                    "quote": {
+                      "render": false
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "bodyFont": {
+          "selector": "{{selector}} tbody td, {{selector}} ul.products li.product .woocommerce-loop-product__title, {{selector}} ul.products li.product .price",
+          "propertySelectors": {
+            "body": {
+              "font": {
+                "desktop": {
+                  "value": {
+                    "color": "{{selector}} tbody td a, {{selector}} tbody td:not(.actions), {{selector}} ul.products h1, {{selector}} ul.products h2, {{selector}} ul.products h3, {{selector}} ul.products h4, {{selector}} ul.products h5, {{selector}} ul.products h6, {{selector}} ul.products li.product .price",
+                    "line-height": "{{selector}} table.shop_table td",
+                    "font-family": "{{selector}} tbody td, {{selector}} ul.products li.product .woocommerce-loop-product__title, {{selector}} ul.products li.product .price",
+                    "font-size": "{{selector}} tbody td, {{selector}} ul.products li.product .woocommerce-loop-product__title, {{selector}} ul.products li.product .price"
+                  }
+                }
+              }
+            },
+            "link": {
+              "font": {
+                "desktop": {
+                  "value": {
+                    "color": "{{selector}} td.product-name a",
+                    "line-height": "{{selector}} table.shop_table td"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "table": {
+      "type": "object",
+      "elementType": "field",
+      "selector": "{{selector}} table.shop_table",
+      "settings": {
+        "advanced": {
+          "collapseTableGuttersBorders": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designTable",
+              "attrName": "table.advanced.collapseTableGuttersBorders",
+              "label": "Collapse Table Gutters and Borders",
+              "description": "Collapse Table Gutters and Borders.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "responsive": true,
+                "hover": false,
+                "sticky": false
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "horizontalGutterWidth": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designTable",
+              "attrName": "table.advanced.horizontalGutterWidth",
+              "label": "Horizontal Gutters",
+              "priority": 20,
+              "render": true,
+              "features": {
+                "responsive": true,
+                "sticky": false,
+                "hover": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/range",
+                "props": {
+                  "cssProperty": "border-spacing",
+                  "allowedUnits": [
+                    "em",
+                    "rem",
+                    "px",
+                    "cm",
+                    "mm",
+                    "in",
+                    "pt",
+                    "pc",
+                    "ex",
+                    "vh",
+                    "vw"
+                  ],
+                  "defaultUnit": "px",
+                  "min": 0,
+                  "max": 50,
+                  "step": 1,
+                  "minLimit": 0,
+                  "maxLimit": 50
+                }
+              }
+            }
+          },
+          "verticalGutterWidth": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designTable",
+              "attrName": "table.advanced.verticalGutterWidth",
+              "label": "Vertical Gutters",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "responsive": true,
+                "hover": false,
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/range",
+                "props": {
+                  "cssProperty": "border-spacing",
+                  "allowedUnits": [
+                    "em",
+                    "rem",
+                    "px",
+                    "cm",
+                    "mm",
+                    "in",
+                    "pt",
+                    "pc",
+                    "ex",
+                    "vh",
+                    "vw"
+                  ],
+                  "defaultUnit": "px",
+                  "min": 0,
+                  "max": 50,
+                  "step": 1,
+                  "minLimit": 0,
+                  "maxLimit": 50
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "background": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designTable",
+              "attrName": "table.decoration.background",
+              "subName": "color",
+              "label": "Table Background Color",
+              "description": "Pick a color to fill the module's table.",
+              "priority": 30,
+              "render": true,
+              "component": {
+                "type": "field",
+                "name": "divi/color-picker"
+              }
+            }
+          },
+          "spacing": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designTable",
+              "priority": 40,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/spacing",
+                "props": {
+                  "grouped": true,
+                  "fieldLabel": "Table"
+                }
+              }
+            }
+          },
+          "border": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designTable",
+              "priority": 50,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/border",
+                "props": {
+                  "grouped": true,
+                  "fieldLabel": "Table"
+                }
+              }
+            }
+          },
+          "boxShadow": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designTable",
+              "priority": 60,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/box-shadow",
+                "props": {
+                  "grouped": true,
+                  "fieldLabel": "Table"
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "spacing": {
+          "selector": "{{selector}} table.shop_table",
+          "important": {
+            "desktop": {
+              "value": {
+                "margin": true,
+                "padding": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "tableRow": {
+      "type": "object",
+      "elementType": "field",
+      "selector": "{{selector}} table.shop_table tr",
+      "settings": {
+        "decoration": {
+          "background": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designTableRow",
+              "label": "Table Row Background Color",
+              "description": "Pick a color to fill the module's table row.",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "field",
+                "name": "divi/color-picker"
+              }
+            }
+          },
+          "border": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designTableRow",
+              "priority": 20,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/border",
+                "props": {
+                  "grouped": true,
+                  "fieldLabel": "Table Row",
+                  "fields": {
+                    "radius": {
+                      "render": false
+                    },
+                    "styles": {
+                      "render": true
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "boxShadow": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designTableRow",
+              "priority": 30,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/box-shadow",
+                "props": {
+                  "grouped": true,
+                  "fieldLabel": "Table Row"
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "background": {
+          "selector": "{{selector}} table.shop_table tr",
+          "important": {
+            "desktop": {
+              "value": {
+                "background-color": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "tableCell": {
+      "type": "object",
+      "elementType": "field",
+      "settings": {
+        "decoration": {
+          "background": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designTableCell",
+              "label": "Table Cell Background Color",
+              "description": "Pick a color to fill the module's table cell.",
+              "priority": 30,
+              "render": true,
+              "component": {
+                "type": "field",
+                "name": "divi/color-picker"
+              }
+            }
+          },
+          "spacing": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designTableCell",
+              "priority": 40,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/spacing",
+                "props": {
+                  "grouped": true,
+                  "fieldLabel": "Table Cell",
+                  "fields": {
+                    "padding": {
+                      "render": true
+                    },
+                    "margin": {
+                      "render": false
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "border": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designTableCell",
+              "priority": 50,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/border",
+                "props": {
+                  "grouped": true,
+                  "fieldLabel": "Table Cell"
+                }
+              }
+            }
+          },
+          "boxShadow": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designTableCell",
+              "priority": 60,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/box-shadow",
+                "props": {
+                  "grouped": true,
+                  "fieldLabel": "Table Cell"
+                }
+              }
+            }
+          }
+        },
+        "advanced": {
+          "alternatingBackground": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designTableCell",
+              "label": "Table Cell Alternating Background Color",
+              "description": "Pick a color to fill the module's table alternating cell.",
+              "priority": 35,
+              "render": true,
+              "component": {
+                "type": "field",
+                "name": "divi/color-picker"
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "background": {
+          "selectors": {
+            "desktop": {
+              "value": "{{selector}} table.shop_table td",
+              "hover": "{{selector}} table.shop_table td{{:hover}}"
+            }
+          },
+          "important": {
+            "desktop": {
+              "value": {
+                "background-color": true
+              }
+            }
+          }
+        },
+        "alternatingBackground": {
+          "selectors": {
+            "desktop": {
+              "value": "{{selector}} table.shop_table_responsive tr:nth-child(2n) td",
+              "hover": "{{selector}} table.shop_table_responsive tr:nth-child(2n){{:hover}} td"
+            }
+          },
+          "important": {
+            "desktop": {
+              "value": {
+                "background-color": true
+              }
+            }
+          }
+        },
+        "spacing": {
+          "selector": "{{selector}} th, {{selector}} td",
+          "important": {
+            "desktop": {
+              "value": {
+                "padding": true
+              }
+            }
+          }
+        },
+        "border": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "border-radius": "{{selector}} table.shop_table tr td, {{selector}} table.shop_table th",
+                "border-style": "{{selector}} table.shop_table tr td, {{selector}} table.shop_table th"
+              }
+            }
+          }
+        },
+        "boxShadow": {
+          "selector": "{{selector}} table.shop_table td"
+        }
+      }
+    },
+    "removeIcon": {
+      "type": "object",
+      "selector": "{{selector}} a.remove",
+      "settings": {
+        "decoration": {
+          "background": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designRemoveIcon",
+              "attrName": "removeIcon.decoration.background",
+              "subName": "color",
+              "label": "Remove Icon Background Color",
+              "description": "Pick a color to fill the module's remove icon.",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "field",
+                "name": "divi/color-picker"
+              }
+            }
+          },
+          "font": {
+            "groupType": "group-items",
+            "items": {
+              "removeIconColor": {
+                "groupSlug": "designRemoveIcon",
+                "priority": 20,
+                "render": true,
+                "attrName": "removeIcon.decoration.font.font",
+                "subName": "color",
+                "label": "Remove Icon Color",
+                "description": "Pick a color to be used for the remove icon.",
+                "features": {
+                  "dynamicContent": {
+                    "type": "color"
+                  }
+                },
+                "component": {
+                  "name": "divi/color-picker",
+                  "type": "field"
+                }
+              },
+              "removeIconSize": {
+                "groupSlug": "designRemoveIcon",
+                "priority": 25,
+                "render": true,
+                "attrName": "removeIcon.decoration.font.font",
+                "subName": "size",
+                "label": "Remove Icon Font Size",
+                "description": "Control the size of the icon by increasing or decreasing the font size.",
+                "defaultAttr": {
+                  "desktop": {
+                    "value": {
+                      "size": "17px"
+                    }
+                  }
+                },
+                "component": {
+                  "name": "divi/range",
+                  "type": "field",
+                  "props": {
+                    "cssProperty": "font-size",
+                    "defaultUnit": "px",
+                    "max": 120,
+                    "min": 1,
+                    "step": 1
+                  }
+                },
+                "features": {
+                  "dynamicContent": {
+                    "type": "number"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "background": {
+          "selectors": {
+            "desktop": {
+              "value": "{{selector}} a.remove",
+              "hover": "{{selector}} a.remove{{:hover}}"
+            }
+          }
+        },
+        "font": {
+          "selector": "{{selector}} a.remove",
+          "important": true
+        }
+      }
+    },
+    "image": {
+      "type": "object",
+      "selector": "{{selector}} table.cart img",
+      "settings": {
+        "decoration": {
+          "image": {
+            "panel": "design",
+            "groupType": "group",
+            "groupName": "image",
+            "priority": 10,
+            "component": {
+              "type": "group",
+              "name": "divi/image",
+              "props": {
+                "attrName": "image",
+                "groupLabel": "Image",
+                "grouped": true,
+                "dynamicSubgroupHost": true,
+                "presetGroup": "divi/image"
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "fit": {
+          "selector": "{{selector}} table.cart img"
+        },
+        "sizing": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "aspect-ratio": "{{selector}} table.cart img"
+              }
+            }
+          }
+        }
+      }
+    },
+    "field": {
+      "type": "object",
+      "elementType": "field",
+      "settings": {
+        "advanced": {},
+        "decoration": {}
+      },
+      "styleProps": {
+        "background": {
+          "selector": "{{selector}} .quantity input.qty, {{selector}} table.cart td.actions .coupon .input-text",
+          "important": {
+            "desktop": {
+              "value": {
+                "background-color": true
+              }
+            }
+          }
+        },
+        "spacing": {
+          "selector": "{{selector}} .quantity input.qty, {{selector}} table.cart td.actions .coupon .input-text",
+          "important": {
+            "desktop": {
+              "value": {
+                "padding": true
+              }
+            }
+          }
+        },
+        "border": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "border-radius": "{{selector}} .quantity input.qty:focus, {{selector}} table.cart td.actions .coupon .input-text:focus",
+                "border-style": "{{selector}} .quantity input.qty:focus, {{selector}} table.cart td.actions .coupon .input-text:focus"
+              }
+            }
+          },
+          "important": {
+            "desktop": {
+              "value": {
+                "border-width": true,
+                "border-style": true,
+                "border-color": true,
+                "border-radius": true
+              }
+            }
+          }
+        },
+        "boxShadow": {
+          "selector": "{{selector}} .quantity input.qty, {{selector}} table.cart td.actions .coupon .input-text",
+          "important": {
+            "desktop": {
+              "value": {
+                "box-shadow": true
+              }
+            }
+          }
+        },
+        "font": {
+          "selectors": {
+            "desktop": {
+              "value": "{{selector}} .quantity input.qty, {{selector}} .quantity input.qty::placeholder, {{selector}} .quantity input.qty::-webkit-input-placeholder, {{selector}} .quantity input.qty::-moz-placeholder, {{selector}} .quantity input.qty:-ms-input-placeholder, {{selector}} table.cart td.actions .coupon .input-text, {{selector}} table.cart td.actions .coupon .input-text::placeholder, {{selector}} table.cart td.actions .coupon .input-text::-webkit-input-placeholder, {{selector}} table.cart td.actions .coupon .input-text::-moz-placeholder, {{selector}} table.cart td.actions .coupon .input-text:-ms-input-placeholder",
+              "hover": "{{selector}} .quantity input.qty{{:hover}}, {{selector}} .quantity input.qty{{:hover}}::placeholder, {{selector}} .quantity input.qty{{:hover}}::-webkit-input-placeholder, {{selector}} .quantity input.qty{{:hover}}::-moz-placeholder, {{selector}} .quantity input.qty{{:hover}}:-ms-input-placeholder, {{selector}} table.cart td.actions .coupon .input-text{{:hover}}, {{selector}} table.cart td.actions .coupon .input-text{{:hover}}::placeholder, {{selector}} table.cart td.actions .coupon .input-text{{:hover}}::-webkit-input-placeholder, {{selector}} table.cart td.actions .coupon .input-text{{:hover}}::-moz-placeholder, {{selector}} table.cart td.actions .coupon .input-text{{:hover}}:-ms-input-placeholder"
+            }
+          },
+          "important": {
+            "desktop": {
+              "value": {
+                "line-height": true,
+                "font-family": true,
+                "font-size": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "button": {
+      "type": "object",
+      "elementType": "button",
+      "selector": "{{selector}} table.cart button[name=\"apply_coupon\"], {{selector}} table.cart button[name=\"update_cart\"]:not([disabled])",
+      "settings": {
+        "decoration": {
+          "button": {
+            "groupType": "group-items",
+            "items": {
+              "button": {
+                "groupSlug": "designButton",
+                "priority": 10,
+                "render": true,
+                "component": {
+                  "type": "group",
+                  "name": "divi/button",
+                  "props": {
+                    "grouped": false,
+                    "fieldLabel": "Button",
+                    "attrName": "button",
+                    "dynamicSubgroupHost": true,
+                    "fields": {
+                      "backgroundGroup": {
+                        "component": {
+                          "props": {
+                            "hidePanels": [
+                              "mask",
+                              "pattern",
+                              "video"
+                            ]
+                          }
+                        }
+                      },
+                      "fontGroup": {
+                        "component": {
+                          "props": {
+                            "fields": {
+                              "lineHeight": {
+                                "render": false
+                              },
+                              "textAlign": {
+                                "render": false
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "borderGroup": {
+                        "component": {
+                          "props": {
+                            "fields": {
+                              "styles": {
+                                "render": false
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "spacingGroup": {
+                        "component": {
+                          "props": {
+                            "fields": {
+                              "padding": {
+                                "render": true
+                              },
+                              "margin": {
+                                "render": true
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "button": {
+          "selector": "{{selector}} table.cart button[name=\"apply_coupon\"], {{selector}} table.cart button[name=\"update_cart\"]:not([disabled])",
+          "important": {
+            "desktop": {
+              "value": {
+                "content": true
+              }
+            }
+          }
+        },
+        "spacing": {
+          "selector": "{{selector}} table.cart button[name=\"apply_coupon\"], {{selector}} table.cart button[name=\"update_cart\"]:not([disabled])",
+          "important": {
+            "desktop": {
+              "value": {
+                "margin": true,
+                "padding": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "disabledButton": {
+      "type": "object",
+      "elementType": "button",
+      "selector": "{{selector}} table.cart button[name=\"update_cart\"]:disabled",
+      "settings": {
+        "decoration": {
+          "button": {
+            "groupType": "group-items",
+            "items": {
+              "button": {
+                "groupSlug": "designDisabledButton",
+                "priority": 10,
+                "render": true,
+                "component": {
+                  "type": "group",
+                  "name": "divi/button",
+                  "props": {
+                    "grouped": false,
+                    "groupLabel": "Disabled Button",
+                    "fieldLabel": "Disabled Button",
+                    "attrName": "disabledButton",
+                    "dynamicSubgroupHost": true,
+                    "fields": {
+                      "backgroundGroup": {
+                        "component": {
+                          "props": {
+                            "hidePanels": [
+                              "mask",
+                              "pattern",
+                              "video"
+                            ]
+                          }
+                        }
+                      },
+                      "fontGroup": {
+                        "component": {
+                          "props": {
+                            "fields": {
+                              "lineHeight": {
+                                "render": false
+                              },
+                              "textAlign": {
+                                "render": false
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "borderGroup": {
+                        "component": {
+                          "props": {
+                            "fields": {
+                              "styles": {
+                                "render": false
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "spacingGroup": {
+                        "component": {
+                          "props": {
+                            "fields": {
+                              "padding": {
+                                "render": true
+                              },
+                              "margin": {
+                                "render": true
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "button": {
+          "selector": "{{selector}} table.cart button[name=\"update_cart\"]:disabled",
+          "important": {
+            "desktop": {
+              "value": {
+                "content": true
+              }
+            }
+          }
+        },
+        "spacing": {
+          "selector": "{{selector}} table.cart button[name=\"update_cart\"]:disabled",
+          "important": {
+            "desktop": {
+              "value": {
+                "margin": true,
+                "padding": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "customCssFields": {
+    "body": {
+      "label": "Body",
+      "subName": "body",
+      "selectorSuffix": " td.product-price, td.product-subtotal, td.product-name dl.variation dd"
+    },
+    "button": {
+      "label": "Button",
+      "subName": "button",
+      "selectorSuffix": " table.cart button[name=\"apply_coupon\"]"
+    },
+    "columnLabel": {
+      "label": "Column Label",
+      "subName": "columnLabel",
+      "selectorSuffix": " table.cart th"
+    },
+    "disabledButton": {
+      "label": "Disabled Button",
+      "subName": "disabledButton",
+      "selectorSuffix": " table.cart button[name=\"update_cart\"]:disabled"
+    },
+    "inputFields": {
+      "label": "Input Fields",
+      "subName": "inputFields",
+      "selectorSuffix": " .quantity input.qty, table.cart td.actions .coupon .input-text"
+    },
+    "link": {
+      "label": "Link",
+      "subName": "link",
+      "selectorSuffix": " td.product-name a"
+    },
+    "productImage": {
+      "label": "Product Image",
+      "subName": "productImage",
+      "selectorSuffix": " table.cart img"
+    },
+    "productName": {
+      "label": "Product Name",
+      "subName": "productName",
+      "selectorSuffix": " td.product-name a"
+    },
+    "removeIcon": {
+      "label": "Remove Icon",
+      "subName": "removeIcon",
+      "selectorSuffix": " a.remove"
+    },
+    "table": {
+      "label": "Table",
+      "subName": "table",
+      "selectorSuffix": " table.cart"
+    },
+    "tableHeaderRow": {
+      "label": "Table Header Row",
+      "subName": "tableHeaderRow",
+      "selectorSuffix": " table.cart th"
+    },
+    "tableRows": {
+      "label": "Table Rows",
+      "subName": "tableRows",
+      "selectorSuffix": " table.cart tr"
+    },
+    "variationLabel": {
+      "label": "Variation Label",
+      "subName": "variationLabel",
+      "selectorSuffix": " .product-name dl.variation"
+    }
+  },
+  "settings": {
+    "content": "auto",
+    "advanced": "auto",
+    "groups": {
+      "contentElements": {
+        "panel": "content",
+        "priority": 10,
+        "groupName": "elements",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Elements",
+            "clipboardCategory": "content",
+            "preset": "content"
+          }
+        }
+      },
+      "designLayout": {
+        "panel": "design",
+        "priority": 10,
+        "groupName": "layout",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Layout"
+          }
+        }
+      },
+      "designTableHeader": {
+        "panel": "design",
+        "priority": 20,
+        "groupName": "table_header",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Table Header",
+            "presetGroup": "divi/font",
+            "dynamicSubgroupHost": true
+          }
+        }
+      },
+      "designBodyText": {
+        "panel": "design",
+        "priority": 25,
+        "groupName": "body",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Body Text",
+            "presetGroup": "divi/font-body",
+            "dynamicSubgroupHost": true
+          }
+        }
+      },
+      "designTable": {
+        "panel": "design",
+        "priority": 30,
+        "groupName": "table",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Table"
+          }
+        }
+      },
+      "designTableRow": {
+        "panel": "design",
+        "priority": 35,
+        "groupName": "table_row",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Table Row"
+          }
+        }
+      },
+      "designTableCell": {
+        "panel": "design",
+        "priority": 40,
+        "groupName": "table_cell",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Table Cell"
+          }
+        }
+      },
+      "designRemoveIcon": {
+        "panel": "design",
+        "priority": 45,
+        "groupName": "removeIcon",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Remove Icon"
+          }
+        }
+      },
+      "designFields": {
+        "panel": "design",
+        "priority": 55,
+        "groupName": "form_field",
+        "multiElements": true,
+        "component": {
+          "name": "divi/form-field",
+          "props": {
+            "groupLabel": "Fields",
+            "attrName": "field",
+            "dynamicSubgroupHost": true
+          }
+        }
+      },
+      "designButton": {
+        "panel": "design",
+        "priority": 60,
+        "groupName": "button",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Button",
+            "presetGroup": "divi/button",
+            "dynamicSubgroupHost": true
+          }
+        }
+      },
+      "designDisabledButton": {
+        "panel": "design",
+        "priority": 65,
+        "groupName": "disabled_button",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Disabled Button",
+            "presetGroup": "divi/button",
+            "dynamicSubgroupHost": true
+          }
+        }
+      },
+      "designSizing": {
+        "panel": "design",
+        "priority": 70,
+        "groupName": "sizing",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Sizing",
+            "presetGroup": "divi/sizing"
+          }
+        }
+      }
+    }
+  }
+}

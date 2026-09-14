@@ -1,0 +1,687 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/imagely-gallery",
+  "d4Shortcode": "",
+  "moduleClassName": "et_pb_imagely_gallery",
+  "moduleOrderClassName": "et_pb_imagely_gallery",
+  "title": "Imagely Gallery",
+  "titles": "Imagely Galleries",
+  "moduleIcon": "divi/module-imagely-gallery",
+  "category": "module",
+  "childrenName": [],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "settings": {
+        "meta": {
+          "meta": {}
+        },
+        "advanced": {
+          "elements": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "priority": 5,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/elements",
+                "props": {
+                  "grouped": false
+                }
+              }
+            }
+          },
+          "html": {},
+          "link": {},
+          "loop": {}
+        },
+        "decoration": {
+          "animation": {},
+          "attributes": {},
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "interactions": {},
+          "overflow": {},
+          "order": {},
+          "position": {},
+          "scroll": {},
+          "sizing": {},
+          "spacing": {},
+          "sticky": {},
+          "transform": {},
+          "transition": {},
+          "zIndex": {}
+        }
+      },
+      "styleProps": {
+        "spacing": {
+          "important": {
+            "desktop": {
+              "value": {
+                "margin": true
+              }
+            }
+          }
+        },
+        "sizing": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "margin-left": "{{selector}}.et_pb_module",
+                "margin-right": "{{selector}}.et_pb_module"
+              }
+            }
+          },
+          "important": {
+            "desktop": {
+              "value": {
+                "margin-left": true,
+                "margin-right": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "imagelyGallery": {
+      "type": "object",
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "contentGallery",
+            "attrName": "imagelyGallery.innerContent",
+            "subName": "galleryId",
+            "label": "Gallery",
+            "description": "Select the Imagely gallery to display.",
+            "category": "basic_option",
+            "priority": 10,
+            "render": true,
+            "features": {
+              "hover": false,
+              "sticky": false,
+              "responsive": false,
+              "preset": "content"
+            },
+            "component": {
+              "type": "field",
+              "name": "divi/select-imagely-gallery",
+              "props": {
+                "options": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "title": {
+      "type": "object",
+      "label": "Title Text",
+      "elementType": "element",
+      "selector": "{{selector}}.et_pb_module .et-imagely-content .ngg-imagebrowser > h3",
+      "settings": {
+        "decoration": {
+          "font": {
+            "priority": 11,
+            "component": {
+              "props": {
+                "groupLabel": "Title Text",
+                "fieldLabel": "Title",
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "font-size": true
+                }
+              }
+            }
+          }
+        },
+        "spacing": {
+          "important": {
+            "desktop": {
+              "value": {
+                "margin": true,
+                "padding": true
+              }
+            }
+          }
+        },
+        "sizing": {
+          "important": {
+            "desktop": {
+              "value": {
+                "margin-left": true,
+                "margin-right": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "image": {
+      "type": "object",
+      "label": "Gallery Image",
+      "elementType": "element",
+      "elementProps": {
+        "groupedOptionGroup": true
+      },
+      "selector": "{{selector}}.et_pb_module .et-imagely-content .ngg-imagebrowser .pic img, {{selector}}.et_pb_module .et-imagely-content .ngg-galleryoverview .ngg-gallery-thumbnail img, {{selector}}.et_pb_module .et-imagely-content .ngg-galleryoverview.carousel-view .ngg-basic-thumbnails-carousel > a > img, {{selector}}.et_pb_module .et-imagely-content .ngg-slideshow img",
+      "styleProps": {
+        "sizing": {
+          "important": {
+            "desktop": {
+              "value": {
+                "max-height": true,
+                "max-width": true
+              }
+            }
+          }
+        }
+      },
+      "settings": {
+        "decoration": {
+          "image": {
+            "panel": "design",
+            "groupType": "group",
+            "groupName": "image",
+            "priority": 10,
+            "component": {
+              "type": "group",
+              "name": "divi/image",
+              "props": {
+                "attrName": "image",
+                "groupLabel": "Image",
+                "grouped": true,
+                "dynamicSubgroupHost": true,
+                "presetGroup": "divi/image",
+                "dynamicSubgroupExcludedComponents": [
+                  "divi/layout"
+                ],
+                "fields": {
+                  "sizingGroup": {
+                    "component": {
+                      "props": {
+                        "dynamicSubgroupHostLayoutStyle": "block"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "counter": {
+      "type": "object",
+      "label": "Counter Text",
+      "elementType": "element",
+      "selector": "{{selector}}.et_pb_module .et-imagely-content .ngg-imagebrowser-nav .counter",
+      "settings": {
+        "decoration": {
+          "font": {
+            "priority": 12,
+            "component": {
+              "props": {
+                "fieldLabel": "Counter",
+                "groupLabel": "Counter Text",
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "font-size": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "description": {
+      "type": "object",
+      "label": "Description Text",
+      "elementType": "element",
+      "selector": "{{selector}}.et_pb_module .et-imagely-content .ngg-imagebrowser-desc, {{selector}}.et_pb_module .et-imagely-content .ngg-galleryoverview .ngg-gallery-thumbnail > span",
+      "settings": {
+        "decoration": {
+          "font": {
+            "priority": 13,
+            "component": {
+              "props": {
+                "fieldLabel": "Description",
+                "groupLabel": "Description Text",
+                "dynamicSubgroupHost": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "tagCloud": {
+      "type": "object",
+      "label": "Tag Cloud Text",
+      "elementType": "element",
+      "selector": "{{selector}}.et_pb_module .et-imagely-content .ngg-tagcloud ul.wp-tag-cloud li a",
+      "settings": {
+        "decoration": {
+          "font": {
+            "priority": 14,
+            "component": {
+              "props": {
+                "fieldLabel": "Tag Cloud",
+                "groupLabel": "Tag Cloud Text",
+                "dynamicSubgroupHost": true,
+                "dynamicSubgroupExcludedComponents": [
+                  "divi/layout"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "font": {
+          "propertySelectors": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "text-align": "{{selector}}.et_pb_module .et-imagely-content"
+                }
+              }
+            }
+          },
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "font-size": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "pagination": {
+      "type": "object",
+      "label": "Pagination Text",
+      "elementType": "element",
+      "selector": "{{selector}}.et_pb_module .et-imagely-content .ngg-navigation a, {{selector}}.et_pb_module .et-imagely-content .ngg-navigation span.current, {{selector}}.et_pb_module .et-imagely-content .ngg-navigation span.ellipsis",
+      "settings": {
+        "decoration": {
+          "font": {
+            "priority": 15,
+            "component": {
+              "props": {
+                "fieldLabel": "Pagination",
+                "groupLabel": "Pagination Text",
+                "dynamicSubgroupHost": true,
+                "dynamicSubgroupExcludedComponents": [
+                  "divi/layout"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "font": {
+          "propertySelectors": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "text-align": "{{selector}}.et_pb_module .et-imagely-content .ngg-navigation"
+                }
+              }
+            }
+          },
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": true,
+                  "text-decoration-line": true,
+                  "text-decoration-color": true,
+                  "text-decoration-style": true,
+                  "text-decoration-thickness": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "slideshowLink": {
+      "type": "object",
+      "label": "View Link Text",
+      "elementType": "element",
+      "selector": "{{selector}}.et_pb_imagely_gallery.et_pb_module .et-imagely-content .slideshowlink a",
+      "settings": {
+        "decoration": {
+          "font": {
+            "priority": 16,
+            "component": {
+              "props": {
+                "fieldLabel": "View Link",
+                "groupLabel": "View Link Text",
+                "dynamicSubgroupHost": true,
+                "fields": {
+                  "textAlign": {
+                    "render": false
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "text-decoration-line": true,
+                  "text-decoration-color": true,
+                  "text-decoration-style": true,
+                  "text-decoration-thickness": true
+                }
+              }
+            }
+          }
+        },
+        "border": {
+          "important": {
+            "desktop": {
+              "value": {
+                "border-style": true
+              }
+            }
+          }
+        },
+        "boxShadow": {
+          "important": {
+            "desktop": {
+              "value": {
+                "box-shadow": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "exifMetaData": {
+      "type": "object",
+      "label": "EXIF Meta Data Text",
+      "elementType": "element",
+      "selector": "{{selector}}.et_pb_module .et-imagely-content .et-imagely-exif",
+      "settings": {
+        "decoration": {
+          "font": {
+            "priority": 17,
+            "component": {
+              "props": {
+                "fieldLabel": "EXIF Meta Data",
+                "groupLabel": "EXIF Meta Data Text",
+                "dynamicSubgroupHost": true,
+                "dynamicSubgroupExcludedComponents": [
+                  "divi/layout"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "font": {
+          "selector": "{{selector}}.et_pb_module .et-imagely-content .et-imagely-exif, {{selector}}.et_pb_module .et-imagely-content .et-imagely-exif h3, {{selector}}.et_pb_module .et-imagely-content .et-imagely-exif th, {{selector}}.et_pb_module .et-imagely-content .et-imagely-exif td"
+        }
+      }
+    },
+    "navigationArrows": {
+      "type": "object",
+      "label": "Navigation Arrows",
+      "elementType": "button",
+      "elementProps": {
+        "groupedOptionGroup": true
+      },
+      "selector": "{{selector}}.et_pb_module .et-imagely-content .ngg-slideshow .slick-prev, {{selector}}.et_pb_module .et-imagely-content .ngg-slideshow .slick-next, {{selector}}.et_pb_module .et-imagely-content .ngg-imagebrowser-nav .back, {{selector}}.et_pb_module .et-imagely-content .ngg-imagebrowser-nav .next",
+      "settings": {
+        "advanced": {
+          "size": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designNavigationArrows",
+              "attrName": "navigationArrows.advanced.size",
+              "label": "Arrow Size",
+              "description": "Adjust the size of the navigation arrows (slideshow and image browser).",
+              "priority": 10,
+              "render": true,
+              "defaultAttr": {
+                "desktop": {
+                  "value": "32px"
+                }
+              },
+              "features": {
+                "dynamicContent": {
+                  "type": "number"
+                }
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/range",
+                "props": {
+                  "minLimit": 0,
+                  "defaultUnit": "px"
+                }
+              }
+            }
+          },
+          "color": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designNavigationArrows",
+              "attrName": "navigationArrows.advanced.color",
+              "label": "Arrow Color",
+              "description": "Choose a color for the navigation arrows (slideshow and image browser).",
+              "priority": 20,
+              "render": true,
+              "features": {
+                "dynamicContent": {
+                  "type": "color"
+                }
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/color-picker"
+              }
+            }
+          }
+        },
+        "decoration": {
+          "button": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designNavigationArrows",
+              "priority": 30,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/button",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Arrow",
+                  "attrName": "navigationArrows",
+                  "dynamicSubgroupHost": true,
+                  "dynamicSubgroupExcludedComponents": [
+                    "divi/layout",
+                    "divi/animation"
+                  ],
+                  "fields": {
+                    "fontGroup": {
+                      "render": false
+                    },
+                    "buttonIconGroup": {
+                      "render": false
+                    },
+                    "backgroundGroup": {
+                      "component": {
+                        "props": {
+                          "hidePanels": [
+                            "mask",
+                            "pattern",
+                            "video"
+                          ]
+                        }
+                      }
+                    },
+                    "sizingGroup": {
+                      "component": {
+                        "props": {
+                          "fields": {
+                            "alignment": {
+                              "render": false
+                            },
+                            "alignSelf": {
+                              "render": false
+                            },
+                            "gridAlignSelf": {
+                              "render": false
+                            },
+                            "gridJustifySelf": {
+                              "render": false
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "customCssFields": {
+    "title": {
+      "label": "Title Text",
+      "subName": "title",
+      "selectorSuffix": " .et-imagely-content .ngg-imagebrowser > h3"
+    },
+    "image": {
+      "label": "Gallery Image",
+      "subName": "image",
+      "selectorSuffix": " .et-imagely-content .ngg-imagebrowser .pic img, .et-imagely-content .ngg-galleryoverview .ngg-gallery-thumbnail img, .et-imagely-content .ngg-galleryoverview.carousel-view .ngg-basic-thumbnails-carousel > a > img, .et-imagely-content .ngg-slideshow img"
+    },
+    "counter": {
+      "label": "Counter Text",
+      "subName": "counter",
+      "selectorSuffix": " .et-imagely-content .ngg-imagebrowser-nav .counter"
+    },
+    "description": {
+      "label": "Description Text",
+      "subName": "description",
+      "selectorSuffix": " .et-imagely-content .ngg-imagebrowser-desc, .et-imagely-content .ngg-galleryoverview .ngg-gallery-thumbnail > span"
+    },
+    "galleryWrapper": {
+      "label": "Gallery Wrapper",
+      "subName": "galleryWrapper",
+      "selectorSuffix": " .et-imagely-content"
+    },
+    "exifMetaData": {
+      "label": "EXIF Meta Data",
+      "subName": "exifMetaData",
+      "selectorSuffix": " .et-imagely-content .et-imagely-exif"
+    },
+    "tagCloud": {
+      "label": "Tag Cloud Text",
+      "subName": "tagCloud",
+      "selectorSuffix": " .et-imagely-content .ngg-tagcloud ul.wp-tag-cloud li a"
+    },
+    "pagination": {
+      "label": "Pagination Text",
+      "subName": "pagination",
+      "selectorSuffix": " .et-imagely-content .ngg-navigation a, .et-imagely-content .ngg-navigation span.current, .et-imagely-content .ngg-navigation span.ellipsis"
+    },
+    "slideshowLink": {
+      "label": "View Link",
+      "subName": "slideshowLink",
+      "selectorSuffix": ".et_pb_module .et-imagely-content .slideshowlink a"
+    },
+    "navigationArrows": {
+      "label": "Navigation Arrows",
+      "subName": "navigationArrows",
+      "selectorSuffix": " .et-imagely-content .ngg-slideshow .slick-prev, .et-imagely-content .ngg-slideshow .slick-next, .et-imagely-content .ngg-imagebrowser-nav .back, .et-imagely-content .ngg-imagebrowser-nav .next"
+    }
+  },
+  "settings": {
+    "content": "auto",
+    "design": "auto",
+    "advanced": "auto",
+    "groups": {
+      "contentElements": {
+        "panel": "content",
+        "priority": 30,
+        "groupName": "contentElements",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Elements",
+            "preset": "content"
+          }
+        }
+      },
+      "contentGallery": {
+        "panel": "content",
+        "priority": 10,
+        "groupName": "imagelyGallery",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Gallery",
+            "initialOpen": true
+          }
+        }
+      },
+      "designNavigationArrows": {
+        "panel": "design",
+        "priority": 20,
+        "groupName": "designNavigationArrows",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Navigation Arrows",
+            "dynamicSubgroupHost": true
+          }
+        }
+      }
+    }
+  }
+}

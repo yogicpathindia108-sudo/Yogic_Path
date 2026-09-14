@@ -1,0 +1,70 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Woo Product Upsell"
+        }
+      }
+    }
+  },
+  "content": {
+    "advanced": {
+      "columnsNumber": {
+        "desktop": {
+          "value": "dynamic"
+        }
+      },
+      "offsetNumber": {
+        "desktop": {
+          "value": "0"
+        }
+      },
+      "orderby": {
+        "desktop": {
+          "value": "default"
+        }
+      },
+      "postsNumber": {
+        "desktop": {
+          "value": "dynamic"
+        }
+      },
+      "product": {
+        "desktop": {
+          "value": "dynamic"
+        }
+      }
+    }
+  },
+  "elements": {
+    "advanced": {
+      "showImage": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showName": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showPrice": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showRating": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showSaleBadge": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  }
+}

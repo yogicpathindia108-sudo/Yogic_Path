@@ -1,0 +1,70 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Gravity Forms"
+        }
+      }
+    }
+  },
+  "gravityForm": {
+    "advanced": {
+      "useAjax": {
+        "desktop": {
+          "value": "off"
+        }
+      },
+      "showValidationMessagesPreview": {
+        "desktop": {
+          "value": "off"
+        }
+      },
+      "showConfirmationMessagePreview": {
+        "desktop": {
+          "value": "off"
+        }
+      }
+    }
+  },
+  "button": {
+    "decoration": {
+      "button": {
+        "desktop": {
+          "value": {
+            "icon": {
+              "enable": "off"
+            }
+          }
+        }
+      }
+    }
+  },
+  "nextButton": {
+    "decoration": {
+      "button": {
+        "desktop": {
+          "value": {
+            "icon": {
+              "enable": "off"
+            }
+          }
+        }
+      }
+    }
+  },
+  "previousButton": {
+    "decoration": {
+      "button": {
+        "desktop": {
+          "value": {
+            "icon": {
+              "enable": "off"
+            }
+          }
+        }
+      }
+    }
+  }
+}

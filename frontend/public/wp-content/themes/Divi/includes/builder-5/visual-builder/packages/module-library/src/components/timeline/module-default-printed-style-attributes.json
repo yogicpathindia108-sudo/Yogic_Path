@@ -1,0 +1,181 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "track": {
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "display": "flex",
+            "rowGap": "24px"
+          }
+        }
+      },
+      "position": {
+        "desktop": {
+          "value": {
+            "mode": "relative"
+          }
+        }
+      }
+    }
+  },
+  "item": {
+    "decoration": {
+      "position": {
+        "desktop": {
+          "value": {
+            "mode": "relative"
+          }
+        }
+      }
+    }
+  },
+  "spacer": {
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "display": "flex",
+            "flexDirection": "column",
+            "columnGap": "10px",
+            "rowGap": "10px"
+          }
+        }
+      }
+    }
+  },
+  "connector": {
+    "decoration": {
+      "background": {
+        "desktop": {
+          "value": {
+            "color": "#eee"
+          }
+        }
+      },
+      "position": {
+        "desktop": {
+          "value": {
+            "mode": "absolute"
+          }
+        }
+      }
+    }
+  },
+  "marker": {
+    "decoration": {
+      "background": {
+        "desktop": {
+          "value": {
+            "color": "#666"
+          }
+        }
+      },
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "sync": "on",
+              "topLeft": "50%",
+              "topRight": "50%",
+              "bottomRight": "50%",
+              "bottomLeft": "50%"
+            }
+          }
+        }
+      },
+      "sizing": {
+        "desktop": {
+          "value": {
+            "width": "22px",
+            "height": "22px"
+          }
+        }
+      },
+      "icon": {
+        "desktop": {
+          "value": {
+            "color": "#ffffff",
+            "size": "16px"
+          }
+        }
+      },
+      "position": {
+        "desktop": {
+          "value": {
+            "mode": "relative"
+          }
+        }
+      },
+      "zIndex": {
+        "desktop": {
+          "value": "1"
+        }
+      }
+    }
+  },
+  "card": {
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "display": "flex",
+            "flexDirection": "column",
+            "columnGap": "10px",
+            "rowGap": "10px"
+          }
+        }
+      },
+      "background": {
+        "desktop": {
+          "value": {
+            "color": "#f5f5f5"
+          }
+        }
+      },
+      "spacing": {
+        "desktop": {
+          "value": {
+            "padding": {
+              "top": "15px",
+              "right": "20px",
+              "bottom": "15px",
+              "left": "20px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1.3em"
+            }
+          }
+        }
+      },
+      "spacing": {
+        "desktop": {
+          "value": {
+            "margin": {
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "padding": {
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            }
+          }
+        }
+      }
+    }
+  }
+}

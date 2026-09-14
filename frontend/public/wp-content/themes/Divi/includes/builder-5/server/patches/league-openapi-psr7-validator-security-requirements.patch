@@ -1,0 +1,23 @@
+--- a/src/PSR7/SpecFinder.php
++++ b/src/PSR7/SpecFinder.php
+@@ -15,6 +15,7 @@ use cebe\openapi\spec\PathItem;
+ use cebe\openapi\spec\Reference;
+ use cebe\openapi\spec\Response as ResponseSpec;
+ use cebe\openapi\spec\SecurityRequirement;
++use cebe\openapi\spec\SecurityRequirements;
+ use cebe\openapi\spec\SecurityScheme;
+ use League\OpenAPIValidation\PSR7\Exception\NoCallback;
+ use League\OpenAPIValidation\PSR7\Exception\NoOperation;
+@@ -160,6 +161,11 @@ final class SpecFinder
+             $securitySpecs = $this->openApi->security;
+         }
+ 
++        // Handle SecurityRequirements object (cebe/php-openapi >= 1.8.0).
++        if ($securitySpecs instanceof SecurityRequirements) {
++            return $securitySpecs->getRequirements();
++        }
++
+         return $securitySpecs;
+     }
+ 
+
