@@ -1,0 +1,7 @@
+{
+  "name": "yogicpath-app",
+  "private": true,
+  "scripts": {
+    "push": "npm --prefix frontend run push"
+  }
+}
