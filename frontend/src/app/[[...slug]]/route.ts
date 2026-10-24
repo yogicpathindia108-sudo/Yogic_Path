@@ -16,9 +16,12 @@ const ROUTE_MAP: Record<string, string> = {
   'yogic-path-course-registration': 'yogic-path-course-registration.html',
   'pricing-cancellation-policy': 'pricing-cancellation-policy.html',
   'terms-conditions': 'terms-conditions.html',
-  'privacy-policy': 'terms-conditions.html',
+  'privacy-policy': 'privacy-policy.html',
+  '200k': '200k.html',
+  'why-kerala-for-yoga-teacher-traing': 'why-kerala-for-yoga-teacher-traing.html',
   'blog': 'why-kerala-for-yoga-teacher-traing.html',
   'blogs': 'why-kerala-for-yoga-teacher-traing.html',
+  '2026-08-23-why-kerala-for-yoga-teacher-traing': '2026-08-23-why-kerala-for-yoga-teacher-traing.html',
   '2026/08/23/why-kerala-for-yoga-teacher-traing': 'why-kerala-for-yoga-teacher-traing.html',
 };
 
@@ -30,7 +33,11 @@ export async function GET(
   const slugArray = resolvedParams.slug || [];
   const normalizedPath = slugArray.join('/').replace(/\/+$/, '');
 
-  const fileName = ROUTE_MAP[normalizedPath] ?? ROUTE_MAP[''];
+  const fileName = ROUTE_MAP[normalizedPath];
+  if (!fileName) {
+    return new NextResponse('Page not found', { status: 404 });
+  }
+
   const filePath = path.join(process.cwd(), 'cloned-pages', fileName);
 
   if (fs.existsSync(filePath)) {

@@ -2,6 +2,8 @@
   "name": "yogicpath-app",
   "private": true,
   "scripts": {
+    "dev:backend": "cd backend && .venv/bin/python run.py",
+    "dev:frontend": "cd frontend && npm run dev",
     "push": "npm --prefix frontend run push"
   }
 }
