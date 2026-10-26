@@ -2674,16 +2674,48 @@ var diviElementMultiViewData = [{"action":"setContent","moduleId":"divi/text-6",
 <script id="yp-backend-integration">
 (function() {
   document.addEventListener('DOMContentLoaded', function() {
-    // 1. Mobile burger menu toggle fallback
-    var mobileBars = document.querySelectorAll('.mobile_menu_bar, .mobile_nav');
-    mobileBars.forEach(function(bar) {
-      bar.addEventListener('click', function() {
-        var menu = document.querySelector('#mobile_menu, .et_mobile_menu');
-        if (menu) {
-          menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+    // 1. Mobile & Tablet Burger Menu Toggle
+    document.addEventListener('click', function(e) {
+      var bar = e.target.closest('.mobile_menu_bar');
+      if (bar) {
+        e.preventDefault();
+        e.stopPropagation();
+        var nav = bar.closest('.mobile_nav');
+        if (!nav) return;
+        var menu = nav.querySelector('.et_mobile_menu') || document.querySelector('.et_mobile_menu');
+        if (!menu) return;
+        var isOpened = nav.classList.contains('opened');
+        if (isOpened) {
+          nav.classList.remove('opened');
+          nav.classList.add('closed');
+          if (window.jQuery) {
+            window.jQuery(menu).stop(true, true).slideUp(300);
+          } else {
+            menu.style.display = 'none';
+          }
+        } else {
+          nav.classList.remove('closed');
+          nav.classList.add('opened');
+          if (window.jQuery) {
+            window.jQuery(menu).stop(true, true).slideDown(300);
+          } else {
+            menu.style.display = 'block';
+          }
         }
-      });
-    });
+      } else if (e.target.closest('.et_mobile_menu a') || !e.target.closest('.mobile_nav')) {
+        var openNav = document.querySelector('.mobile_nav.opened');
+        var openMenu = document.querySelector('.et_mobile_menu');
+        if (openNav && openMenu && openMenu.offsetHeight > 0) {
+          openNav.classList.remove('opened');
+          openNav.classList.add('closed');
+          if (window.jQuery) {
+            window.jQuery(openMenu).slideUp(200);
+          } else {
+            openMenu.style.display = 'none';
+          }
+        }
+      }
+    }, true);
 
     // 2. FAQ Accordion toggle fallback
     document.querySelectorAll('.et_pb_toggle_title').forEach(function(title) {
